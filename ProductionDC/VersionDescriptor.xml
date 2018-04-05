@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Version>
+  <Available Build="16.0.8431.2236" I320Hash="48E91D8BEFD63342FB350AF4B5DF7865" I640Hash="ED9E2F8C07950AE63783239DF6430D08" I320Version="16.0.8431.2236" I640Version="16.0.8431.2236" />
+  <SecurityFixes LastBuild="" />
+  <RequiredClientVersion Build="15.0.4446.1000" />
+  <MinUpgradeBuild Build="16.0.0.0" />
+  <Prereq>
+    <MinOSVersion Build="6.1.0|6.2.0" FailMessage="NoMinOS" />
+    <SxS32_64 NonBlocking="002A|0116|0043|0021|00A4|0070|0026|0032|0045|0046|00F5|00F6|0132|0133|007E|008F|008C|00B9|00DD" MustBlock="003F|0020|00D1|00AF" OnDemand="False" FailMessage="SxS32_64Block" />
+    <PreRelease Build="15.0.4419.1000" OnDemand="False" FailMessage="PreReleaseFound" />
+    <MinClientVersion Build="15.0.4446.1000" FailMessage="ClientUpdateRequired" />
+    <MinBootstrapperVersion Build="16.0.0.0" FailMessage="NewBootstrapperRequired" />
+    <DiskSpace SysDrive="50000000" OnDemand="False" FailMessage="NoDiskSpace" />
+    <DiskSpace UserDrive="100000000" ClickToRun="False" FailMessage="NoDiskSpace" />
+    <VirtualEnvironment FailMessage="NoVirtualEnvironment" />
+    <C2RMSISxS BlockRMJ="16" C2RProductsToIgnore="0060|008C|008F|007E|00FC|00DD" FailMessage="C2RIncompatibleWithMSI" />
+  </Prereq>
+  <DeliveryMechanism FFNRoot="7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" />
+  <Throttle Value="1000" />
+  <LKG Value="16.0.8431.2236" />
+  <CreatedTimeUtc Value="03/23/2018 17:29" />
+  <ExpiredBuilds />
+</Version>
