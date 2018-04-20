@@ -34,11 +34,11 @@ echo 'DogfoodDevMain EA4A4090-DE26-49D7-93C1-91BFF9E53FC3' >>/root/githubrepo/C2
 cd /root/githubrepo/C2R/DogfoodDevMain && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
 echo 'DogfoodFRDC 834504CC-DC55-4C6D-9E71-E024D0253F6D' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/DogfoodFRDC && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
-echo 'InsidersCC 64256AFE-F5D9-4F86-8936-8840A6A4F5BE' >>/root/githubrepo/C2R/README.MD
+echo 'InsidersCC Monthly Channel Targeted (Office Insider Slow Ring, C2R) 64256AFE-F5D9-4F86-8936-8840A6A4F5BE' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/InsidersCC && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
-echo 'InsidersDevMain 5440FD1F-7ECB-4221-8110-145EFAA6372F' >>/root/githubrepo/C2R/README.MD
+echo 'InsidersDevMain Insider Channel (Office Insider Fast Ring, C2R) 5440FD1F-7ECB-4221-8110-145EFAA6372F' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/InsidersDevMain && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
-echo 'InsidersFRDC B8F9B850-328D-4355-9145-C59439A0C4CF' >>/root/githubrepo/C2R/README.MD
+echo 'InsidersFRDC Semi-Annual Channel Targeted (Business Insider, C2R) B8F9B850-328D-4355-9145-C59439A0C4CF' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/InsidersFRDC && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
 echo 'MicrosoftCC 5462EEE5-1E97-495B-9370-853CD873BB07' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/MicrosoftCC && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
@@ -48,9 +48,9 @@ echo 'MicrosoftDevMain B61285DD-D9F7-41F2-9757-8F61CBA4E9C8' >>/root/githubrepo/
 cd /root/githubrepo/C2R/MicrosoftDevMain && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
 echo 'MicrosoftFRDC 9A3B7FF2-58ED-40FD-ADD5-1E5158059D1C' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/MicrosoftFRDC && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
-echo 'ProductionCC 492350F6-3A01-4F97-B9C0-C7C6DDF67D60' >>/root/githubrepo/C2R/README.MD
+echo 'ProductionCC Monthly Channel (Retail/RTM, C2R) 492350F6-3A01-4F97-B9C0-C7C6DDF67D60' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/ProductionCC && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
-echo 'ProductionDC 7FFBC6BF-BC32-4F92-8982-F9DD17FD3114' >>/root/githubrepo/C2R/README.MD
+echo 'ProductionDC Semi-Annual Channel (Business, C2R) 7FFBC6BF-BC32-4F92-8982-F9DD17FD3114' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/ProductionDC && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
 echo 'ProductionLTSC F2E724C1-748F-4B47-8FB8-8E0D210E9208' >>/root/githubrepo/C2R/README.MD
 cd /root/githubrepo/C2R/ProductionLTSC && awk 'NR==2{print}' v64.hash >>/root/githubrepo/C2R/README.MD
