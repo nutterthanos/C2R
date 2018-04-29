@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Version>
-  <Available Build="16.0.8431.2242" I320Hash="BD31199B8AC0FBA7BE71115F71E937EE" I640Hash="67040DF69621BADBB17001F118D92EE4" I320Version="16.0.8431.2242" I640Version="16.0.8431.2242" />
+  <Available Build="16.0.8431.2250" I320Hash="55B56B20201704BD1FEFCF67957C7356" I640Hash="AB09166824353EA58EFE6A49EEA3C050" I320Version="16.0.8431.2250" I640Version="16.0.8431.2250" />
   <SecurityFixes LastBuild="" />
   <RequiredClientVersion Build="15.0.4446.1000" />
   <MinUpgradeBuild Build="16.0.0.0" />
@@ -16,8 +16,8 @@
     <C2RMSISxS BlockRMJ="16" C2RProductsToIgnore="0060|008C|008F|007E|00FC|00DD" FailMessage="C2RIncompatibleWithMSI" />
   </Prereq>
   <DeliveryMechanism FFNRoot="f4f024c8-d611-4748-a7e0-02b6e754c0fe" />
-  <Throttle Value="1000" />
+  <Throttle Value="400" />
   <LKG Value="16.0.8431.2242" />
-  <CreatedTimeUtc Value="04/11/2018 01:15" />
+  <CreatedTimeUtc Value="04/28/2018 16:00" />
   <ExpiredBuilds />
 </Version>
