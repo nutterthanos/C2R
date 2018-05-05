@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Version>
-  <Available Build="16.0.9330.2004" I320Hash="E47D8E359697A94FB4EF712E62F630F2" I640Hash="917265F7E679599C87408B5BBA553B72" I320Version="16.0.9330.2004" I640Version="16.0.9330.2004" />
+  <Available Build="16.0.10203.20002" I320Hash="E95ED17ECC9A668A934FF21A85AF757A" I640Hash="A8282192BCFBCF0F88B92288F20252EB" I320Version="16.0.10203.20002" I640Version="16.0.10203.20002" />
   <SecurityFixes LastBuild="" />
   <RequiredClientVersion Build="15.0.4446.1000" />
   <MinUpgradeBuild Build="16.0.0.0" />
@@ -19,13 +19,13 @@
     <Channel Name="Monthly" Priority="1" FFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60">
       <Prereq />
     </Channel>
-    <Channel Name="Semi-Annual Targeted" Priority="2" FFN="89815E81-C82E-49A3-99DC-2B99229CF632">
+    <Channel Name="Targeted" Priority="2" FFN="89815E81-C82E-49A3-99DC-2B99229CF632">
       <Prereq />
     </Channel>
     <Channel Name="Broad" Priority="3" FFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114">
       <Prereq />
     </Channel>
-    <Channel Name="LTSC2019" Priority="4" FFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
+    <Channel Name="Perpetual2019" Priority="4" FFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
       <PreReq />
     </Channel>
   </Channels>
@@ -55,10 +55,18 @@
     <ProductReleaseId Name="PersonalRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
     <ProductReleaseId Name="PowerPointRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
     <ProductReleaseId Name="PowerPointVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="Professional2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
+    <ProductReleaseId Name="Professional2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
     <ProductReleaseId Name="ProfessionalPipcRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
     <ProductReleaseId Name="ProfessionalRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="ProjectPro2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" />
+    <ProductReleaseId Name="ProjectPro2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
     <ProductReleaseId Name="ProjectPro2019Volume" DefaultFFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
@@ -70,7 +78,11 @@
     <ProductReleaseId Name="ProjectStdRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" />
     <ProductReleaseId Name="ProjectStdVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
     <ProductReleaseId Name="ProjectStdXVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="ProPlus2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
+    <ProductReleaseId Name="ProPlus2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
     <ProductReleaseId Name="ProPlus2019Volume" DefaultFFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208" BlockedFFNs="492350F6-3A01-4F97-B9C0-C7C6DDF67D60|89815E81-C82E-49A3-99DC-2B99229CF632|7FFBC6BF-BC32-4F92-8982-F9DD17FD3114">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
@@ -86,7 +98,11 @@
     <ProductReleaseId Name="SkypeServiceBypassRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
     <ProductReleaseId Name="StandardRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
     <ProductReleaseId Name="StandardVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="VisioPro2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" />
+    <ProductReleaseId Name="VisioPro2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
     <ProductReleaseId Name="VisioPro2019Volume" DefaultFFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
@@ -103,8 +119,8 @@
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="ea4a4090-de26-49d7-93c1-91bff9e53fc3" />
   <Throttle Value="1000" />
-  <LKG Value="16.0.9330.2004" />
-  <CreatedTimeUtc Value="05/03/2018 18:30" />
+  <LKG Value="16.0.10203.20002" />
+  <CreatedTimeUtc Value="05/04/2018 21:14" />
   <ExpiredBuilds>
     <Build Value="16.0.7923.1000" />
     <Build Value="16.0.7924.1000" />
