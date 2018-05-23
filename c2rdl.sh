@@ -1,125 +1,201 @@
 #! /usr/bin/env bash
-#wget -N https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v1/C2RReleaseData
-wget -N https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v2/C2RReleaseData
-wget -N https://officecdn.microsoft.com/pr/wsus/ofl.cab
-wget -N https://officecdn.microsoft.com/pr/wsus/releasehistory.cab
-wget -N https://officecdn.microsoft.com/pr/wsus/setup.exe
-wget -N https://officecdn.microsoft.com/pr/0F72FECE-4E67-432D-B9A8-2393C8522FB7/Office/Data/v64.cab --directory-prefix=0F72FECE-4E67-432D-B9A8-2393C8522FB7
-wget -N https://officecdn.microsoft.com/pr/2C508370-A266-4CFC-8877-AF06FDEB0C24/Office/Data/v64.cab --directory-prefix=2C508370-A266-4CFC-8877-AF06FDEB0C24
-wget -N https://officecdn.microsoft.com/pr/6BB97ACC-EC9F-4EC2-8DC3-3A398BBC93DB/Office/Data/v64.cab --directory-prefix=6BB97ACC-EC9F-4EC2-8DC3-3A398BBC93DB
-wget -N https://officecdn.microsoft.com/pr/7D632000-B182-4E05-A91D-763D282C24DE/Office/Data/v64.cab --directory-prefix=7D632000-B182-4E05-A91D-763D282C24DE
-wget -N https://officecdn.microsoft.com/pr/50CFADF4-6AD2-4BD2-9981-C7B5C05A8C67/Office/Data/v64.cab --directory-prefix=50CFADF4-6AD2-4BD2-9981-C7B5C05A8C67
-wget -N https://officecdn.microsoft.com/pr/55C44C35-878E-4C43-83EE-B666BF4261A4/Office/Data/v64.cab --directory-prefix=55C44C35-878E-4C43-83EE-B666BF4261A4
-wget -N https://officecdn.microsoft.com/pr/133DBEB4-3C56-4C67-9D80-F240C53D7D20/Office/Data/v64.cab --directory-prefix=133DBEB4-3C56-4C67-9D80-F240C53D7D20
-wget -N https://officecdn.microsoft.com/pr/185CDAE3-CA39-40C1-BA12-DCDDDA72A0DC/Office/Data/v64.cab --directory-prefix=185CDAE3-CA39-40C1-BA12-DCDDDA72A0DC
-wget -N https://officecdn.microsoft.com/pr/285A35E5-58C8-4579-A9FF-4E791E21691D/Office/Data/v64.cab --directory-prefix=285A35E5-58C8-4579-A9FF-4E791E21691D
-wget -N https://officecdn.microsoft.com/pr/6115E8D2-FDDF-4F64-9F23-B73451A1A97E/Office/Data/v64.cab --directory-prefix=6115E8D2-FDDF-4F64-9F23-B73451A1A97E
-wget -N https://officecdn.microsoft.com/pr/9981A3FE-BBC6-41C7-86F4-89DC69E477E2/Office/Data/v64.cab --directory-prefix=9981A3FE-BBC6-41C7-86F4-89DC69E477E2
-wget -N https://officecdn.microsoft.com/pr/89815E81-C82E-49A3-99DC-2B99229CF632/Office/Data/v64.cab --directory-prefix=89815E81-C82E-49A3-99DC-2B99229CF632
-wget -N https://officecdn.microsoft.com/pr/A1D255FE-49BB-4A88-ADE8-4EC08D98FBD4/Office/Data/v64.cab --directory-prefix=A1D255FE-49BB-4A88-ADE8-4EC08D98FBD4
-wget -N https://officecdn.microsoft.com/pr/BADBADBA-DBAD-BADB-ADBA-BADBADBADBAD/Office/Data/v64.cab --directory-prefix=BADBADBA-DBAD-BADB-ADBA-BADBADBADBAD
-wget -N https://officecdn.microsoft.com/pr/C67D6333-12A1-463E-8011-1493FF26FED2/Office/Data/v64.cab --directory-prefix=C67D6333-12A1-463E-8011-1493FF26FED2
-wget -N https://officecdn.microsoft.com/pr/CBC7891E-9126-44DE-8A56-2BD6D2E06C48/Office/Data/v64.cab --directory-prefix=CBC7891E-9126-44DE-8A56-2BD6D2E06C48
-wget -N https://officecdn.microsoft.com/pr/CDAFF0F1-63B9-4630-BC32-90BF5B2F8308/Office/Data/v64.cab --directory-prefix=CDAFF0F1-63B9-4630-BC32-90BF5B2F8308
-wget -N https://officecdn.microsoft.com/pr/E404F044-0870-4935-8B00-1F59A813F7D6/Office/Data/v64.cab --directory-prefix=E404F044-0870-4935-8B00-1F59A813F7D6
-wget -N https://officecdn.microsoft.com/pr/D85263CB-A813-4A8F-9895-E2EC9CA47293/Office/Data/v64.cab --directory-prefix=O2013
-wget -N https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/v64.cab --directory-prefix=O2013RTM
-wget -N https://officecdn.microsoft.com/pr/F3260CF1-A92C-4C75-B02E-D64C0A86A968/Office/Data/v64.cab --directory-prefix=DogfoodCC
-wget -N https://officecdn.microsoft.com/pr/C4A7726F-06EA-48E2-A13A-9D78849EB706/Office/Data/v64.cab --directory-prefix=DogfoodDCEXT
-wget -N https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/v64.cab --directory-prefix=DogfoodDevMain
-wget -N https://officecdn.microsoft.com/pr/834504CC-DC55-4C6D-9E71-E024D0253F6D/Office/Data/v64.cab --directory-prefix=DogfoodFRDC
-wget -N https://officecdn.microsoft.com/pr/5462EEE5-1E97-495B-9370-853CD873BB07/Office/Data/v64.cab --directory-prefix=MicrosoftCC
-wget -N https://officecdn.microsoft.com/pr/B61285DD-D9F7-41F2-9757-8F61CBA4E9C8/Office/Data/v64.cab --directory-prefix=MicrosoftDevMain
-wget -N https://officecdn.microsoft.com/pr/F4F024C8-D611-4748-A7E0-02B6E754C0FE/Office/Data/v64.cab --directory-prefix=MicrosoftDC
-wget -N https://officecdn.microsoft.com/pr/9A3B7FF2-58ED-40FD-ADD5-1E5158059D1C/Office/Data/v64.cab --directory-prefix=MicrosoftFRDC
-wget -N https://officecdn.microsoft.com/pr/1D2D2EA6-1680-4C56-AC58-A441C8C24FF9/Office/Data/v64.cab --directory-prefix=MicrosoftLTSC
-wget -N https://officecdn.microsoft.com/pr/5440FD1F-7ECB-4221-8110-145EFAA6372F/Office/Data/v64.cab --directory-prefix=InsidersDevMain
-wget -N https://officecdn.microsoft.com/pr/64256AFE-F5D9-4F86-8936-8840A6A4F5BE/Office/Data/v64.cab --directory-prefix=InsidersCC
-wget -N https://officecdn.microsoft.com/pr/B8F9B850-328D-4355-9145-C59439A0C4CF/Office/Data/v64.cab --directory-prefix=InsidersFRDC
-wget -N https://officecdn.microsoft.com/pr/F2E724C1-748F-4B47-8FB8-8E0D210E9208/Office/Data/v64.cab --directory-prefix=ProductionLTSC
-wget -N https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/v64.cab --directory-prefix=ProductionCC
-wget -N https://officecdn.microsoft.com/pr/7FFBC6BF-BC32-4F92-8982-F9DD17FD3114/Office/Data/v64.cab --directory-prefix=ProductionDC
 
-cd /root/githubrepo/C2R/0F72FECE-4E67-432D-B9A8-2393C8522FB7 && cabextract v64.cab
-cd /root/githubrepo/C2R/2C508370-A266-4CFC-8877-AF06FDEB0C24 && cabextract v64.cab
-cd /root/githubrepo/C2R/6BB97ACC-EC9F-4EC2-8DC3-3A398BBC93DB && cabextract v64.cab
-cd /root/githubrepo/C2R/7D632000-B182-4E05-A91D-763D282C24DE && cabextract v64.cab
-cd /root/githubrepo/C2R/50CFADF4-6AD2-4BD2-9981-C7B5C05A8C67 && cabextract v64.cab
-cd /root/githubrepo/C2R/55C44C35-878E-4C43-83EE-B666BF4261A4 && cabextract v64.cab
-cd /root/githubrepo/C2R/133DBEB4-3C56-4C67-9D80-F240C53D7D20 && cabextract v64.cab
-cd /root/githubrepo/C2R/185CDAE3-CA39-40C1-BA12-DCDDDA72A0DC && cabextract v64.cab
-cd /root/githubrepo/C2R/285A35E5-58C8-4579-A9FF-4E791E21691D && cabextract v64.cab
-cd /root/githubrepo/C2R/6115E8D2-FDDF-4F64-9F23-B73451A1A97E && cabextract v64.cab
-cd /root/githubrepo/C2R/9981A3FE-BBC6-41C7-86F4-89DC69E477E2 && cabextract v64.cab
-cd /root/githubrepo/C2R/89815E81-C82E-49A3-99DC-2B99229CF632 && cabextract v64.cab
-cd /root/githubrepo/C2R/A1D255FE-49BB-4A88-ADE8-4EC08D98FBD4 && cabextract v64.cab
-cd /root/githubrepo/C2R/BADBADBA-DBAD-BADB-ADBA-BADBADBADBAD && cabextract v64.cab
-cd /root/githubrepo/C2R/C67D6333-12A1-463E-8011-1493FF26FED2 && cabextract v64.cab
-cd /root/githubrepo/C2R/CBC7891E-9126-44DE-8A56-2BD6D2E06C48 && cabextract v64.cab
-cd /root/githubrepo/C2R/CDAFF0F1-63B9-4630-BC32-90BF5B2F8308 && cabextract v64.cab
-cd /root/githubrepo/C2R/E404F044-0870-4935-8B00-1F59A813F7D6 && cabextract v64.cab
-cd /root/githubrepo/C2R/O2013 && cabextract v64.cab
-cd /root/githubrepo/C2R/O2013RTM && cabextract v64.cab
-cd /root/githubrepo/C2R/DogfoodCC && cabextract v64.cab
-cd /root/githubrepo/C2R/DogfoodDCEXT && cabextract v64.cab
-cd /root/githubrepo/C2R/DogfoodDevMain && cabextract v64.cab
-cd /root/githubrepo/C2R/DogfoodFRDC && cabextract v64.cab
-cd /root/githubrepo/C2R/InsidersCC && cabextract v64.cab
-cd /root/githubrepo/C2R/InsidersDevMain && cabextract v64.cab
-cd /root/githubrepo/C2R/InsidersFRDC && cabextract v64.cab
-cd /root/githubrepo/C2R/MicrosoftCC && cabextract v64.cab
-cd /root/githubrepo/C2R/MicrosoftDC && cabextract v64.cab
-cd /root/githubrepo/C2R/MicrosoftDevMain && cabextract v64.cab
-cd /root/githubrepo/C2R/MicrosoftFRDC && cabextract v64.cab
-cd /root/githubrepo/C2R/MicrosoftLTSC && cabextract v64.cab
-cd /root/githubrepo/C2R/ProductionCC && cabextract v64.cab
-cd /root/githubrepo/C2R/ProductionDC && cabextract v64.cab
-cd /root/githubrepo/C2R/ProductionLTSC && cabextract v64.cab
+URL=officecdn.microsoft.com/pr
+DIR=Office/Data
 
-cd /root/githubrepo/C2R
-cabextract ofl.cab
-cabextract releasehistory.cab
-unkown01=`grep Available /root/githubrepo/C2R/0F72FECE-4E67-432D-B9A8-2393C8522FB7/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown02=`grep Available /root/githubrepo/C2R/2C508370-A266-4CFC-8877-AF06FDEB0C24/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown03=`grep Available /root/githubrepo/C2R/6BB97ACC-EC9F-4EC2-8DC3-3A398BBC93DB/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown04=`grep Available /root/githubrepo/C2R/7D632000-B182-4E05-A91D-763D282C24DE/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown05=`grep Available /root/githubrepo/C2R/50CFADF4-6AD2-4BD2-9981-C7B5C05A8C67/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown06=`grep Available /root/githubrepo/C2R/55C44C35-878E-4C43-83EE-B666BF4261A4/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown07=`grep Available /root/githubrepo/C2R/133DBEB4-3C56-4C67-9D80-F240C53D7D20/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown08=`grep Available /root/githubrepo/C2R/185CDAE3-CA39-40C1-BA12-DCDDDA72A0DC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown09=`grep Available /root/githubrepo/C2R/285A35E5-58C8-4579-A9FF-4E791E21691D/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown10=`grep Available /root/githubrepo/C2R/6115E8D2-FDDF-4F64-9F23-B73451A1A97E/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown11=`grep Available /root/githubrepo/C2R/9981A3FE-BBC6-41C7-86F4-89DC69E477E2/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown12=`grep Available /root/githubrepo/C2R/89815E81-C82E-49A3-99DC-2B99229CF632/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown13=`grep Available /root/githubrepo/C2R/A1D255FE-49BB-4A88-ADE8-4EC08D98FBD4/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown14=`grep Available /root/githubrepo/C2R/BADBADBA-DBAD-BADB-ADBA-BADBADBADBAD/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown15=`grep Available /root/githubrepo/C2R/C67D6333-12A1-463E-8011-1493FF26FED2/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown16=`grep Available /root/githubrepo/C2R/CBC7891E-9126-44DE-8A56-2BD6D2E06C48/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown17=`grep Available /root/githubrepo/C2R/CDAFF0F1-63B9-4630-BC32-90BF5B2F8308/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-unkown18=`grep Available /root/githubrepo/C2R/E404F044-0870-4935-8B00-1F59A813F7D6/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-O2013=`grep Available /root/githubrepo/C2R/O2013/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-O2013RTM=`grep Available /root/githubrepo/C2R/O2013RTM/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-DogfoodCC=`grep Available /root/githubrepo/C2R/DogfoodCC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-DogfoodDCEXT=`grep Available /root/githubrepo/C2R/DogfoodDCEXT/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-DogfoodDevMain=`grep Available /root/githubrepo/C2R/DogfoodDevMain/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-DogfoodFRDC=`grep Available /root/githubrepo/C2R/DogfoodFRDC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-InsidersCC=`grep Available /root/githubrepo/C2R/InsidersCC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-InsidersDevMain=`grep Available /root/githubrepo/C2R/InsidersDevMain/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-InsidersFRDC=`grep Available /root/githubrepo/C2R/InsidersFRDC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-MicrosoftCC=`grep Available /root/githubrepo/C2R/MicrosoftCC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-MicrosoftDC=`grep Available /root/githubrepo/C2R/MicrosoftDC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-MicrosoftDevMain=`grep Available /root/githubrepo/C2R/MicrosoftDevMain/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-MicrosoftFRDC=`grep Available /root/githubrepo/C2R/MicrosoftFRDC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-MicrosoftLTSC=`grep Available /root/githubrepo/C2R/MicrosoftLTSC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-ProductionCC=`grep Available /root/githubrepo/C2R/ProductionCC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-ProductionDC=`grep Available /root/githubrepo/C2R/ProductionDC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-ProductionLTSC=`grep Available /root/githubrepo/C2R/ProductionLTSC/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-
-FFN='EA4A4090-DE26-49D7-93C1-91BFF9E53FC3'
-VERSION=$DogfoodDevMain
 LANG='zh-cn'
 LANGID='2052'
 
+#wget -N -q https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v1/C2RReleaseData
+wget -N -q https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v2/C2RReleaseData
+wget -N -q https://$URL/wsus/ofl.cab
+wget -N -q https://$URL/wsus/releasehistory.cab
+wget -N -q https://$URL/wsus/setup.exe
+
+cabextract -q ofl.cab
+cabextract -q releasehistory.cab
+
+FFN01=6BB97ACC-EC9F-4EC2-8DC3-3A398BBC93DB
+FFN02=89815E81-C82E-49A3-99DC-2B99229CF632
+FFN03=BADBADBA-DBAD-BADB-ADBA-BADBADBADBAD
+FFN04=D85263CB-A813-4A8F-9895-E2EC9CA47293
+FFN05=CDAFF0F1-63B9-4630-BC32-90BF5B2F8308
+FFN06=6115E8D2-FDDF-4F64-9F23-B73451A1A97E
+FFN07=39168D7E-077B-48E7-872C-B232C3E72675
+FFN08=C67D6333-12A1-463E-8011-1493FF26FED2
+FFN09=9981A3FE-BBC6-41C7-86F4-89DC69E477E2
+FFN10=0F72FECE-4E67-432D-B9A8-2393C8522FB7
+FFN11=185CDAE3-CA39-40C1-BA12-DCDDDA72A0DC
+FFN12=133DBEB4-3C56-4C67-9D80-F240C53D7D20
+FFN13=7D632000-B182-4E05-A91D-763D282C24DE
+FFN14=A1D255FE-49BB-4A88-ADE8-4EC08D98FBD4
+FFN15=285A35E5-58C8-4579-A9FF-4E791E21691D
+FFN16=E404F044-0870-4935-8B00-1F59A813F7D6
+FFN17=2C508370-A266-4CFC-8877-AF06FDEB0C24
+FFN18=CBC7891E-9126-44DE-8A56-2BD6D2E06C48
+FFN19=55C44C35-878E-4C43-83EE-B666BF4261A4
+FFN20=50CFADF4-6AD2-4BD2-9981-C7B5C05A8C67
+FFN21=F3260CF1-A92C-4C75-B02E-D64C0A86A968
+FFN22=C4A7726F-06EA-48E2-A13A-9D78849EB706
+FFN23=EA4A4090-DE26-49D7-93C1-91BFF9E53FC3
+FFN24=834504CC-DC55-4C6D-9E71-E024D0253F6D
+FFN25=64256AFE-F5D9-4F86-8936-8840A6A4F5BE
+FFN26=5440FD1F-7ECB-4221-8110-145EFAA6372F
+FFN27=B8F9B850-328D-4355-9145-C59439A0C4CF
+FFN28=5462EEE5-1E97-495B-9370-853CD873BB07
+FFN29=F4F024C8-D611-4748-A7E0-02B6E754C0FE
+FFN30=B61285DD-D9F7-41F2-9757-8F61CBA4E9C8
+FFN31=9A3B7FF2-58ED-40FD-ADD5-1E5158059D1C
+FFN32=1D2D2EA6-1680-4C56-AC58-A441C8C24FF9
+FFN33=492350F6-3A01-4F97-B9C0-C7C6DDF67D60
+FFN34=7FFBC6BF-BC32-4F92-8982-F9DD17FD3114
+FFN35=F2E724C1-748F-4B47-8FB8-8E0D210E9208
+
+wget -N -q -x https://$URL/$FFN01/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN02/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN03/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN04/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN05/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN06/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN07/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN08/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN09/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN10/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN11/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN12/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN13/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN14/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN15/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN16/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN17/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN18/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN19/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN20/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN21/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN22/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN23/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN24/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN25/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN26/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN27/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN28/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN29/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN30/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN31/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN32/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN33/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN34/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN35/$DIR/v64.cab
+
+cd /root/githubrepo/C2R/$URL/$FFN01/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN02/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN03/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN04/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN05/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN06/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN07/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN08/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN09/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN10/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN11/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN12/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN13/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN14/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN15/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN16/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN17/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN18/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN19/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN20/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN21/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN22/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN23/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN24/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN25/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN26/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN27/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN28/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN29/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN30/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN31/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN32/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN33/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN34/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN35/$DIR/ && cabextract -q v64.cab
+
+VER01=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN01/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER02=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN02/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER03=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN03/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER04=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN04/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER05=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN05/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER06=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN06/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER07=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN07/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER08=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN08/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER09=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN09/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER10=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN10/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER11=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN11/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER12=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN12/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER13=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN13/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER14=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN14/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER15=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN15/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER16=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN16/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER17=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN17/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER18=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN18/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER19=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN19/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER20=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN20/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER21=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN21/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER22=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN22/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER23=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN23/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER24=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN24/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER25=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN25/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER26=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN26/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER27=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN27/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER28=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN28/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER29=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN29/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER30=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN30/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER31=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN31/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER32=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN32/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER33=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN33/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER34=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN34/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER35=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN35/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+
+TIME01=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN01/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME02=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN02/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME03=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN03/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME04=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN04/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME05=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN05/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME06=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN06/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME07=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN07/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME08=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN08/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME09=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN09/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME10=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN10/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME11=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN11/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME12=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN12/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME13=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN13/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME14=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN14/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME15=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN15/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME16=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN16/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME17=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN17/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME18=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN18/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME19=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN19/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME20=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN20/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME21=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN21/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME22=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN22/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME23=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN23/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME24=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN24/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME25=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN25/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME26=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN26/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME27=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN27/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME28=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN28/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME29=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN29/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME30=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN30/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME31=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN31/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME32=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN32/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME33=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN33/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME34=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN34/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+TIME35=`grep 'CreatedTimeUtc' /root/githubrepo/C2R/$URL/$FFN35/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+
+cd /root/githubrepo/C2R
 echo "
 # C2R
 
@@ -137,81 +213,82 @@ echo "
 * [Update history for Office Insider for Mac](https://support.office.com/en-us/article/update-history-for-office-insider-for-mac-83d11f86-ef3c-48df-889e-9fda3cc66f5c)
 * [Changes to Slow/Fast level names for Office Insider for Windows desktop](https://support.office.com/en-us/article/changes-to-slow-fast-level-names-for-office-insider-for-windows-desktop-055ee4f9-9ce3-4fb8-8a9a-ca6745867d52)
 
-|  FFN  |Version|ChannelNew|ChannelOld|ChannelRemarks|
-|-------|-------|----------|----------|--------------|
-|6BB97ACC-EC9F-4EC2-8DC3-3A398BBC93DB|$unkown03||||
-|89815E81-C82E-49A3-99DC-2B99229CF632|$unkown12||||
-|BADBADBA-DBAD-BADB-ADBA-BADBADBADBAD|$unkown14||||
-|D85263CB-A813-4A8F-9895-E2EC9CA47293|$O2013|||O2013|
-|CDAFF0F1-63B9-4630-BC32-90BF5B2F8308|$unkown17||||
-|6115E8D2-FDDF-4F64-9F23-B73451A1A97E|$unkown10||||
-|39168D7E-077B-48E7-872C-B232C3E72675|$O2013RTM|||O2013RTM|
-|C67D6333-12A1-463E-8011-1493FF26FED2|$unkown15||||
-|9981A3FE-BBC6-41C7-86F4-89DC69E477E2|$unkown11||||
-|0F72FECE-4E67-432D-B9A8-2393C8522FB7|$unkown01||||
-|185CDAE3-CA39-40C1-BA12-DCDDDA72A0DC|$unkown08||||
-|133DBEB4-3C56-4C67-9D80-F240C53D7D20|$unkown07||||
-|7D632000-B182-4E05-A91D-763D282C24DE|$unkown04||||
-|A1D255FE-49BB-4A88-ADE8-4EC08D98FBD4|$unkown13||||
-|285A35E5-58C8-4579-A9FF-4E791E21691D|$unkown09||||
-|E404F044-0870-4935-8B00-1F59A813F7D6|$unkown18||||
-|2C508370-A266-4CFC-8877-AF06FDEB0C24|$unkown02||||
-|CBC7891E-9126-44DE-8A56-2BD6D2E06C48|$unkown16||||
-|55C44C35-878E-4C43-83EE-B666BF4261A4|$unkown06||||
-|50CFADF4-6AD2-4BD2-9981-C7B5C05A8C67|$unkown05||||
-|F3260CF1-A92C-4C75-B02E-D64C0A86A968|$DogfoodCC|||DogfoodCC|
-|C4A7726F-06EA-48E2-A13A-9D78849EB706|$DogfoodDCEXT|||DogfoodDCEXT|
-|EA4A4090-DE26-49D7-93C1-91BFF9E53FC3|$DogfoodDevMain|||DogfoodDevMain|
-|834504CC-DC55-4C6D-9E71-E024D0253F6D|$DogfoodFRDC|||DogfoodFRDC|
-|64256AFE-F5D9-4F86-8936-8840A6A4F5BE|$InsidersCC|MonthlyTargeted|InsiderSlow/FirstReleaseCurrent|InsidersCC|
-|5440FD1F-7ECB-4221-8110-145EFAA6372F|$InsidersDevMain|Insider|InsiderFast|InsidersDevMain|
-|B8F9B850-328D-4355-9145-C59439A0C4CF|$InsidersFRDC|SemiAnnualTargeted|FirstReleaseDeferred/FirstReleaseBusiness|InsidersFRDC|
-|5462EEE5-1E97-495B-9370-853CD873BB07|$MicrosoftCC|||MicrosoftCC|
-|F4F024C8-D611-4748-A7E0-02B6E754C0FE|$MicrosoftDC|||MicrosoftDC|
-|B61285DD-D9F7-41F2-9757-8F61CBA4E9C8|$MicrosoftDevMain|||MicrosoftDevMain|
-|9A3B7FF2-58ED-40FD-ADD5-1E5158059D1C|$MicrosoftFRDC|||MicrosoftFRDC|
-|1D2D2EA6-1680-4C56-AC58-A441C8C24FF9|$MicrosoftLTSC|||MicrosoftLTSC|
-|492350F6-3A01-4F97-B9C0-C7C6DDF67D60|$ProductionCC|Monthly|Current|ProductionCC|
-|7FFBC6BF-BC32-4F92-8982-F9DD17FD3114|$ProductionDC|SemiAnnual|Deferred/Business|ProductionDC|
-|F2E724C1-748F-4B47-8FB8-8E0D210E9208|$ProductionLTSC|LTSC2019/Perpetual2019||ProductionLTSC|
+| FFN  |Version|Time|ChannelNew|ChannelOld|ChannelRemarks|
+|-------|-------|-------|-------|-------|-------|
+|$FFN01|$VER01|$TIME01||||
+|$FFN02|$VER02|$TIME02||||
+|$FFN03|$VER03|$TIME03||||
+|$FFN04|$VER04|$TIME04|||O2013|
+|$FFN05|$VER05|$TIME05||||
+|$FFN06|$VER06|$TIME06||||
+|$FFN07|$VER07|$TIME07|||O2013RTM|
+|$FFN08|$VER08|$TIME08||||
+|$FFN09|$VER09|$TIME09||||
+|$FFN10|$VER10|$TIME10||||
+|$FFN11|$VER11|$TIME11||||
+|$FFN12|$VER12|$TIME12||||
+|$FFN13|$VER13|$TIME13||||
+|$FFN14|$VER14|$TIME14||||
+|$FFN15|$VER15|$TIME15||||
+|$FFN16|$VER16|$TIME16||||
+|$FFN17|$VER17|$TIME17||||
+|$FFN18|$VER18|$TIME18||||
+|$FFN19|$VER19|$TIME19||||
+|$FFN20|$VER20|$TIME20||||
+|$FFN21|$VER21|$TIME21|||DogfoodCC|
+|$FFN22|$VER22|$TIME22|||DogfoodDCEXT|
+|$FFN23|$VER23|$TIME23|||DogfoodDevMain|
+|$FFN24|$VER24|$TIME24|||DogfoodFRDC|
+|$FFN25|$VER25|$TIME25|MonthlyTargeted|InsiderSlow/FirstReleaseCurrent|InsidersCC|
+|$FFN26|$VER26|$TIME26|Insider|InsiderFast|InsidersDevMain|
+|$FFN27|$VER27|$TIME27|SemiAnnualTargeted|FirstReleaseDeferred/FirstReleaseBusiness|InsidersFRDC|
+|$FFN28|$VER28|$TIME28|||MicrosoftCC|
+|$FFN29|$VER29|$TIME29|||MicrosoftDC|
+|$FFN30|$VER30|$TIME30|||MicrosoftDevMain|
+|$FFN31|$VER31|$TIME31|||MicrosoftFRDC|
+|$FFN32|$VER32|$TIME32|||MicrosoftLTSC|
+|$FFN33|$VER33|$TIME33|Monthly|Current|ProductionCC|
+|$FFN34|$VER34|$TIME34|SemiAnnual|Deferred/Business|ProductionDC|
+|$FFN35|$VER35|$TIME35|LTSC2019/Perpetual2019||ProductionLTSC|
+
 
 x86 32-Bit and x64 64-Bit Download Example:
 \`\`\`
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/C2RFireFlyData.xml
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/MRO.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/v32.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/v32_$VERSION.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/v64.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/v64_$VERSION.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/vu32.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/vu64.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/a320.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/a640.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/FRE.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/i320.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/i640.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/i32$LANGID.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/i64$LANGID.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/s320.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/s640.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/s32$LANGID.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/s64$LANGID.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/sp32$LANGID.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/sp64$LANGID.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x64.x-none.dat
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x64.x-none.dat.cobra
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x64.$LANG.dat
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x64.$LANG.dat.cobra
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x64.$LANG.proof.dat
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x64.$LANG.proof.dat.cobra
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x86.x-none.dat
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x86.x-none.dat.cobra
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x86.$LANG.dat
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x86.$LANG.dat.cobra
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x86.$LANG.proof.dat
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/stream.x86.$LANG.proof.dat.cobra
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/Experiment/i320.cab
-https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/Experiment/i640.cab
+https://$URL/$FFN23/Office/Data/C2RFireFlyData.xml
+https://$URL/$FFN23/Office/Data/MRO.cab
+https://$URL/$FFN23/Office/Data/v32.cab
+https://$URL/$FFN23/Office/Data/v32_$VER23.cab
+https://$URL/$FFN23/Office/Data/v64.cab
+https://$URL/$FFN23/Office/Data/v64_$VER23.cab
+https://$URL/$FFN23/Office/Data/vu32.cab
+https://$URL/$FFN23/Office/Data/vu64.cab
+https://$URL/$FFN23/Office/Data/$VER23/a320.cab
+https://$URL/$FFN23/Office/Data/$VER23/a640.cab
+https://$URL/$FFN23/Office/Data/$VER23/FRE.cab
+https://$URL/$FFN23/Office/Data/$VER23/i320.cab
+https://$URL/$FFN23/Office/Data/$VER23/i640.cab
+https://$URL/$FFN23/Office/Data/$VER23/i32$LANGID.cab
+https://$URL/$FFN23/Office/Data/$VER23/i64$LANGID.cab
+https://$URL/$FFN23/Office/Data/$VER23/s320.cab
+https://$URL/$FFN23/Office/Data/$VER23/s640.cab
+https://$URL/$FFN23/Office/Data/$VER23/s32$LANGID.cab
+https://$URL/$FFN23/Office/Data/$VER23/s64$LANGID.cab
+https://$URL/$FFN23/Office/Data/$VER23/sp32$LANGID.cab
+https://$URL/$FFN23/Office/Data/$VER23/sp64$LANGID.cab
+https://$URL/$FFN23/Office/Data/$VER23/stream.x64.x-none.dat
+https://$URL/$FFN23/Office/Data/$VER23/stream.x64.x-none.dat.cobra
+https://$URL/$FFN23/Office/Data/$VER23/stream.x64.$LANG.dat
+https://$URL/$FFN23/Office/Data/$VER23/stream.x64.$LANG.dat.cobra
+https://$URL/$FFN23/Office/Data/$VER23/stream.x64.$LANG.proof.dat
+https://$URL/$FFN23/Office/Data/$VER23/stream.x64.$LANG.proof.dat.cobra
+https://$URL/$FFN23/Office/Data/$VER23/stream.x86.x-none.dat
+https://$URL/$FFN23/Office/Data/$VER23/stream.x86.x-none.dat.cobra
+https://$URL/$FFN23/Office/Data/$VER23/stream.x86.$LANG.dat
+https://$URL/$FFN23/Office/Data/$VER23/stream.x86.$LANG.dat.cobra
+https://$URL/$FFN23/Office/Data/$VER23/stream.x86.$LANG.proof.dat
+https://$URL/$FFN23/Office/Data/$VER23/stream.x86.$LANG.proof.dat.cobra
+https://$URL/$FFN23/Office/Data/$VER23/Experiment/i320.cab
+https://$URL/$FFN23/Office/Data/$VER23/Experiment/i640.cab
 \`\`\`
 
 41 Available Languages:
@@ -263,132 +340,132 @@ https://officecdn.microsoft.com/pr/$FFN/Office/Data/$VERSION/Experiment/i640.cab
 IMG Download Example(only Retail/RTM Channel):
 \`\`\`
 Office 2016(16.0.9029.2167):
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/AccessRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/ExcelRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/HomeBusinessRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/HomeStudentRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/O365BusinessRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/O365HomePremRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/O365ProPlusRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/OutlookRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/PowerPointRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/ProfessionalRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/ProjectProRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/ProjectStdRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/ProPlusRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/PublisherRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/VisioProRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/VisioStdRetail.img
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/media/$LANG/WordRetail.img
+https://$URL/$FFN33/media/$LANG/AccessRetail.img
+https://$URL/$FFN33/media/$LANG/ExcelRetail.img
+https://$URL/$FFN33/media/$LANG/HomeBusinessRetail.img
+https://$URL/$FFN33/media/$LANG/HomeStudentRetail.img
+https://$URL/$FFN33/media/$LANG/O365BusinessRetail.img
+https://$URL/$FFN33/media/$LANG/O365HomePremRetail.img
+https://$URL/$FFN33/media/$LANG/O365ProPlusRetail.img
+https://$URL/$FFN33/media/$LANG/OutlookRetail.img
+https://$URL/$FFN33/media/$LANG/PowerPointRetail.img
+https://$URL/$FFN33/media/$LANG/ProfessionalRetail.img
+https://$URL/$FFN33/media/$LANG/ProjectProRetail.img
+https://$URL/$FFN33/media/$LANG/ProjectStdRetail.img
+https://$URL/$FFN33/media/$LANG/ProPlusRetail.img
+https://$URL/$FFN33/media/$LANG/PublisherRetail.img
+https://$URL/$FFN33/media/$LANG/VisioProRetail.img
+https://$URL/$FFN33/media/$LANG/VisioStdRetail.img
+https://$URL/$FFN33/media/$LANG/WordRetail.img
 Office 2013(15.0.4433.1508):
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/AccessRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/ExcelRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/HomeBusinessRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/HomeStudentRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/O365HomePremRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/OutlookRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/PowerPointRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/ProfessionalRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/ProjectProRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/ProjectStdRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/PublisherRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/VisioProRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/VisioStdRetail.img
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/media/$LANG/WordRetail.img
+https://$URL/$FFN07/media/$LANG/AccessRetail.img
+https://$URL/$FFN07/media/$LANG/ExcelRetail.img
+https://$URL/$FFN07/media/$LANG/HomeBusinessRetail.img
+https://$URL/$FFN07/media/$LANG/HomeStudentRetail.img
+https://$URL/$FFN07/media/$LANG/O365HomePremRetail.img
+https://$URL/$FFN07/media/$LANG/OutlookRetail.img
+https://$URL/$FFN07/media/$LANG/PowerPointRetail.img
+https://$URL/$FFN07/media/$LANG/ProfessionalRetail.img
+https://$URL/$FFN07/media/$LANG/ProjectProRetail.img
+https://$URL/$FFN07/media/$LANG/ProjectStdRetail.img
+https://$URL/$FFN07/media/$LANG/PublisherRetail.img
+https://$URL/$FFN07/media/$LANG/VisioProRetail.img
+https://$URL/$FFN07/media/$LANG/VisioStdRetail.img
+https://$URL/$FFN07/media/$LANG/WordRetail.img
 \`\`\`
 
 C2R installer Download Example(only Retail/RTM Channel):
 \`\`\`
 Office 2016(16.0.9226.3000):
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupaccessretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupaccessretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupexcelretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupexcelretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuphomebusinessretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuphomebusinessretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuphomestudentretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuphomestudentretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuplanguagepack.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuplanguagepack.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupo365homepremretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupo365homepremretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupo365proplusretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupo365proplusretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupo365smallbuspremretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupo365smallbuspremretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuponenoteretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuponenoteretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupoutlookretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupoutlookretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuppersonalretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuppersonalretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuppowerpointretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuppowerpointretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupprofessionalretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupprofessionalretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupprojectproretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupprojectproretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupprojectstdretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupprojectstdretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupproplusretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupproplusretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuppublisherretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setuppublisherretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupvisioproretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupvisioproretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupvisiostdretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupvisiostdretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupwordretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/setupwordretail.x86.zh-cn.exe
+https://$URL/$FFN33/Office/Data/setupaccessretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupaccessretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupexcelretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupexcelretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomebusinessretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomebusinessretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomestudentretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomestudentretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuplanguagepack.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuplanguagepack.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365homepremretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365homepremretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365proplusretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365proplusretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365smallbuspremretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365smallbuspremretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuponenoteretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuponenoteretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupoutlookretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupoutlookretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppersonalretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppersonalretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppowerpointretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppowerpointretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprofessionalretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprofessionalretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprojectproretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprojectproretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprojectstdretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprojectstdretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupproplusretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupproplusretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppublisherretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppublisherretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupvisioproretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupvisioproretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupvisiostdretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupvisiostdretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupwordretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupwordretail.x86.$LANG.exe
 Office 2013(15.0.4997.1000):
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupaccessretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupaccessretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupexcelretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupexcelretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupgrooveretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupgrooveretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuphomebusinessretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuphomebusinessretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuphomestudentretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuphomestudentretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuplyncentryretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuplyncentryretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuplyncretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuplyncretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupo365homepremretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupo365homepremretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupo365proplusretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupo365proplusretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupo365smallbuspremretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupo365smallbuspremretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuponenoteretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuponenoteretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupoutlookretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupoutlookretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuppersonalretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuppersonalretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuppowerpointretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuppowerpointretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupprofessionalretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupprofessionalretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupprojectproretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupprojectproretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupprojectstdretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupprojectstdretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupproplusretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupproplusretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuppublisherretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setuppublisherretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupspdretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupspdretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupstandardretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupstandardretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupvisioproretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupvisioproretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupvisiostdretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupvisiostdretail.x86.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupwordretail.x64.zh-cn.exe
-https://officecdn.microsoft.com/pr/39168D7E-077B-48E7-872C-B232C3E72675/Office/Data/setupwordretail.x86.zh-cn.exe
+https://$URL/$FFN07/Office/Data/setupaccessretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupaccessretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupexcelretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupexcelretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupgrooveretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupgrooveretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuphomebusinessretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuphomebusinessretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuphomestudentretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuphomestudentretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuplyncentryretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuplyncentryretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuplyncretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuplyncretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupo365homepremretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupo365homepremretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupo365proplusretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupo365proplusretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupo365smallbuspremretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupo365smallbuspremretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuponenoteretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuponenoteretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupoutlookretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupoutlookretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuppersonalretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuppersonalretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuppowerpointretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuppowerpointretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupprofessionalretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupprofessionalretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupprojectproretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupprojectproretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupprojectstdretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupprojectstdretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupproplusretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupproplusretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuppublisherretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setuppublisherretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupspdretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupspdretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupstandardretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupstandardretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupvisioproretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupvisioproretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupvisiostdretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupvisiostdretail.x86.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupwordretail.x64.$LANG.exe
+https://$URL/$FFN07/Office/Data/setupwordretail.x86.$LANG.exe
 \`\`\`
 " >/root/githubrepo/C2R/README.MD
 
