@@ -1,0 +1,559 @@
+[
+  {
+    "FFN": "1d2d2ea6-1680-4c56-ac58-a441c8c24ff9",
+    "Order": 100,
+    "AvailableBuild": "16.0.9330.2073",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.9330.2073",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-05-21T22:33:24.783",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "2c508370-a266-4cfc-8877-af06fdeb0c24",
+    "Order": 100,
+    "AvailableBuild": "16.0.8067.2032",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.8067.2032",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-03-26T05:51:05.723",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
+    "Order": 100,
+    "AvailableBuild": "16.0.9226.2156",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.9226.2156",
+    "ExpiredBuilds": [
+      "16.0.7967.2082"
+    ],
+    "UpdatedTimeUtc": "2018-05-18T15:57:23.537",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "5440fd1f-7ecb-4221-8110-145efaa6372f",
+    "Order": 100,
+    "AvailableBuild": "16.0.10211.20004",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.10211.20004",
+    "ExpiredBuilds": [
+      "16.0.8813.1000"
+    ],
+    "UpdatedTimeUtc": "2018-05-16T17:06:12.97",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
+    "Order": 100,
+    "AvailableBuild": "16.0.9330.2078",
+    "ThrottleLevel": 200,
+    "LkgBuild": "16.0.9330.2073",
+    "ExpiredBuilds": [
+      "16.0.7766.2007"
+    ],
+    "UpdatedTimeUtc": "2018-05-23T05:03:04.57",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "64256afe-f5d9-4f86-8936-8840a6a4f5be",
+    "Order": 100,
+    "AvailableBuild": "16.0.9330.2078",
+    "ThrottleLevel": 250,
+    "LkgBuild": "16.0.9330.2073",
+    "ExpiredBuilds": [
+      "16.0.7967.2030",
+      "16.0.7967.2035",
+      "16.0.7967.2073",
+      "16.0.7967.2082"
+    ],
+    "UpdatedTimeUtc": "2018-05-23T04:00:33.23",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "7ffbc6bf-bc32-4f92-8982-f9dd17fd3114",
+    "Order": 100,
+    "AvailableBuild": "16.0.8431.2250",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.8431.2250",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-05-18T17:31:46.453",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "834504cc-dc55-4c6d-9e71-e024d0253f6d",
+    "Order": 100,
+    "AvailableBuild": "16.0.9126.2210",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.9126.2210",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-05-19T01:30:58.567",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "9a3b7ff2-58ed-40fd-add5-1e5158059d1c",
+    "Order": 100,
+    "AvailableBuild": "16.0.9126.2210",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.9126.2210",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-05-19T01:46:40.763",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
+    "Order": 90,
+    "AvailableBuild": "16.0.10211.20004",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.10211.20004",
+    "ExpiredBuilds": [
+      "16.0.8126.1000",
+      "16.0.8813.1000",
+      "16.0.8822.1000"
+    ],
+    "UpdatedTimeUtc": "2017-05-12T14:30:47.89",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [
+      {
+        "Name": "Client|6.1",
+        "SkuType": "Client",
+        "MinBuild": 0,
+        "MaxBuild": 2147483647,
+        "MajorMinorVersion": "6.1",
+        "MinResolvedVersion": {
+          "_Major": 6,
+          "_Minor": 1,
+          "_Build": 0,
+          "_Revision": 0
+        },
+        "MaxResolvedVersion": {
+          "_Major": 6,
+          "_Minor": 1,
+          "_Build": 2147483647,
+          "_Revision": 0
+        }
+      },
+      {
+        "Name": "Server|6.1",
+        "SkuType": "Server",
+        "MinBuild": 0,
+        "MaxBuild": 2147483647,
+        "MajorMinorVersion": "6.1",
+        "MinResolvedVersion": {
+          "_Major": 6,
+          "_Minor": 1,
+          "_Build": 0,
+          "_Revision": 0
+        },
+        "MaxResolvedVersion": {
+          "_Major": 6,
+          "_Minor": 1,
+          "_Build": 2147483647,
+          "_Revision": 0
+        }
+      }
+    ],
+    "IsDefault": false
+  },
+  {
+    "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
+    "Order": 100,
+    "AvailableBuild": "16.0.10211.20004",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.10211.20004",
+    "ExpiredBuilds": [
+      "16.0.8813.1000",
+      "16.0.8822.1000"
+    ],
+    "UpdatedTimeUtc": "2018-05-17T19:01:29.723",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "b8f9b850-328d-4355-9145-c59439a0c4cf",
+    "Order": 100,
+    "AvailableBuild": "16.0.9126.2210",
+    "ThrottleLevel": 250,
+    "LkgBuild": "16.0.9126.2191",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-05-22T17:45:29.677",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "badbadba-dbad-badb-adba-badbadbadbad",
+    "Order": 94,
+    "AvailableBuild": "16.0.1234.7",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.1111.1000",
+    "ExpiredBuilds": [
+      "16.0.1234.3000",
+      " 16.0.1234.2000"
+    ],
+    "UpdatedTimeUtc": "2017-06-22T16:29:53.21",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [
+      {
+        "Name": "Win 10 RS3",
+        "SkuType": "Client",
+        "MinBuild": 1000,
+        "MaxBuild": 2000,
+        "MajorMinorVersion": "10.0",
+        "MinResolvedVersion": {
+          "_Major": 10,
+          "_Minor": 0,
+          "_Build": 1000,
+          "_Revision": 0
+        },
+        "MaxResolvedVersion": {
+          "_Major": 10,
+          "_Minor": 0,
+          "_Build": 2000,
+          "_Revision": 0
+        }
+      },
+      {
+        "Name": "Server 12.0",
+        "SkuType": "Client",
+        "MinBuild": 1000,
+        "MaxBuild": 2000,
+        "MajorMinorVersion": "12.0",
+        "MinResolvedVersion": {
+          "_Major": 12,
+          "_Minor": 0,
+          "_Build": 1000,
+          "_Revision": 0
+        },
+        "MaxResolvedVersion": {
+          "_Major": 12,
+          "_Minor": 0,
+          "_Build": 2000,
+          "_Revision": 0
+        }
+      }
+    ],
+    "IsDefault": false
+  },
+  {
+    "FFN": "badbadba-dbad-badb-adba-badbadbadbad",
+    "Order": 95,
+    "AvailableBuild": "16.0.1234.6",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.1111.1000",
+    "ExpiredBuilds": [
+      "16.0.1234.3000",
+      " 16.0.1234.2000"
+    ],
+    "UpdatedTimeUtc": "2017-06-22T15:41:32.277",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [
+      {
+        "Name": "Client|10.0",
+        "SkuType": "Client",
+        "MinBuild": 0,
+        "MaxBuild": 2147483647,
+        "MajorMinorVersion": "10.0",
+        "MinResolvedVersion": {
+          "_Major": 10,
+          "_Minor": 0,
+          "_Build": 0,
+          "_Revision": 0
+        },
+        "MaxResolvedVersion": {
+          "_Major": 10,
+          "_Minor": 0,
+          "_Build": 2147483647,
+          "_Revision": 0
+        }
+      },
+      {
+        "Name": "Server|12.0",
+        "SkuType": "Server",
+        "MinBuild": 0,
+        "MaxBuild": 2147483647,
+        "MajorMinorVersion": "12.0",
+        "MinResolvedVersion": {
+          "_Major": 12,
+          "_Minor": 0,
+          "_Build": 0,
+          "_Revision": 0
+        },
+        "MaxResolvedVersion": {
+          "_Major": 12,
+          "_Minor": 0,
+          "_Build": 2147483647,
+          "_Revision": 0
+        }
+      }
+    ],
+    "IsDefault": false
+  },
+  {
+    "FFN": "badbadba-dbad-badb-adba-badbadbadbad",
+    "Order": 96,
+    "AvailableBuild": "16.0.1234.5",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.1111.1000",
+    "ExpiredBuilds": [
+      "16.0.1234.3000",
+      " 16.0.1234.2000"
+    ],
+    "UpdatedTimeUtc": "2017-06-22T15:41:32.277",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [
+      "x64",
+      "x86"
+    ],
+    "OsVersions": [],
+    "IsDefault": false
+  },
+  {
+    "FFN": "badbadba-dbad-badb-adba-badbadbadbad",
+    "Order": 97,
+    "AvailableBuild": "16.0.1234.4",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.1111.1000",
+    "ExpiredBuilds": [
+      "16.0.1234.3000",
+      " 16.0.1234.2000"
+    ],
+    "UpdatedTimeUtc": "2017-06-22T15:41:32.277",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [
+      "en-us",
+      "es-es"
+    ],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": false
+  },
+  {
+    "FFN": "badbadba-dbad-badb-adba-badbadbadbad",
+    "Order": 98,
+    "AvailableBuild": "16.0.1234.3",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.1111.1000",
+    "ExpiredBuilds": [
+      "16.0.1234.3000",
+      " 16.0.1234.2000"
+    ],
+    "UpdatedTimeUtc": "2017-06-22T15:41:32.277",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [
+      "Word",
+      "Excel"
+    ],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": false
+  },
+  {
+    "FFN": "badbadba-dbad-badb-adba-badbadbadbad",
+    "Order": 99,
+    "AvailableBuild": "16.0.1234.2",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.1111.1000",
+    "ExpiredBuilds": [
+      "16.0.1234.3000",
+      " 16.0.1234.2000"
+    ],
+    "UpdatedTimeUtc": "2017-06-22T15:41:32.277",
+    "OfficeTenantIds": [
+      "badbadba-dbad-badb-adba-badbadbadbad"
+    ],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": false
+  },
+  {
+    "FFN": "badbadba-dbad-badb-adba-badbadbadbad",
+    "Order": 100,
+    "AvailableBuild": "16.0.1234.1",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.1111.1000",
+    "ExpiredBuilds": [
+      "16.0.1234.3000",
+      " 16.0.1234.2000"
+    ],
+    "UpdatedTimeUtc": "2017-06-22T15:41:32.277",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "c4a7726f-06ea-48e2-a13a-9d78849eb706",
+    "Order": 100,
+    "AvailableBuild": "16.0.8201.2278",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.8201.2278",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-05-09T00:12:28.373",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "cbc7891e-9126-44de-8a56-2bd6d2e06c48",
+    "Order": 100,
+    "AvailableBuild": "16.0.8067.2032",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.8067.2032",
+    "ExpiredBuilds": [
+      "16.0.7766.2007"
+    ],
+    "UpdatedTimeUtc": "2018-03-26T01:47:33.193",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
+    "Order": 100,
+    "AvailableBuild": "16.0.10221.20002",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.10211.20004",
+    "ExpiredBuilds": [
+      "16.0.7923.1000",
+      "16.0.7924.1000",
+      "16.0.8128.1000",
+      "16.0.8606.1000",
+      "16.0.8607.1000",
+      "16.0.8608.1000",
+      "16.0.9015.1000",
+      "16.0.9016.1000",
+      "16.0.9017.1000",
+      "16.0.9203.1000"
+    ],
+    "UpdatedTimeUtc": "2018-05-22T19:29:52.58",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "f2e724c1-748f-4b47-8fb8-8e0d210e9208",
+    "Order": 100,
+    "AvailableBuild": "16.0.9330.2073",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.9330.2073",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-05-22T18:28:18.89",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
+    "Order": 100,
+    "AvailableBuild": "16.0.9330.2076",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.9330.2076",
+    "ExpiredBuilds": [
+      "16.0.8827.2007"
+    ],
+    "UpdatedTimeUtc": "2018-05-23T05:03:04.57",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  },
+  {
+    "FFN": "f4f024c8-d611-4748-a7e0-02b6e754c0fe",
+    "Order": 100,
+    "AvailableBuild": "16.0.8431.2250",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.8431.2250",
+    "ExpiredBuilds": [],
+    "UpdatedTimeUtc": "2018-05-08T22:15:07.837",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [],
+    "OfficeCultures": [],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "IsDefault": true
+  }
+]
