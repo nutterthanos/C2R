@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="05/25/2018 18:18">
+<ReleaseHistory PublishedDate="05/26/2018 16:33">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
     <Update Latest="True" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T05:05:56.263Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2078" Build="9330.2078" PubTime="2018-05-23T04:00:33.23Z" />
@@ -48,7 +48,8 @@
     <Update Latest="False" Version="1705" LegacyVersion="16.0.8201.2193" Build="8201.2193" PubTime="2017-09-12T18:04:25.697Z" />
   </UpdateChannel>
   <UpdateChannel Name="Perpetual2019" ID="Perpetual2019" DisplayName="Office 2019 Perpetual Enterprise">
-    <Update Latest="True" Version="1805" LegacyVersion="16.0.9330.2078" Build="9330.2078" PubTime="2018-05-24T07:00:08.433Z" />
+    <Update Latest="True" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T23:42:04.93Z" />
+    <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2078" Build="9330.2078" PubTime="2018-05-24T07:00:08.433Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2073" Build="9330.2073" PubTime="2018-05-21T21:40:44.59Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2053" Build="9330.2053" PubTime="2018-05-15T19:24:16.3Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2014" Build="9330.2014" PubTime="2018-05-11T23:49:02.747Z" />
