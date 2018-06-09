@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="06/07/2018 17:03">
+<ReleaseHistory PublishedDate="06/08/2018 21:47">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T05:05:56.263Z" />
+    <Update Latest="True" Version="1806" LegacyVersion="16.0.10228.20021" Build="10228.20021" PubTime="2018-06-07T22:37:30.147Z" />
+    <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T05:05:56.263Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2078" Build="9330.2078" PubTime="2018-05-23T04:00:33.23Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2073" Build="9330.2073" PubTime="2018-05-21T02:31:37.9Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2053" Build="9330.2053" PubTime="2018-05-14T21:06:14.673Z" />
@@ -10,10 +11,6 @@
     <Update Latest="False" Version="1804" LegacyVersion="16.0.9226.2100" Build="9226.2100" PubTime="2018-04-20T18:36:51.65Z" />
     <Update Latest="False" Version="1804" LegacyVersion="16.0.9226.2082" Build="9226.2082" PubTime="2018-04-17T15:52:43.833Z" />
     <Update Latest="False" Version="1804" LegacyVersion="16.0.9226.2059" Build="9226.2059" PubTime="2018-04-11T19:57:54.437Z" />
-    <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2116" Build="9126.2116" PubTime="2018-03-26T01:47:33.193Z" />
-    <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2109" Build="9126.2109" PubTime="2018-03-24T00:43:19.83Z" />
-    <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2098" Build="9126.2098" PubTime="2018-03-21T06:06:21.427Z" />
-    <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2072" Build="9126.2072" PubTime="2018-03-13T19:07:35.233Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
     <Update Latest="True" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T04:38:43.463Z" />
