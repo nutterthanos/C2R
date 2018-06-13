@@ -17,7 +17,7 @@
   </Prereq>
   <DeliveryMechanism FFNRoot="f4f024c8-d611-4748-a7e0-02b6e754c0fe" />
   <Throttle Value="1000" />
-  <LKG Value="16.0.8431.2250" />
-  <CreatedTimeUtc Value="06/08/2018 21:44" />
+  <LKG Value="16.0.8431.2270" />
+  <CreatedTimeUtc Value="06/12/2018 19:03" />
   <ExpiredBuilds />
 </Version>

@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="06/11/2018 21:32">
+<ReleaseHistory PublishedDate="06/12/2018 21:22">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1806" LegacyVersion="16.0.10228.20021" Build="10228.20021" PubTime="2018-06-07T22:37:30.147Z" />
+    <Update Latest="True" Version="1806" LegacyVersion="16.0.10228.20051" Build="10228.20051" PubTime="2018-06-12T20:52:48.497Z" />
+    <Update Latest="False" Version="1806" LegacyVersion="16.0.10228.20021" Build="10228.20021" PubTime="2018-06-07T22:37:30.147Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T05:05:56.263Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2078" Build="9330.2078" PubTime="2018-05-23T04:00:33.23Z" />
     <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2073" Build="9330.2073" PubTime="2018-05-21T02:31:37.9Z" />
@@ -13,7 +14,8 @@
     <Update Latest="False" Version="1804" LegacyVersion="16.0.9226.2059" Build="9226.2059" PubTime="2018-04-11T19:57:54.437Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T04:38:43.463Z" />
+    <Update Latest="True" Version="1805" LegacyVersion="16.0.9330.2118" Build="9330.2118" PubTime="2018-06-12T20:06:17.233Z" />
+    <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T04:38:43.463Z" />
     <Update Latest="False" Version="1804" LegacyVersion="16.0.9226.2156" Build="9226.2156" PubTime="2018-05-14T22:22:03.003Z" />
     <Update Latest="False" Version="1804" LegacyVersion="16.0.9226.2126" Build="9226.2126" PubTime="2018-05-09T01:22:50.853Z" />
     <Update Latest="False" Version="1804" LegacyVersion="16.0.9226.2114" Build="9226.2114" PubTime="2018-04-25T19:21:00.763Z" />
@@ -21,7 +23,8 @@
     <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2116" Build="9126.2116" PubTime="2018-03-27T20:13:36.553Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="Targeted" DisplayName="Semi-Annual Channel (Targeted)">
-    <Update Latest="True" Version="1803" LegacyVersion="16.0.9126.2210" Build="9126.2210" PubTime="2018-05-18T22:40:58.56Z" />
+    <Update Latest="True" Version="1803" LegacyVersion="16.0.9126.2227" Build="9126.2227" PubTime="2018-06-12T19:50:25.26Z" />
+    <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2210" Build="9126.2210" PubTime="2018-05-18T22:40:58.56Z" />
     <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2191" Build="9126.2191" PubTime="2018-05-08T21:33:46.803Z" />
     <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2152" Build="9126.2152" PubTime="2018-04-11T00:57:10.447Z" />
     <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2098" Build="9126.2098" PubTime="2018-03-21T05:51:51.127Z" />
@@ -34,7 +37,8 @@
     <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2079" Build="8431.2079" PubTime="2017-09-12T18:48:22.44Z" />
   </UpdateChannel>
   <UpdateChannel Name="Deferred" ID="Broad" DisplayName="Semi-Annual Channel">
-    <Update Latest="True" Version="1708" LegacyVersion="16.0.8431.2250" Build="8431.2250" PubTime="2018-05-08T22:15:07.837Z" />
+    <Update Latest="True" Version="1708" LegacyVersion="16.0.8431.2270" Build="8431.2270" PubTime="2018-06-12T18:46:45.517Z" />
+    <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2250" Build="8431.2250" PubTime="2018-05-08T22:15:07.837Z" />
     <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2242" Build="8431.2242" PubTime="2018-04-11T00:56:57.053Z" />
     <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2236" Build="8431.2236" PubTime="2018-03-13T17:29:20.877Z" />
     <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2215" Build="8431.2215" PubTime="2018-02-13T21:57:49.32Z" />
