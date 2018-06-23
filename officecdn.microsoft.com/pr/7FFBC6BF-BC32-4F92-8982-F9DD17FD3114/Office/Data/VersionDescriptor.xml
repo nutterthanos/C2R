@@ -16,8 +16,8 @@
     <C2RMSISxS BlockRMJ="16" C2RProductsToIgnore="0060|008C|008F|007E|00FC|00DD" FailMessage="C2RIncompatibleWithMSI" />
   </Prereq>
   <DeliveryMechanism FFNRoot="7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" />
-  <Throttle Value="800" />
-  <LKG Value="16.0.8431.2250" />
-  <CreatedTimeUtc Value="06/21/2018 16:59" />
+  <Throttle Value="1000" />
+  <LKG Value="16.0.8431.2270" />
+  <CreatedTimeUtc Value="06/22/2018 14:29" />
   <ExpiredBuilds />
 </Version>
