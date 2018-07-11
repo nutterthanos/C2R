@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Version>
-  <Available Build="16.0.9126.2227" I320Hash="C74BA1F830CAB673B2F2528D2C7EE76B" I640Hash="F16FDD9521787FB424624F6F3C2AF6BC" I320Version="16.0.9126.2227" I640Version="16.0.9126.2227" />
+  <Available Build="16.0.9126.2259" I320Hash="00B2CD337E46141B5283D53564C704C2" I640Hash="CCAE6BB12AB07ED77DE23BE12CC26398" I320Version="16.0.9126.2259" I640Version="16.0.9126.2259" />
   <SecurityFixes LastBuild="" />
   <RequiredClientVersion Build="15.0.4446.1000" />
   <MinUpgradeBuild Build="16.0.0.0" />
@@ -102,8 +102,8 @@
     <ProductReleaseId Name="WordVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="b8f9b850-328d-4355-9145-c59439a0c4cf" />
-  <Throttle Value="1000" />
+  <Throttle Value="1" />
   <LKG Value="16.0.9126.2227" />
-  <CreatedTimeUtc Value="06/18/2018 18:29" />
+  <CreatedTimeUtc Value="07/10/2018 19:29" />
   <ExpiredBuilds />
 </Version>
