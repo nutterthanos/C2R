@@ -84,15 +84,15 @@
     "FFN": "64256afe-f5d9-4f86-8936-8840a6a4f5be",
     "Order": 100,
     "AvailableBuild": "16.0.10325.20036",
-    "ThrottleLevel": 250,
-    "LkgBuild": "16.0.10325.20030",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.10325.20036",
     "ExpiredBuilds": [
       "16.0.7967.2030",
       "16.0.7967.2035",
       "16.0.7967.2073",
       "16.0.7967.2082"
     ],
-    "UpdatedTimeUtc": "2018-07-13T20:38:44.307",
+    "UpdatedTimeUtc": "2018-07-14T16:21:15.163",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
