@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Version>
-  <Available Build="16.0.10325.20082" I320Hash="BA23ED76F89F335240E72B702BE24E29" I640Hash="A31B3EFE54C76FE28405361B5F3DA945" I320Version="16.0.10325.20082" I640Version="16.0.10325.20082" />
+  <Available Build="16.0.10336.20015" I320Hash="4D27A55F000625EA05A9C897AF4CE796" I640Hash="B5415206EDCEA2A91E51BED3318D4D60" I320Version="16.0.10336.20015" I640Version="16.0.10336.20015" />
   <SecurityFixes LastBuild="" />
   <RequiredClientVersion Build="15.0.4446.1000" />
   <MinUpgradeBuild Build="16.0.0.0" />
@@ -15,111 +15,172 @@
     <VirtualEnvironment FailMessage="NoVirtualEnvironment" />
     <C2RMSISxS BlockRMJ="16" C2RProductsToIgnore="0060|008C|008F|007E|00FC|00DD" FailMessage="C2RIncompatibleWithMSI" />
   </Prereq>
-  <Channels>
-    <Channel Name="Monthly" Priority="1" FFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60">
-      <Prereq />
-    </Channel>
-    <Channel Name="Targeted" Priority="2" FFN="89815E81-C82E-49A3-99DC-2B99229CF632">
-      <Prereq />
-    </Channel>
-    <Channel Name="Broad" Priority="3" FFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114">
-      <Prereq />
-    </Channel>
-    <Channel Name="Perpetual2019" Priority="4" FFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
-      <PreReq />
-    </Channel>
-  </Channels>
+  <Channels />
   <ProductReleaseIds>
-    <ProductReleaseId Name="AccessRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="AccessRuntimeRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="AccessVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="ExcelRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="ExcelVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="HomeBusinessPipcRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="HomeBusinessRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="HomeStudentRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="HomeStudentVNextRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="MondoRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="MondoVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="O365BusinessRetail" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="O365EduCloudRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="O365HomePremRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="O365ProPlusRetail" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="O365SmallBusPremRetail" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="OneNoteFreeRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="OneNoteRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="OneNoteVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="OutlookRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="OutlookVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="PersonalPipcRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="PersonalRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="PowerPointRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="PowerPointVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="Professional2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
+    <ProductReleaseId Name="Access2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="ProfessionalPipcRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="ProfessionalRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="ProjectPro2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60">
+    <ProductReleaseId Name="Access2019Volume">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="ProjectPro2019Volume" DefaultFFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
+    <ProductReleaseId Name="AccessRuntime2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="ProjectProRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" />
-    <ProductReleaseId Name="ProjectProVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="ProjectProXVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="ProjectStdRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" />
-    <ProductReleaseId Name="ProjectStdVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="ProjectStdXVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="ProPlus2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
+    <ProductReleaseId Name="Excel2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="ProPlus2019Volume" DefaultFFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208" BlockedFFNs="492350F6-3A01-4F97-B9C0-C7C6DDF67D60|89815E81-C82E-49A3-99DC-2B99229CF632|7FFBC6BF-BC32-4F92-8982-F9DD17FD3114">
+    <ProductReleaseId Name="Excel2019Volume">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="ProPlusRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="ProPlusVolume" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="PublisherRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="PublisherVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="SkypeforBusinessEntryRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="SkypeforBusinessRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="SkypeforBusinessVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="SkypeServiceBypassRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="StandardRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="StandardVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="VisioPro2019Retail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60">
+    <ProductReleaseId Name="HomeBusiness2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="VisioPro2019Volume" DefaultFFN="F2E724C1-748F-4B47-8FB8-8E0D210E9208">
+    <ProductReleaseId Name="HomeStudent2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="VisioProRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" />
-    <ProductReleaseId Name="VisioProVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="VisioProXVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="VisioStdRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" />
-    <ProductReleaseId Name="VisioStdVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="VisioStdXVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" />
-    <ProductReleaseId Name="WordRetail" DefaultFFN="492350F6-3A01-4F97-B9C0-C7C6DDF67D60" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
-    <ProductReleaseId Name="WordVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
+    <ProductReleaseId Name="Outlook2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Outlook2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Personal2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="PowerPoint2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="PowerPoint2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Professional2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="ProjectPro2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="ProjectPro2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="ProjectStd2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="ProjectStd2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="ProPlus2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="ProPlus2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Publisher2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Publisher2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="SkypeforBusiness2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="SkypeforBusiness2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="SkypeforBusinessEntry2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Standard2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Standard2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="VisioPro2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="VisioPro2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="VisioStd2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="VisioStd2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Word2019Retail">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
+    <ProductReleaseId Name="Word2019Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="1d2d2ea6-1680-4c56-ac58-a441c8c24ff9" />
-  <Throttle Value="1000" />
+  <Throttle Value="200" />
   <LKG Value="16.0.10325.20082" />
-  <CreatedTimeUtc Value="07/26/2018 00:14" />
+  <CreatedTimeUtc Value="08/07/2018 01:15" />
   <ExpiredBuilds />
 </Version>
