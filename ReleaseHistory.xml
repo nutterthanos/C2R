@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="08/30/2018 01:03">
+<ReleaseHistory PublishedDate="08/31/2018 23:16">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20053" Build="10730.20053" PubTime="2018-08-22T14:52:34.607Z" />
+    <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20088" Build="10730.20088" PubTime="2018-08-31T23:06:10.667Z" />
+    <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20053" Build="10730.20053" PubTime="2018-08-22T14:52:34.607Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20030" Build="10730.20030" PubTime="2018-08-14T19:18:18.353Z" />
     <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20082" Build="10325.20082" PubTime="2018-07-23T21:59:56.537Z" />
     <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20075" Build="10325.20075" PubTime="2018-07-21T05:18:47.553Z" />
@@ -48,7 +49,8 @@
     <Update Latest="False" Version="1708" LegacyVersion="16.0.8431.2153" Build="8431.2153" PubTime="2018-01-09T16:16:47.29Z" />
   </UpdateChannel>
   <UpdateChannel Name="Perpetual2019" ID="Perpetual2019" DisplayName="Office 2019 Perpetual Enterprise">
-    <Update Latest="True" Version="LTSB2018" LegacyVersion="16.0.10336.20035" Build="10336.20035" PubTime="2018-08-28T00:08:17.753Z" />
+    <Update Latest="True" Version="LTSB2018" LegacyVersion="16.0.10336.20039" Build="10336.20039" PubTime="2018-08-31T22:30:11.43Z" />
+    <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10336.20035" Build="10336.20035" PubTime="2018-08-28T00:08:17.753Z" />
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10336.20020" Build="10336.20020" PubTime="2018-08-23T20:35:41.337Z" />
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10336.20015" Build="10336.20015" PubTime="2018-08-14T18:34:13.873Z" />
     <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20082" Build="10325.20082" PubTime="2018-07-25T00:36:12.007Z" />
