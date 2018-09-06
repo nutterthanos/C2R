@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="09/01/2018 14:31">
+<ReleaseHistory PublishedDate="09/05/2018 20:35">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
     <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20088" Build="10730.20088" PubTime="2018-08-31T23:06:10.667Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20053" Build="10730.20053" PubTime="2018-08-22T14:52:34.607Z" />
@@ -14,13 +14,12 @@
     <Update Latest="False" Version="1806" LegacyVersion="16.0.10228.20021" Build="10228.20021" PubTime="2018-06-07T22:37:30.147Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1807" LegacyVersion="16.0.10325.20118" Build="10325.20118" PubTime="2018-08-14T20:43:09.737Z" />
+    <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20088" Build="10730.20088" PubTime="2018-09-05T20:17:05.57Z" />
+    <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20118" Build="10325.20118" PubTime="2018-08-14T20:43:09.737Z" />
     <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20082" Build="10325.20082" PubTime="2018-07-26T00:38:33.02Z" />
     <Update Latest="False" Version="1806" LegacyVersion="16.0.10228.20134" Build="10228.20134" PubTime="2018-07-17T14:07:43.673Z" />
     <Update Latest="False" Version="1806" LegacyVersion="16.0.10228.20104" Build="10228.20104" PubTime="2018-07-10T21:01:52.557Z" />
     <Update Latest="False" Version="1806" LegacyVersion="16.0.10228.20080" Build="10228.20080" PubTime="2018-06-25T19:38:24.14Z" />
-    <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2124" Build="9330.2124" PubTime="2018-06-13T22:29:50.36Z" />
-    <Update Latest="False" Version="1805" LegacyVersion="16.0.9330.2087" Build="9330.2087" PubTime="2018-05-25T04:38:43.463Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="Targeted" DisplayName="Semi-Annual Channel (Targeted)">
     <Update Latest="True" Version="1803" LegacyVersion="16.0.9126.2275" Build="9126.2275" PubTime="2018-08-14T21:26:53.26Z" />
