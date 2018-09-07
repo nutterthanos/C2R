@@ -180,7 +180,7 @@
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="834504cc-dc55-4c6d-9e71-e024d0253f6d" />
   <Throttle Value="1000" />
-  <LKG Value="16.0.9126.2275" />
-  <CreatedTimeUtc Value="09/05/2018 20:45" />
+  <LKG Value="16.0.10730.20095" />
+  <CreatedTimeUtc Value="09/05/2018 22:31" />
   <ExpiredBuilds />
 </Version>
