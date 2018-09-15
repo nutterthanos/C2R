@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="09/13/2018 17:48">
+<ReleaseHistory PublishedDate="09/14/2018 18:18">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20102" Build="10730.20102" PubTime="2018-09-12T03:54:21.463Z" />
+    <Update Latest="True" Version="1809" LegacyVersion="16.0.10827.20084" Build="10827.20084" PubTime="2018-09-14T02:14:34.957Z" />
+    <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20102" Build="10730.20102" PubTime="2018-09-12T03:54:21.463Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20088" Build="10730.20088" PubTime="2018-08-31T23:06:10.667Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20053" Build="10730.20053" PubTime="2018-08-22T14:52:34.607Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20030" Build="10730.20030" PubTime="2018-08-14T19:18:18.353Z" />
@@ -10,9 +11,6 @@
     <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20064" Build="10325.20064" PubTime="2018-07-18T13:00:58.47Z" />
     <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20036" Build="10325.20036" PubTime="2018-07-13T20:38:44.307Z" />
     <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20030" Build="10325.20030" PubTime="2018-07-10T20:14:59.013Z" />
-    <Update Latest="False" Version="1806" LegacyVersion="16.0.10228.20080" Build="10228.20080" PubTime="2018-06-21T19:28:24.337Z" />
-    <Update Latest="False" Version="1806" LegacyVersion="16.0.10228.20062" Build="10228.20062" PubTime="2018-06-14T20:12:01.41Z" />
-    <Update Latest="False" Version="1806" LegacyVersion="16.0.10228.20021" Build="10228.20021" PubTime="2018-06-07T22:37:30.147Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
     <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20102" Build="10730.20102" PubTime="2018-09-12T14:54:09.297Z" />
