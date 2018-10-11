@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="10/09/2018 20:33">
+<ReleaseHistory PublishedDate="10/10/2018 21:34">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
     <Update Latest="True" Version="1809" LegacyVersion="16.0.10827.20150" Build="10827.20150" PubTime="2018-10-09T20:17:26.29Z" />
     <Update Latest="False" Version="1809" LegacyVersion="16.0.10827.20138" Build="10827.20138" PubTime="2018-09-27T18:55:39.527Z" />
@@ -25,7 +25,8 @@
     <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20082" Build="10325.20082" PubTime="2018-07-26T00:38:33.02Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="Targeted" DisplayName="Semi-Annual Channel (Targeted)">
-    <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20102" Build="10730.20102" PubTime="2018-09-11T20:50:43.627Z" />
+    <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20155" Build="10730.20155" PubTime="2018-10-09T23:25:40.377Z" />
+    <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20102" Build="10730.20102" PubTime="2018-09-11T20:50:43.627Z" />
     <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2275" Build="9126.2275" PubTime="2018-08-14T21:26:53.26Z" />
     <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2259" Build="9126.2259" PubTime="2018-07-10T19:23:01.393Z" />
     <Update Latest="False" Version="1803" LegacyVersion="16.0.9126.2227" Build="9126.2227" PubTime="2018-06-12T19:50:25.26Z" />
