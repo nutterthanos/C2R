@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="10/12/2018 19:17">
+<ReleaseHistory PublishedDate="10/15/2018 22:33">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1809" LegacyVersion="16.0.10827.20150" Build="10827.20150" PubTime="2018-10-09T20:17:26.29Z" />
+    <Update Latest="True" Version="1810" LegacyVersion="16.0.11001.20038" Build="11001.20038" PubTime="2018-10-15T22:11:05.903Z" />
+    <Update Latest="False" Version="1809" LegacyVersion="16.0.10827.20150" Build="10827.20150" PubTime="2018-10-09T20:17:26.29Z" />
     <Update Latest="False" Version="1809" LegacyVersion="16.0.10827.20138" Build="10827.20138" PubTime="2018-09-27T18:55:39.527Z" />
     <Update Latest="False" Version="1809" LegacyVersion="16.0.10827.20118" Build="10827.20118" PubTime="2018-09-24T21:50:51.287Z" />
     <Update Latest="False" Version="1809" LegacyVersion="16.0.10827.20098" Build="10827.20098" PubTime="2018-09-20T18:56:00.467Z" />
@@ -10,11 +11,6 @@
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20088" Build="10730.20088" PubTime="2018-08-31T23:06:10.667Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20053" Build="10730.20053" PubTime="2018-08-22T14:52:34.607Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20030" Build="10730.20030" PubTime="2018-08-14T19:18:18.353Z" />
-    <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20082" Build="10325.20082" PubTime="2018-07-23T21:59:56.537Z" />
-    <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20075" Build="10325.20075" PubTime="2018-07-21T05:18:47.553Z" />
-    <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20064" Build="10325.20064" PubTime="2018-07-18T13:00:58.47Z" />
-    <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20036" Build="10325.20036" PubTime="2018-07-13T20:38:44.307Z" />
-    <Update Latest="False" Version="1807" LegacyVersion="16.0.10325.20030" Build="10325.20030" PubTime="2018-07-10T20:14:59.013Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
     <Update Latest="True" Version="1809" LegacyVersion="16.0.10827.20150" Build="10827.20150" PubTime="2018-10-09T17:58:52.647Z" />
