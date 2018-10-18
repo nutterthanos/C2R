@@ -201,9 +201,9 @@ echo "
 
 * [Office 2010 Administrative Template files (ADM, ADMX/ADML) and Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=18968)
 * [Office 2013 Administrative Template files (ADMX/ADML) and Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=35554)
-* [Office 2016 Administrative Template files (ADMX/ADML) and Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030)
-* [Office 2013 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=36778)
-* [Office 2016 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
+* [Administrative Template files (ADMX/ADML) and Office Customization Tool for Office 365 ProPlus, Office 2019, and Office 2016](https://www.microsoft.com/en-us/download/details.aspx?id=49030)
+* [Office 2013 Deployment Tool for Click-to-Run](https://www.microsoft.com/en-us/download/details.aspx?id=36778)
+* [Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
 * [Configuration XML Editor](http://officedev.github.io/Office-IT-Pro-Deployment-Scripts/XmlEditor.html)
 * [Office 365 client update channel releases](https://technet.microsoft.com/en-us/office/mt465751)
 * [Version and build numbers of update channel releases](https://support.office.com/en-us/article/version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)

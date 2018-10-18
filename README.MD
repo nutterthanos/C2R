@@ -3,9 +3,9 @@
 
 * [Office 2010 Administrative Template files (ADM, ADMX/ADML) and Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=18968)
 * [Office 2013 Administrative Template files (ADMX/ADML) and Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=35554)
-* [Office 2016 Administrative Template files (ADMX/ADML) and Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49030)
-* [Office 2013 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=36778)
-* [Office 2016 Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
+* [Administrative Template files (ADMX/ADML) and Office Customization Tool for Office 365 ProPlus, Office 2019, and Office 2016](https://www.microsoft.com/en-us/download/details.aspx?id=49030)
+* [Office 2013 Deployment Tool for Click-to-Run](https://www.microsoft.com/en-us/download/details.aspx?id=36778)
+* [Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
 * [Configuration XML Editor](http://officedev.github.io/Office-IT-Pro-Deployment-Scripts/XmlEditor.html)
 * [Office 365 client update channel releases](https://technet.microsoft.com/en-us/office/mt465751)
 * [Version and build numbers of update channel releases](https://support.office.com/en-us/article/version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
@@ -37,20 +37,20 @@
 |CBC7891E-9126-44DE-8A56-2BD6D2E06C48|16.0.8067.2032|2017-04-22 04:13:56||||
 |55C44C35-878E-4C43-83EE-B666BF4261A4|16.0.8209.3000|2017-05-16 18:09:43||||
 |50CFADF4-6AD2-4BD2-9981-C7B5C05A8C67|16.0.8326.2037|2017-07-10 19:00:10||||
-|F3260CF1-A92C-4C75-B02E-D64C0A86A968|16.0.11001.20047|2018-10-15 17:28:01|||DogfoodCC|
+|F3260CF1-A92C-4C75-B02E-D64C0A86A968|16.0.11001.20049|2018-10-17 21:52:03|||DogfoodCC|
 |C4A7726F-06EA-48E2-A13A-9D78849EB706|16.0.8431.2316|2018-10-09 21:03:08|||DogfoodDCEXT|
 |EA4A4090-DE26-49D7-93C1-91BFF9E53FC3|16.0.11015.20000|2018-10-15 22:40:02|||DogfoodDevMain|
 |834504CC-DC55-4C6D-9E71-E024D0253F6D|16.0.10730.20172|2018-10-16 20:40:41|||DogfoodFRDC|
 |64256AFE-F5D9-4F86-8936-8840A6A4F5BE|16.0.11001.20038|2018-10-16 22:23:29|MonthlyTargeted|InsiderSlow/FirstReleaseCurrent|InsidersCC|
 |5440FD1F-7ECB-4221-8110-145EFAA6372F|16.0.11010.20003|2018-10-12 20:02:24|Insider|InsiderFast|InsidersDevMain|
 |B8F9B850-328D-4355-9145-C59439A0C4CF|16.0.10730.20155|2018-10-15 17:09:34|SemiAnnualTargeted|FirstReleaseDeferred/FirstReleaseBusiness|InsidersFRDC|
-|5462EEE5-1E97-495B-9370-853CD873BB07|16.0.11001.20038|2018-10-15 22:41:19|||MicrosoftCC|
+|5462EEE5-1E97-495B-9370-853CD873BB07|16.0.11001.20049|2018-10-17 21:57:16|||MicrosoftCC|
 |F4F024C8-D611-4748-A7E0-02B6E754C0FE|16.0.9126.2295|2018-10-09 19:31:41|||MicrosoftDC|
 |B61285DD-D9F7-41F2-9757-8F61CBA4E9C8|16.0.11010.20003|2018-10-12 20:28:36|||MicrosoftDevMain|
-|9A3B7FF2-58ED-40FD-ADD5-1E5158059D1C|16.0.10730.20172|2018-10-16 20:50:47|||MicrosoftFRDC|
+|9A3B7FF2-58ED-40FD-ADD5-1E5158059D1C|16.0.10730.20172|2018-10-17 14:54:40|||MicrosoftFRDC|
 |1D2D2EA6-1680-4C56-AC58-A441C8C24FF9|16.0.10337.20021|2018-10-09 18:44:12|||MicrosoftLTSC|
-|492350F6-3A01-4F97-B9C0-C7C6DDF67D60|16.0.10827.20181|2018-10-16 22:33:08|Monthly|Current|ProductionCC|
-|7FFBC6BF-BC32-4F92-8982-F9DD17FD3114|16.0.9126.2295|2018-10-16 20:16:10|SemiAnnual|Deferred/Business|ProductionDC|
+|492350F6-3A01-4F97-B9C0-C7C6DDF67D60|16.0.10827.20181|2018-10-17 18:30:49|Monthly|Current|ProductionCC|
+|7FFBC6BF-BC32-4F92-8982-F9DD17FD3114|16.0.9126.2295|2018-10-17 14:40:41|SemiAnnual|Deferred/Business|ProductionDC|
 |F2E724C1-748F-4B47-8FB8-8E0D210E9208|16.0.10337.20021|2018-10-16 17:38:02|LTSC2019/Perpetual2019||ProductionLTSC|
 
 
