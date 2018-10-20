@@ -33,12 +33,12 @@
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
     "Order": 100,
     "AvailableBuild": "16.0.10827.20181",
-    "ThrottleLevel": 250,
+    "ThrottleLevel": 550,
     "LkgBuild": "16.0.10827.20150",
     "ExpiredBuilds": [
       "16.0.7967.2082"
     ],
-    "UpdatedTimeUtc": "2018-10-18T16:43:20.88",
+    "UpdatedTimeUtc": "2018-10-19T16:44:38.197",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -486,9 +486,9 @@
   {
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
     "Order": 100,
-    "AvailableBuild": "16.0.11017.20003",
+    "AvailableBuild": "16.0.11018.20002",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.11017.20003",
+    "LkgBuild": "16.0.11018.20002",
     "ExpiredBuilds": [
       "16.0.7923.1000",
       "16.0.7924.1000",
@@ -503,7 +503,7 @@
       "16.0.10305.20007",
       "16.0.10709.20004"
     ],
-    "UpdatedTimeUtc": "2018-10-18T19:10:32.123",
+    "UpdatedTimeUtc": "2018-10-19T19:52:40.263",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -529,13 +529,13 @@
   {
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
     "Order": 100,
-    "AvailableBuild": "16.0.11001.20049",
+    "AvailableBuild": "16.0.11001.20060",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.11001.20049",
     "ExpiredBuilds": [
       "16.0.8827.2007"
     ],
-    "UpdatedTimeUtc": "2018-10-17T21:36:29.97",
+    "UpdatedTimeUtc": "2018-10-19T16:50:51.617",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -546,11 +546,11 @@
   {
     "FFN": "f4f024c8-d611-4748-a7e0-02b6e754c0fe",
     "Order": 100,
-    "AvailableBuild": "16.0.9126.2295",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.9126.2300",
+    "ThrottleLevel": 400,
     "LkgBuild": "16.0.9126.2295",
     "ExpiredBuilds": [],
-    "UpdatedTimeUtc": "2018-10-09T17:01:32.777",
+    "UpdatedTimeUtc": "2018-10-19T17:02:27.087",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
