@@ -102,8 +102,8 @@
     <ProductReleaseId Name="WordVolume" DefaultFFN="7FFBC6BF-BC32-4F92-8982-F9DD17FD3114" BlockedFFNs="F2E724C1-748F-4B47-8FB8-8E0D210E9208" />
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" />
-  <Throttle Value="200" />
+  <Throttle Value="400" />
   <LKG Value="16.0.9126.2295" />
-  <CreatedTimeUtc Value="11/19/2018 15:42" />
+  <CreatedTimeUtc Value="11/20/2018 16:12" />
   <ExpiredBuilds />
 </Version>
