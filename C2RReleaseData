@@ -81,13 +81,13 @@
   {
     "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
     "Order": 100,
-    "AvailableBuild": "16.0.11029.20070",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.11029.20079",
+    "ThrottleLevel": 200,
     "LkgBuild": "16.0.11029.20070",
     "ExpiredBuilds": [
       "16.0.7766.2007"
     ],
-    "UpdatedTimeUtc": "2018-11-20T17:29:35.17",
+    "UpdatedTimeUtc": "2018-11-21T18:44:09.01",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -119,10 +119,10 @@
     "FFN": "7ffbc6bf-bc32-4f92-8982-f9dd17fd3114",
     "Order": 100,
     "AvailableBuild": "16.0.9126.2315",
-    "ThrottleLevel": 400,
+    "ThrottleLevel": 600,
     "LkgBuild": "16.0.9126.2295",
     "ExpiredBuilds": [],
-    "UpdatedTimeUtc": "2018-11-20T16:03:50.99",
+    "UpdatedTimeUtc": "2018-11-21T15:24:26.1",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -501,9 +501,9 @@
   {
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
     "Order": 100,
-    "AvailableBuild": "16.0.11119.20000",
+    "AvailableBuild": "16.0.11120.20002",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.11119.20000",
+    "LkgBuild": "16.0.11120.20002",
     "ExpiredBuilds": [
       "16.0.7923.1000",
       "16.0.7924.1000",
@@ -519,7 +519,7 @@
       "16.0.10709.20004",
       "16.0.11023.20001"
     ],
-    "UpdatedTimeUtc": "2018-11-20T18:13:45.153",
+    "UpdatedTimeUtc": "2018-11-21T20:08:27.073",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -545,13 +545,13 @@
   {
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
     "Order": 100,
-    "AvailableBuild": "16.0.11029.20075",
+    "AvailableBuild": "16.0.11029.20079",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.11029.20070",
+    "LkgBuild": "16.0.11029.20075",
     "ExpiredBuilds": [
       "16.0.8827.2007"
     ],
-    "UpdatedTimeUtc": "2018-11-20T17:58:08.793",
+    "UpdatedTimeUtc": "2018-11-21T22:20:09.22",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
