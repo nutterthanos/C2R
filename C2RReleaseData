@@ -133,11 +133,11 @@
   {
     "FFN": "834504cc-dc55-4c6d-9e71-e024d0253f6d",
     "Order": 100,
-    "AvailableBuild": "16.0.10730.20205",
+    "AvailableBuild": "16.0.10730.20234",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.10730.20205",
     "ExpiredBuilds": [],
-    "UpdatedTimeUtc": "2018-11-06T18:12:15.347",
+    "UpdatedTimeUtc": "2018-12-03T22:10:08.52",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -164,8 +164,8 @@
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
     "Order": 90,
     "AvailableBuild": "16.0.11126.20002",
-    "ThrottleLevel": 200,
-    "LkgBuild": "16.0.11121.20000",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.11126.20002",
     "ExpiredBuilds": [
       "16.0.8126.1000",
       "16.0.8813.1000",
@@ -222,13 +222,13 @@
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
     "Order": 100,
     "AvailableBuild": "16.0.11126.20002",
-    "ThrottleLevel": 200,
-    "LkgBuild": "16.0.11121.20000",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.11126.20002",
     "ExpiredBuilds": [
       "16.0.8813.1000",
       "16.0.8822.1000"
     ],
-    "UpdatedTimeUtc": "2018-11-30T17:45:29.803",
+    "UpdatedTimeUtc": "2018-12-03T21:37:52.003",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -517,9 +517,10 @@
       "16.0.9203.1000",
       "16.0.10305.20007",
       "16.0.10709.20004",
-      "16.0.11023.20001"
+      "16.0.11023.20001",
+      "16.0.11129.20000"
     ],
-    "UpdatedTimeUtc": "2018-11-30T19:52:51.183",
+    "UpdatedTimeUtc": "2018-12-03T21:36:00.883",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -545,13 +546,13 @@
   {
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
     "Order": 100,
-    "AvailableBuild": "16.0.11126.20014",
+    "AvailableBuild": "16.0.11126.20018",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.11126.20014",
+    "LkgBuild": "16.0.11126.20018",
     "ExpiredBuilds": [
       "16.0.8827.2007"
     ],
-    "UpdatedTimeUtc": "2018-11-30T18:07:18.49",
+    "UpdatedTimeUtc": "2018-12-03T17:41:10.37",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
