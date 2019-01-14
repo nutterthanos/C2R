@@ -98,8 +98,8 @@
   {
     "FFN": "64256afe-f5d9-4f86-8936-8840a6a4f5be",
     "Order": 100,
-    "AvailableBuild": "16.0.11126.20196",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.11126.20266",
+    "ThrottleLevel": 250,
     "LkgBuild": "16.0.11126.20196",
     "ExpiredBuilds": [
       "16.0.7967.2030",
@@ -107,7 +107,7 @@
       "16.0.7967.2073",
       "16.0.7967.2082"
     ],
-    "UpdatedTimeUtc": "2019-01-09T16:09:14.943",
+    "UpdatedTimeUtc": "2019-01-13T00:19:33.797",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
