@@ -8,7 +8,7 @@
       Languages: Supported languages specified on https://support.office.com/article/Language-Accessory-Pack-for-Office-2016-for-Windows-82ee1236-0f9a-45ee-9c72-05b026ee809f
 -->
  
-<UpdateFiles version="1.8">
+<UpdateFiles version="1.9">
 
   <!-- Branch Information -->
     <baseURL branch="FirstReleaseCurrent" URL="http://officecdn.microsoft.com/pr/64256afe-f5d9-4f86-8936-8840a6a4f5be" />    
@@ -30,12 +30,8 @@
     <File name="i320.cab" relativePath="/office/data/%version%/" language="0"/>
     <File name="i640.cab" relativePath="/office/data/%version%/" language="0"/>
     <File name="stream.x86.x-none.dat" hashLocation="s320.cab/stream.x86.x-none.hash" hashAlgo="Sha256" relativePath="/office/data/%version%/" language="0"/>
-    <!--Experiment Cab files-->
-    <File name="i320.cab" relativePath="/office/data/%version%/Experiment/" language="0" optional="TRUE"/>
-    <File name="i640.cab" relativePath="/office/data/%version%/Experiment/" language="0" optional="TRUE"/>  
   <!-- end language neutral files-->
-  
-  
+ 
   <!-- Language Specific Files-->
 
     <!-- Core Languages -->
