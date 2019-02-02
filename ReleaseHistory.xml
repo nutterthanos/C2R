@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="01/31/2019 15:32">
+<ReleaseHistory PublishedDate="02/01/2019 21:59">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1901" LegacyVersion="16.0.11231.20122" Build="11231.20122" PubTime="2019-01-29T23:43:58.537Z" />
+    <Update Latest="True" Version="1901" LegacyVersion="16.0.11231.20130" Build="11231.20130" PubTime="2019-01-31T21:24:48.69Z" />
+    <Update Latest="False" Version="1901" LegacyVersion="16.0.11231.20122" Build="11231.20122" PubTime="2019-01-29T23:43:58.537Z" />
     <Update Latest="False" Version="1901" LegacyVersion="16.0.11231.20120" Build="11231.20120" PubTime="2019-01-25T18:28:22.26Z" />
     <Update Latest="False" Version="1901" LegacyVersion="16.0.11231.20080" Build="11231.20080" PubTime="2019-01-17T19:11:01.277Z" />
     <Update Latest="False" Version="1812" LegacyVersion="16.0.11126.20266" Build="11126.20266" PubTime="2019-01-13T00:19:33.797Z" />
@@ -17,12 +18,11 @@
     <Update Latest="False" Version="1811" LegacyVersion="16.0.11029.20045" Build="11029.20045" PubTime="2018-11-13T23:37:44.577Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1812" LegacyVersion="16.0.11126.20266" Build="11126.20266" PubTime="2019-01-14T21:26:45.383Z" />
+    <Update Latest="True" Version="1901" LegacyVersion="16.0.11231.20130" Build="11231.20130" PubTime="2019-02-01T00:34:06.183Z" />
+    <Update Latest="False" Version="1812" LegacyVersion="16.0.11126.20266" Build="11126.20266" PubTime="2019-01-14T21:26:45.383Z" />
     <Update Latest="False" Version="1812" LegacyVersion="16.0.11126.20196" Build="11126.20196" PubTime="2019-01-08T17:54:33.287Z" />
     <Update Latest="False" Version="1811" LegacyVersion="16.0.11029.20108" Build="11029.20108" PubTime="2018-12-11T15:39:10.807Z" />
     <Update Latest="False" Version="1811" LegacyVersion="16.0.11029.20079" Build="11029.20079" PubTime="2018-11-27T19:28:18.997Z" />
-    <Update Latest="False" Version="1810" LegacyVersion="16.0.11001.20108" Build="11001.20108" PubTime="2018-11-13T23:41:49.967Z" />
-    <Update Latest="False" Version="1810" LegacyVersion="16.0.11001.20074" Build="11001.20074" PubTime="2018-10-29T20:32:29.807Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="Targeted" DisplayName="Semi-Annual Channel (Targeted)">
     <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20264" Build="10730.20264" PubTime="2019-01-08T16:13:05.783Z" />
