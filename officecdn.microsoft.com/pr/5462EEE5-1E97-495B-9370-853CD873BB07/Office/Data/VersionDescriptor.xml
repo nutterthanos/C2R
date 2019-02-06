@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Version>
-  <Available Build="16.0.11231.20136" I320Hash="822F20CD5E1520BAE58D6C9EFF1D2E88" I640Hash="862F76861062A92F191DBF4B196CA205" I320Version="16.0.11231.20136" I640Version="16.0.11231.20136" />
+  <Available Build="16.0.11328.20030" I320Hash="623904B4700ABAB1E85807715B6DA925" I640Hash="E8602883B1F21F15B1C6D8C2F3FFB44F" I320Version="16.0.11328.20030" I640Version="16.0.11328.20030" />
   <SecurityFixes LastBuild="" />
   <RequiredClientVersion Build="15.0.4446.1000" />
   <MinUpgradeBuild Build="16.0.0.0" />
   <Prereq>
     <MinOSVersion Build="6.1.0|6.2.0" FailMessage="NoMinOS" />
-    <SxS32_64 NonBlocking="002A|0116|0043|0021|00A4|0070|0026|0032|0045|0046|00F5|00F6|0132|0133|007E|008F|008C|00B9|00DD" Blocking="003F|0020|00D1|00AF" OnDemand="False" FailMessage="SxS32_64Block" />
+    <SxS32_64 NonBlocking="002A|0116|0043|0021|00A4|0070|0026|0032|0045|0046|00F5|00F6|0132|0133|007E|008F|008C|00B9|00DD|00C1" Blocking="003F|0020|00D1|00AF" OnDemand="False" FailMessage="SxS32_64Block" />
     <PreRelease Build="15.0.4419.1000" OnDemand="False" FailMessage="PreReleaseFound" />
     <MinClientVersion Build="15.0.4446.1000" FailMessage="ClientUpdateRequired" />
     <MinBootstrapperVersion Build="16.0.0.0" FailMessage="NewBootstrapperRequired" />
@@ -179,9 +179,9 @@
     </ProductReleaseId>
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="5462eee5-1e97-495b-9370-853cd873bb07" />
-  <Throttle Value="1000" />
+  <Throttle Value="200" />
   <LKG Value="16.0.11231.20130" />
-  <CreatedTimeUtc Value="02/03/2019 10:58" />
+  <CreatedTimeUtc Value="02/05/2019 21:59" />
   <ExpiredBuilds>
     <Build Value="16.0.7766.2007" />
   </ExpiredBuilds>
