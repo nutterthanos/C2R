@@ -82,12 +82,12 @@
     "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
     "Order": 100,
     "AvailableBuild": "16.0.11328.20030",
-    "ThrottleLevel": 200,
+    "ThrottleLevel": 1000,
     "LkgBuild": "16.0.11231.20130",
     "ExpiredBuilds": [
       "16.0.7766.2007"
     ],
-    "UpdatedTimeUtc": "2019-02-05T20:33:00.71",
+    "UpdatedTimeUtc": "2019-02-06T12:33:39.263",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
