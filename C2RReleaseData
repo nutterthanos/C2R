@@ -64,13 +64,13 @@
   {
     "FFN": "5440fd1f-7ecb-4221-8110-145efaa6372f",
     "Order": 100,
-    "AvailableBuild": "16.0.11328.20008",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.11330.20014",
+    "ThrottleLevel": 250,
     "LkgBuild": "16.0.11328.20008",
     "ExpiredBuilds": [
       "16.0.8813.1000"
     ],
-    "UpdatedTimeUtc": "2019-02-04T17:34:22.073",
+    "UpdatedTimeUtc": "2019-02-10T04:20:42.913",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
