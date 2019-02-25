@@ -548,14 +548,14 @@
   {
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
     "Order": 100,
-    "AvailableBuild": "16.0.11328.20104",
+    "AvailableBuild": "16.0.11328.20116",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.11328.20100",
     "ExpiredBuilds": [
       "16.0.8827.2007",
       "16.0.11328.20000"
     ],
-    "UpdatedTimeUtc": "2019-02-21T19:08:09.36",
+    "UpdatedTimeUtc": "2019-02-24T21:10:36.9",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
