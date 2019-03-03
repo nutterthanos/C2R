@@ -1,7 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="03/01/2019 22:19">
+<ReleaseHistory PublishedDate="03/02/2019 22:18">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20140" Build="11328.20140" PubTime="2019-03-01T21:55:17.573Z" />
+    <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20146" Build="11328.20146" PubTime="2019-03-02T20:11:07.713Z" />
+    <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20140" Build="11328.20140" PubTime="2019-03-01T21:55:17.573Z" />
     <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20116" Build="11328.20116" PubTime="2019-02-25T19:34:04.127Z" />
     <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20100" Build="11328.20100" PubTime="2019-02-21T19:05:41.05Z" />
     <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20070" Build="11328.20070" PubTime="2019-02-14T20:50:53.353Z" />
