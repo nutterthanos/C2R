@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="03/02/2019 22:18">
+<ReleaseHistory PublishedDate="03/04/2019 21:48">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
     <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20146" Build="11328.20146" PubTime="2019-03-02T20:11:07.713Z" />
     <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20140" Build="11328.20140" PubTime="2019-03-01T21:55:17.573Z" />
@@ -20,12 +20,11 @@
     <Update Latest="False" Version="1812" LegacyVersion="16.0.11126.20074" Build="11126.20074" PubTime="2018-12-12T21:51:39.577Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1901" LegacyVersion="16.0.11231.20174" Build="11231.20174" PubTime="2019-02-12T15:51:44.287Z" />
+    <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20146" Build="11328.20146" PubTime="2019-03-04T21:38:10.077Z" />
+    <Update Latest="False" Version="1901" LegacyVersion="16.0.11231.20174" Build="11231.20174" PubTime="2019-02-12T15:51:44.287Z" />
     <Update Latest="False" Version="1901" LegacyVersion="16.0.11231.20130" Build="11231.20130" PubTime="2019-02-01T00:34:06.183Z" />
     <Update Latest="False" Version="1812" LegacyVersion="16.0.11126.20266" Build="11126.20266" PubTime="2019-01-14T21:26:45.383Z" />
     <Update Latest="False" Version="1812" LegacyVersion="16.0.11126.20196" Build="11126.20196" PubTime="2019-01-08T17:54:33.287Z" />
-    <Update Latest="False" Version="1811" LegacyVersion="16.0.11029.20108" Build="11029.20108" PubTime="2018-12-11T15:39:10.807Z" />
-    <Update Latest="False" Version="1811" LegacyVersion="16.0.11029.20079" Build="11029.20079" PubTime="2018-11-27T19:28:18.997Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="Targeted" DisplayName="Semi-Annual Channel (Targeted)">
     <Update Latest="True" Version="1808" LegacyVersion="16.0.10730.20280" Build="10730.20280" PubTime="2019-02-12T14:42:40.307Z" />
