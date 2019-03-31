@@ -133,11 +133,11 @@
   {
     "FFN": "834504cc-dc55-4c6d-9e71-e024d0253f6d",
     "Order": 100,
-    "AvailableBuild": "16.0.11328.20226",
+    "AvailableBuild": "16.0.11328.20230",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.11328.20158",
     "ExpiredBuilds": [],
-    "UpdatedTimeUtc": "2019-03-28T03:42:59.42",
+    "UpdatedTimeUtc": "2019-03-30T04:52:39.133",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
