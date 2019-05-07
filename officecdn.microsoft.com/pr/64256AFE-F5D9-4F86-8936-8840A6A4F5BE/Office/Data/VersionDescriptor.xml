@@ -247,8 +247,8 @@
   ]]></Padding>
   <DeliveryMechanism FFNRoot="64256afe-f5d9-4f86-8936-8840a6a4f5be" />
   <Throttle Value="1000" />
-  <LKG Value="16.0.11601.20144" />
-  <CreatedTimeUtc Value="04/27/2019 16:24" />
+  <LKG Value="16.0.11425.20184" />
+  <CreatedTimeUtc Value="05/06/2019 18:28" />
   <ExpiredBuilds>
     <Build Value="16.0.7967.2030" />
     <Build Value="16.0.7967.2035" />
