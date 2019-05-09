@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="05/07/2019 20:03">
+<ReleaseHistory PublishedDate="05/08/2019 19:32">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1904" LegacyVersion="16.0.11601.20144" Build="11601.20144" PubTime="2019-04-27T15:59:31.377Z" />
-    <Update Latest="False" Version="1904" LegacyVersion="16.0.11601.20136" Build="11601.20136" PubTime="2019-04-26T18:12:57.377Z" />
+    <Update Latest="True" Version="1904" LegacyVersion="16.0.11601.20178" Build="11601.20178" PubTime="2019-05-08T18:18:30.92Z" />
+    <Update Latest="False" Version="1904" LegacyVersion="16.0.11601.20144" Build="11601.20144" PubTime="2019-04-27T15:59:31.377Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1904" LegacyVersion="16.0.11601.20144" Build="11601.20144" PubTime="2019-04-29T22:44:30.627Z" />
-    <Update Latest="False" Version="1903" LegacyVersion="16.0.11425.20244" Build="11425.20244" PubTime="2019-04-22T21:10:34.647Z" />
+    <Update Latest="True" Version="1904" LegacyVersion="16.0.11601.20178" Build="11601.20178" PubTime="2019-05-08T18:30:43.58Z" />
+    <Update Latest="False" Version="1904" LegacyVersion="16.0.11601.20144" Build="11601.20144" PubTime="2019-04-29T22:44:30.627Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="Targeted" DisplayName="Semi-Annual Channel (Targeted)">
     <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20230" Build="11328.20230" PubTime="2019-04-09T13:23:06.037Z" />
