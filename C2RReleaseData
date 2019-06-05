@@ -4,9 +4,9 @@
     "Order": 100,
     "AvailableBuild": "16.0.10346.20002",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.10346.20001",
+    "LkgBuild": "16.0.10346.20002",
     "ExpiredBuilds": [],
-    "UpdatedTimeUtc": "2019-05-31T19:15:04.477",
+    "UpdatedTimeUtc": "2019-06-04T17:48:50.593",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -32,11 +32,11 @@
   {
     "FFN": "2e148de9-61c8-4051-b103-4af54baffbb4",
     "Order": 100,
-    "AvailableBuild": "16.0.10346.20001",
+    "AvailableBuild": "16.0.10346.20002",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.10344.20008",
     "ExpiredBuilds": [],
-    "UpdatedTimeUtc": "2019-05-21T21:44:10.657",
+    "UpdatedTimeUtc": "2019-06-04T17:48:50.593",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -47,13 +47,13 @@
   {
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
     "Order": 100,
-    "AvailableBuild": "16.0.11629.20196",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.11629.20214",
+    "ThrottleLevel": 10,
     "LkgBuild": "16.0.11629.20196",
     "ExpiredBuilds": [
       "16.0.7967.2082"
     ],
-    "UpdatedTimeUtc": "2019-06-02T15:07:08.92",
+    "UpdatedTimeUtc": "2019-06-04T13:58:53.113",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -64,14 +64,14 @@
   {
     "FFN": "5440fd1f-7ecb-4221-8110-145efaa6372f",
     "Order": 100,
-    "AvailableBuild": "16.0.11722.20008",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.11727.20064",
+    "ThrottleLevel": 250,
     "LkgBuild": "16.0.11722.20008",
     "ExpiredBuilds": [
       "16.0.8813.1000",
       "16.0.11727.20034"
     ],
-    "UpdatedTimeUtc": "2019-05-31T21:27:34.37",
+    "UpdatedTimeUtc": "2019-06-04T17:39:59.947",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -83,12 +83,12 @@
     "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
     "Order": 100,
     "AvailableBuild": "16.0.11727.20058",
-    "ThrottleLevel": 200,
-    "LkgBuild": "16.0.11629.20196",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.11727.20058",
     "ExpiredBuilds": [
       "16.0.7766.2007"
     ],
-    "UpdatedTimeUtc": "2019-06-03T22:42:39.87",
+    "UpdatedTimeUtc": "2019-06-04T11:39:51.887",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -100,15 +100,15 @@
     "FFN": "64256afe-f5d9-4f86-8936-8840a6a4f5be",
     "Order": 100,
     "AvailableBuild": "16.0.11629.20214",
-    "ThrottleLevel": 250,
-    "LkgBuild": "16.0.11629.20196",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.11629.20214",
     "ExpiredBuilds": [
       "16.0.7967.2030",
       "16.0.7967.2035",
       "16.0.7967.2073",
       "16.0.7967.2082"
     ],
-    "UpdatedTimeUtc": "2019-06-03T23:40:32.353",
+    "UpdatedTimeUtc": "2019-06-04T13:58:17.567",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -134,11 +134,11 @@
   {
     "FFN": "834504cc-dc55-4c6d-9e71-e024d0253f6d",
     "Order": 100,
-    "AvailableBuild": "16.0.11328.20306",
+    "AvailableBuild": "16.0.11328.20318",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.11328.20286",
     "ExpiredBuilds": [],
-    "UpdatedTimeUtc": "2019-05-29T13:48:36.413",
+    "UpdatedTimeUtc": "2019-06-04T12:37:38.29",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -164,8 +164,8 @@
   {
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
     "Order": 90,
-    "AvailableBuild": "16.0.11722.20008",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.11727.20064",
+    "ThrottleLevel": 200,
     "LkgBuild": "16.0.11722.20008",
     "ExpiredBuilds": [
       "16.0.11727.20034",
@@ -223,15 +223,15 @@
   {
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
     "Order": 100,
-    "AvailableBuild": "16.0.11722.20008",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.11727.20064",
+    "ThrottleLevel": 200,
     "LkgBuild": "16.0.11722.20008",
     "ExpiredBuilds": [
       "16.0.8813.1000",
       "16.0.8822.1000",
       "16.0.11727.20034"
     ],
-    "UpdatedTimeUtc": "2019-05-31T21:14:46.807",
+    "UpdatedTimeUtc": "2019-06-04T17:39:12.253",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -504,9 +504,9 @@
   {
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
     "Order": 100,
-    "AvailableBuild": "16.0.11801.20000",
+    "AvailableBuild": "16.0.11804.20000",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.11801.20000",
+    "LkgBuild": "16.0.11804.20000",
     "ExpiredBuilds": [
       "16.0.7923.1000",
       "16.0.7924.1000",
@@ -525,7 +525,7 @@
       "16.0.11328.20000",
       "16.0.11409.20000"
     ],
-    "UpdatedTimeUtc": "2019-06-03T19:25:37.877",
+    "UpdatedTimeUtc": "2019-06-04T23:23:11.883",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -551,14 +551,14 @@
   {
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
     "Order": 100,
-    "AvailableBuild": "16.0.11727.20058",
+    "AvailableBuild": "16.0.11727.20068",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.11727.20058",
     "ExpiredBuilds": [
       "16.0.8827.2007",
       "16.0.11328.20000"
     ],
-    "UpdatedTimeUtc": "2019-06-03T22:42:39.87",
+    "UpdatedTimeUtc": "2019-06-04T17:19:00.51",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
