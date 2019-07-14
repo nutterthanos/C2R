@@ -48,12 +48,12 @@
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
     "Order": 100,
     "AvailableBuild": "16.0.11727.20244",
-    "ThrottleLevel": 550,
-    "LkgBuild": "16.0.11727.20230",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.11727.20244",
     "ExpiredBuilds": [
       "16.0.7967.2082"
     ],
-    "UpdatedTimeUtc": "2019-07-12T16:32:32.773",
+    "UpdatedTimeUtc": "2019-07-13T14:43:57.57",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
