@@ -1,5 +1,5 @@
 <Version>
-  <Available Build="15.0.5163.1000" />
+  <Available Build="15.0.5172.1000" />
   <SecurityFixes LastBuild="" />
   <Throttle Value="1000" />
   <RequiredClientVersion Build="15.0.4446.1000" />
