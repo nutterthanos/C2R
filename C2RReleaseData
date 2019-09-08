@@ -125,11 +125,11 @@
   {
     "FFN": "834504cc-dc55-4c6d-9e71-e024d0253f6d",
     "Order": 100,
-    "AvailableBuild": "16.0.11929.20318",
+    "AvailableBuild": "16.0.11929.20320",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.11929.20300",
     "ExpiredBuilds": [],
-    "UpdatedTimeUtc": "2019-09-06T18:49:18.737",
+    "UpdatedTimeUtc": "2019-09-07T20:12:13.09",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
