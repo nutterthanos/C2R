@@ -1,20 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="09/09/2019 17:13">
+<ReleaseHistory PublishedDate="09/10/2019 15:21">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1908" LegacyVersion="16.0.11929.20254" Build="11929.20254" PubTime="2019-08-25T19:40:02.3Z" />
-    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20182" Build="11929.20182" PubTime="2019-08-16T18:17:16.133Z" />
+    <Update Latest="True" Version="1909" LegacyVersion="16.0.12026.20108" Build="12026.20108" PubTime="2019-09-10T12:16:17.537Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20254" Build="11929.20254" PubTime="2019-08-25T19:40:02.3Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1908" LegacyVersion="16.0.11929.20254" Build="11929.20254" PubTime="2019-08-26T18:57:15.61Z" />
-    <Update Latest="False" Version="1907" LegacyVersion="16.0.11901.20218" Build="11901.20218" PubTime="2019-08-13T12:34:37.567Z" />
+    <Update Latest="True" Version="1908" LegacyVersion="16.0.11929.20300" Build="11929.20300" PubTime="2019-09-10T12:20:53.35Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20254" Build="11929.20254" PubTime="2019-08-26T18:57:15.61Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="Targeted" DisplayName="Semi-Annual Channel (Targeted)">
-    <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20392" Build="11328.20392" PubTime="2019-08-13T13:19:23.163Z" />
-    <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20368" Build="11328.20368" PubTime="2019-07-09T13:18:56.007Z" />
+    <Update Latest="True" Version="1908" LegacyVersion="16.0.11929.20300" Build="11929.20300" PubTime="2019-09-10T12:17:15.06Z" />
+    <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20392" Build="11328.20392" PubTime="2019-08-13T13:19:23.163Z" />
   </UpdateChannel>
   <UpdateChannel Name="Deferred" ID="Broad" DisplayName="Semi-Annual Channel">
-    <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20392" Build="11328.20392" PubTime="2019-08-13T13:17:07.28Z" />
+    <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20420" Build="11328.20420" PubTime="2019-09-10T13:16:42.407Z" />
+    <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20392" Build="11328.20392" PubTime="2019-08-13T13:17:07.28Z" />
     <Update Latest="False" Version="1902" LegacyVersion="16.0.11328.20368" Build="11328.20368" PubTime="2019-07-09T13:14:34.177Z" />
+    <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20380" Build="10730.20380" PubTime="2019-09-10T13:11:54.42Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20370" Build="10730.20370" PubTime="2019-08-13T13:19:18.773Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20360" Build="10730.20360" PubTime="2019-07-09T13:21:15.67Z" />
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20348" Build="10730.20348" PubTime="2019-06-11T12:43:42.16Z" />
@@ -25,7 +27,8 @@
     <Update Latest="False" Version="1808" LegacyVersion="16.0.10730.20264" Build="10730.20264" PubTime="2019-01-08T16:02:16.803Z" />
   </UpdateChannel>
   <UpdateChannel Name="Perpetual2019" ID="PerpetualVL2019" DisplayName="Office 2019 Perpetual Enterprise">
-    <Update Latest="True" Version="LTSB2018" LegacyVersion="16.0.10349.20017" Build="10349.20017" PubTime="2019-08-13T14:50:11.89Z" />
+    <Update Latest="True" Version="LTSB2018" LegacyVersion="16.0.10350.20019" Build="10350.20019" PubTime="2019-09-10T15:06:33.43Z" />
+    <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10349.20017" Build="10349.20017" PubTime="2019-08-13T14:50:11.89Z" />
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10348.20020" Build="10348.20020" PubTime="2019-07-09T15:06:24.16Z" />
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10346.20002" Build="10346.20002" PubTime="2019-06-11T14:56:51.887Z" />
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10344.20008" Build="10344.20008" PubTime="2019-05-14T14:45:06.227Z" />
