@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="10/11/2019 18:30">
+<ReleaseHistory PublishedDate="10/12/2019 06:43">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
     <Update Latest="True" Version="1909" LegacyVersion="16.0.12026.20320" Build="12026.20320" PubTime="2019-10-08T12:16:15.22Z" />
     <Update Latest="False" Version="1909" LegacyVersion="16.0.12026.20264" Build="12026.20264" PubTime="2019-09-28T18:09:18.737Z" />
