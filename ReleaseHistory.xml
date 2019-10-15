@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="10/12/2019 06:43">
+<ReleaseHistory PublishedDate="10/14/2019 22:58">
   <UpdateChannel Name="InsiderSlow" ID="Insiders" DisplayName="Monthly Channel (Targeted)">
-    <Update Latest="True" Version="1909" LegacyVersion="16.0.12026.20320" Build="12026.20320" PubTime="2019-10-08T12:16:15.22Z" />
-    <Update Latest="False" Version="1909" LegacyVersion="16.0.12026.20264" Build="12026.20264" PubTime="2019-09-28T18:09:18.737Z" />
+    <Update Latest="True" Version="1910" LegacyVersion="16.0.12130.20184" Build="12130.20184" PubTime="2019-10-14T21:36:22.21Z" />
+    <Update Latest="False" Version="1909" LegacyVersion="16.0.12026.20320" Build="12026.20320" PubTime="2019-10-08T12:16:15.22Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Monthly" DisplayName="Monthly Channel">
-    <Update Latest="True" Version="1909" LegacyVersion="16.0.12026.20320" Build="12026.20320" PubTime="2019-10-08T12:16:46.877Z" />
-    <Update Latest="False" Version="1909" LegacyVersion="16.0.12026.20264" Build="12026.20264" PubTime="2019-09-30T19:02:52.197Z" />
+    <Update Latest="True" Version="1909" LegacyVersion="16.0.12026.20334" Build="12026.20334" PubTime="2019-10-14T21:40:41.183Z" />
+    <Update Latest="False" Version="1909" LegacyVersion="16.0.12026.20320" Build="12026.20320" PubTime="2019-10-08T12:16:46.877Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="Targeted" DisplayName="Semi-Annual Channel (Targeted)">
-    <Update Latest="True" Version="1908" LegacyVersion="16.0.11929.20388" Build="11929.20388" PubTime="2019-10-08T12:18:57.577Z" />
-    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20300" Build="11929.20300" PubTime="2019-09-10T12:17:15.06Z" />
+    <Update Latest="True" Version="1908" LegacyVersion="16.0.11929.20396" Build="11929.20396" PubTime="2019-10-14T22:04:00.783Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20388" Build="11929.20388" PubTime="2019-10-08T12:18:57.577Z" />
   </UpdateChannel>
   <UpdateChannel Name="Deferred" ID="Broad" DisplayName="Semi-Annual Channel">
     <Update Latest="True" Version="1902" LegacyVersion="16.0.11328.20438" Build="11328.20438" PubTime="2019-10-08T13:28:34.04Z" />
