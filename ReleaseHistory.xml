@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="09/07/2020 21:20">
+<ReleaseHistory PublishedDate="09/08/2020 14:22">
   <UpdateChannel Name="InsiderSlow" ID="CurrentPreview" DisplayName="Current Channel (Preview)">
     <Update Latest="True" Version="2008" LegacyVersion="16.0.13127.20378" Build="13127.20378" PubTime="2020-09-04T21:43:44.643Z" />
     <Update Latest="False" Version="2008" LegacyVersion="16.0.13127.20360" Build="13127.20360" PubTime="2020-09-03T03:48:06.957Z" />
@@ -13,7 +13,8 @@
     <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.20880" Build="12527.20880" PubTime="2020-07-14T08:36:51.887Z" />
   </UpdateChannel>
   <UpdateChannel Name="Deferred" ID="SemiAnnual" DisplayName="Semi-Annual Enterprise Channel">
-    <Update Latest="True" Version="2002" LegacyVersion="16.0.12527.20988" Build="12527.20988" PubTime="2020-08-11T08:19:45.53Z" />
+    <Update Latest="True" Version="2002" LegacyVersion="16.0.12527.21104" Build="12527.21104" PubTime="2020-09-08T09:29:06.32Z" />
+    <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.20988" Build="12527.20988" PubTime="2020-08-11T08:19:45.53Z" />
     <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.20880" Build="12527.20880" PubTime="2020-07-14T08:44:09.843Z" />
     <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20934" Build="11929.20934" PubTime="2020-08-11T08:48:16.35Z" />
     <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20904" Build="11929.20904" PubTime="2020-07-14T09:07:28.237Z" />
@@ -51,7 +52,7 @@
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10336.20044" Build="10336.20044" PubTime="2018-09-11T18:40:32.083Z" />
   </UpdateChannel>
   <UpdateChannel Name="MonthlyEnterprise" ID="MonthlyEnterprise" DisplayName="Monthly Enterprise Channel">
-    <Update Latest="True" Version="2006" LegacyVersion="16.0.13001.20520" Build="13001.20520" PubTime="2020-08-11T11:38:06.28Z" />
-    <Update Latest="False" Version="2005" LegacyVersion="16.0.12827.20656" Build="12827.20656" PubTime="2020-08-11T09:25:06.057Z" />
+    <Update Latest="True" Version="2007" LegacyVersion="16.0.13029.20534" Build="13029.20534" PubTime="2020-09-08T10:44:24.727Z" />
+    <Update Latest="False" Version="2006" LegacyVersion="16.0.13001.20648" Build="13001.20648" PubTime="2020-09-08T07:21:23.917Z" />
   </UpdateChannel>
 </ReleaseHistory>
