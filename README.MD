@@ -83,7 +83,7 @@ OS|2020-09-16 08:49:31|Monthly|Current|ProductionCC|
 |7FFBC6BF-BC32-4F92-8982-F9DD17FD3114|16.0.12527.21104
 
 Default
-OS|2020-09-17 00:34:15|SemiAnnual|Deferred/Business|ProductionDC|
+OS|2020-09-19 00:32:55|SemiAnnual|Deferred/Business|ProductionDC|
 |F2E724C1-748F-4B47-8FB8-8E0D210E9208|16.0.10366.20016|2020-09-16 01:51:11|LTSC2019/Perpetual2019||ProductionLTSC|
 
 
