@@ -55,10 +55,10 @@ OS|2020-09-23 01:32:18|MonthlyTargeted|InsiderSlow/FirstReleaseCurrent|InsidersC
 
 Default
 OS|2020-09-23 01:02:36|Insider|InsiderFast|InsidersDevMain|
-|B8F9B850-328D-4355-9145-C59439A0C4CF|16.0.12527.20988
+|B8F9B850-328D-4355-9145-C59439A0C4CF|16.0.12527.21104
 
 Default
-OS|2020-09-14 23:34:52|SemiAnnualTargeted|FirstReleaseDeferred/FirstReleaseBusiness|InsidersFRDC|
+OS|2020-09-26 12:20:19|SemiAnnualTargeted|FirstReleaseDeferred/FirstReleaseBusiness|InsidersFRDC|
 |5462EEE5-1E97-495B-9370-853CD873BB07|16.0.12527.20242
 
 Default
