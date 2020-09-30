@@ -8,7 +8,7 @@
       Languages: Supported languages specified on https://support.office.com/article/Language-Accessory-Pack-for-Office-2016-for-Windows-82ee1236-0f9a-45ee-9c72-05b026ee809f
 -->
  
-<UpdateFiles version="1.9">
+<UpdateFiles version="1.10">
 
   <!-- Branch Information -->
     <baseURL branch="FirstReleaseCurrent" URL="http://officecdn.microsoft.com/pr/64256afe-f5d9-4f86-8936-8840a6a4f5be" />    
@@ -21,6 +21,7 @@
     <baseURL branch="Broad" URL="http://officecdn.microsoft.com/pr/7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" />
     <baseURL branch="Perpetual2019" URL="http://officecdn.microsoft.com/pr/f2e724c1-748f-4b47-8fb8-8e0d210e9208" />
     <baseURL branch="PerpetualVL2019" URL="http://officecdn.microsoft.com/pr/f2e724c1-748f-4b47-8fb8-8e0d210e9208" />
+    <baseURL branch="MonthlyEnterprise" URL="http://officecdn.microsoft.com/pr/55336b82-a18d-4dd6-b5f6-9e5095c314a6" />
   <!-- End Branch Information -->
 
   <!-- Language neutral files-->
