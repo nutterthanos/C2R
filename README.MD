@@ -50,19 +50,19 @@ OS|2020-12-12 01:33:48|||DogfoodDevMain|
 |64256AFE-F5D9-4F86-8936-8840A6A4F5BE|16.0.12527.21416
 
 Default
-OS|2020-12-12 01:53:23|MonthlyTargeted|InsiderSlow/FirstReleaseCurrent|InsidersCC|
+OS|2020-12-13 02:49:40|MonthlyTargeted|InsiderSlow/FirstReleaseCurrent|InsidersCC|
 |5440FD1F-7ECB-4221-8110-145EFAA6372F|16.0.12527.21416
 
 Default
-OS|2020-12-12 01:54:45|Insider|InsiderFast|InsidersDevMain|
+OS|2020-12-13 02:49:25|Insider|InsiderFast|InsidersDevMain|
 |B8F9B850-328D-4355-9145-C59439A0C4CF|16.0.12527.21416
 
 Default
-OS|2020-12-12 02:00:31|SemiAnnualTargeted|FirstReleaseDeferred/FirstReleaseBusiness|InsidersFRDC|
+OS|2020-12-13 03:03:58|SemiAnnualTargeted|FirstReleaseDeferred/FirstReleaseBusiness|InsidersFRDC|
 |5462EEE5-1E97-495B-9370-853CD873BB07|16.0.12527.20242
 
 Default
-OS|2020-12-12 01:49:33|||MicrosoftCC|
+OS|2020-12-12 06:36:09|||MicrosoftCC|
 |F4F024C8-D611-4748-A7E0-02B6E754C0FE|16.0.12527.21416
 
 Default
@@ -70,7 +70,7 @@ OS|2020-12-08 19:19:24|||MicrosoftDC|
 |B61285DD-D9F7-41F2-9757-8F61CBA4E9C8|16.0.12513.20010
 
 Default
-OS|2020-12-12 01:34:30|||MicrosoftDevMain|
+OS|2020-12-12 06:34:17|||MicrosoftDevMain|
 |9A3B7FF2-58ED-40FD-ADD5-1E5158059D1C|16.0.12527.20988
 
 Default
@@ -79,11 +79,11 @@ OS|2020-12-08 22:03:21|||MicrosoftFRDC|
 |492350F6-3A01-4F97-B9C0-C7C6DDF67D60|16.0.12527.21416
 
 Default
-OS|2020-12-12 01:51:52|Monthly|Current|ProductionCC|
+OS|2020-12-13 02:50:37|Monthly|Current|ProductionCC|
 |7FFBC6BF-BC32-4F92-8982-F9DD17FD3114|16.0.12527.21416
 
 Default
-OS|2020-12-12 00:32:42|SemiAnnual|Deferred/Business|ProductionDC|
+OS|2020-12-13 03:01:50|SemiAnnual|Deferred/Business|ProductionDC|
 |F2E724C1-748F-4B47-8FB8-8E0D210E9208|16.0.10369.20032|2020-12-11 02:48:54|LTSC2019/Perpetual2019||ProductionLTSC|
 
 
