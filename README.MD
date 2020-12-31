@@ -40,12 +40,11 @@
 |F3260CF1-A92C-4C75-B02E-D64C0A86A968|16.0.12527.20194
 
 Default
-OS|2020-12-31 02:07:12|||DogfoodCC|
+OS|2021-01-01 01:52:29|||DogfoodCC|
 |C4A7726F-06EA-48E2-A13A-9D78849EB706|16.0.11929.20974|2020-11-10 21:16:48|||DogfoodDCEXT|
-|EA4A4090-DE26-49D7-93C1-91BFF9E53FC3|16.0.12525.20000
+|EA4A4090-DE26-49D7-93C1-91BFF9E53FC3|16.0.13630.20000
 
-Default
-OS|2020-12-29 23:48:51|||DogfoodDevMain|
+Default|2020-12-31 08:15:28|||DogfoodDevMain|
 |834504CC-DC55-4C6D-9E71-E024D0253F6D|16.0.11929.20562|2020-01-07 03:46:49|||DogfoodFRDC|
 |64256AFE-F5D9-4F86-8936-8840A6A4F5BE|16.0.12527.21416
 
@@ -59,10 +58,9 @@ OS|2020-12-30 02:09:56|Insider|InsiderFast|InsidersDevMain|
 
 Default
 OS|2020-12-13 03:03:58|SemiAnnualTargeted|FirstReleaseDeferred/FirstReleaseBusiness|InsidersFRDC|
-|5462EEE5-1E97-495B-9370-853CD873BB07|16.0.12527.20242
+|5462EEE5-1E97-495B-9370-853CD873BB07|16.0.13628.20000
 
-Default
-OS|2020-12-31 02:07:27|||MicrosoftCC|
+Default|2020-12-31 14:21:52|||MicrosoftCC|
 |F4F024C8-D611-4748-A7E0-02B6E754C0FE|16.0.12527.21416
 
 Default
@@ -91,125 +89,96 @@ x86 32-Bit and x64 64-Bit Download Example:
 https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/C2RFireFlyData.xml
 https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/MRO.cab
 https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/v32.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/v32_16.0.12525.20000
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/v32_16.0.13630.20000
 
-Default
-OS.cab
+Default.cab
 https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/v64.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/v64_16.0.12525.20000
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/v64_16.0.13630.20000
 
-Default
-OS.cab
+Default.cab
 https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/vu32.cab
 https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/vu64.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/a320.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/a320.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/a640.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/a640.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/FRE.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/FRE.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/i320.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/i320.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/i640.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/i640.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/i322052.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/i322052.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/i642052.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/i642052.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/s320.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/s320.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/s640.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/s640.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/s322052.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/s322052.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/s642052.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/s642052.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/sp322052.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/sp322052.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/sp642052.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/sp642052.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x64.x-none.dat
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x64.x-none.dat
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x64.x-none.dat.cobra
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x64.x-none.dat.cobra
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x64.zh-cn.dat
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x64.zh-cn.dat
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x64.zh-cn.dat.cobra
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x64.zh-cn.dat.cobra
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x64.zh-cn.proof.dat
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x64.zh-cn.proof.dat
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x64.zh-cn.proof.dat.cobra
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x64.zh-cn.proof.dat.cobra
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x86.x-none.dat
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x86.x-none.dat
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x86.x-none.dat.cobra
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x86.x-none.dat.cobra
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x86.zh-cn.dat
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x86.zh-cn.dat
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x86.zh-cn.dat.cobra
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x86.zh-cn.dat.cobra
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x86.zh-cn.proof.dat
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x86.zh-cn.proof.dat
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/stream.x86.zh-cn.proof.dat.cobra
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/stream.x86.zh-cn.proof.dat.cobra
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/Experiment/i320.cab
-https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.12525.20000
+Default/Experiment/i320.cab
+https://officecdn.microsoft.com/pr/EA4A4090-DE26-49D7-93C1-91BFF9E53FC3/Office/Data/16.0.13630.20000
 
-Default
-OS/Experiment/i640.cab
+Default/Experiment/i640.cab
 ```
 
 41 Available Languages:
