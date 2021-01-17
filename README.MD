@@ -83,7 +83,7 @@ OS|2021-01-16 04:28:41|Monthly|Current|ProductionCC|
 |7FFBC6BF-BC32-4F92-8982-F9DD17FD3114|16.0.12527.21504
 
 Default
-OS|2021-01-17 02:03:19|SemiAnnual|Deferred/Business|ProductionDC|
+OS|2021-01-18 02:33:00|SemiAnnual|Deferred/Business|ProductionDC|
 |F2E724C1-748F-4B47-8FB8-8E0D210E9208|16.0.10370.20052|2021-01-15 02:55:38|LTSC2019/Perpetual2019||ProductionLTSC|
 
 
