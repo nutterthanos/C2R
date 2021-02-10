@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Version>
-  <Available Build="16.0.12527.21594" I320Hash="124043BCBCDD48DF337A83D91397363E" I640Hash="D887D8DF3192F6EF2D6B142E52F29124" I320Version="16.0.13801.20084" I640Version="16.0.13801.20084" />
+  <Available Build="16.0.12527.21594" I320Hash="D9A037013C0A435E7FE60360F1CEE08B" I640Hash="C14F0CD81F4236C8D94141BC563C69B7" I320Version="16.0.12527.21594" I640Version="16.0.12527.21594" />
   <SecurityFixes LastBuild="" />
   <RequiredClientVersion Build="15.0.4446.1000" />
   <MinUpgradeBuild Build="16.0.0.0" />
@@ -185,6 +185,6 @@
   </AvailableBuilds>
   <Throttle Value="1000" />
   <LKG Value="16.0.12527.21504" />
-  <CreatedTimeUtc Value="02/09/2021 18:42" />
+  <CreatedTimeUtc Value="02/10/2021 20:15" />
   <ExpiredBuilds />
 </Version>
