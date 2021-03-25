@@ -50,6 +50,10 @@ FFN32=1D2D2EA6-1680-4C56-AC58-A441C8C24FF9
 FFN33=492350F6-3A01-4F97-B9C0-C7C6DDF67D60
 FFN34=7FFBC6BF-BC32-4F92-8982-F9DD17FD3114
 FFN35=F2E724C1-748F-4B47-8FB8-8E0D210E9208
+FFN36=2E148DE9-61C8-4051-B103-4AF54BAFFBB4
+FFN37=5030841D-C919-4594-8D2D-84AE4F96E58E
+FFN38=55336B82-A18D-4DD6-B5F6-9E5095C314A6
+FFN39=86752282-5841-4120-AC80-DB03AE6B5FDB
 
 wget -N -q -x https://$URL/$FFN01/$DIR/v64.cab
 wget -N -q -x https://$URL/$FFN02/$DIR/v64.cab
@@ -86,6 +90,10 @@ wget -N -q -x https://$URL/$FFN32/$DIR/v64.cab
 wget -N -q -x https://$URL/$FFN33/$DIR/v64.cab
 wget -N -q -x https://$URL/$FFN34/$DIR/v64.cab
 wget -N -q -x https://$URL/$FFN35/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN36/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN37/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN38/$DIR/v64.cab
+wget -N -q -x https://$URL/$FFN39/$DIR/v64.cab
 
 cd /root/githubrepo/C2R/$URL/$FFN01/$DIR/ && cabextract -q v64.cab
 cd /root/githubrepo/C2R/$URL/$FFN02/$DIR/ && cabextract -q v64.cab
@@ -122,42 +130,50 @@ cd /root/githubrepo/C2R/$URL/$FFN32/$DIR/ && cabextract -q v64.cab
 cd /root/githubrepo/C2R/$URL/$FFN33/$DIR/ && cabextract -q v64.cab
 cd /root/githubrepo/C2R/$URL/$FFN34/$DIR/ && cabextract -q v64.cab
 cd /root/githubrepo/C2R/$URL/$FFN35/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN36/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN37/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN38/$DIR/ && cabextract -q v64.cab
+cd /root/githubrepo/C2R/$URL/$FFN39/$DIR/ && cabextract -q v64.cab
 
-VER01=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN01/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER02=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN02/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER03=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN03/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER04=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN04/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER05=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN05/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER06=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN06/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER07=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN07/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER08=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN08/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER09=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN09/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER10=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN10/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER11=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN11/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER12=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN12/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER13=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN13/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER14=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN14/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER15=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN15/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER16=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN16/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER17=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN17/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER18=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN18/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER19=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN19/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER20=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN20/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER21=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN21/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER22=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN22/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER23=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN23/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER24=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN24/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER25=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN25/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER26=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN26/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER27=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN27/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER28=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN28/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER29=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN29/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER30=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN30/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER31=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN31/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER32=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN32/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER33=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN33/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER34=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN34/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER35=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN35/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER01=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN01/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER02=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN02/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER03=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN03/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER04=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN04/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER05=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN05/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER06=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN06/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER07=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN07/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER08=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN08/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER09=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN09/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER10=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN10/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER11=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN11/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER12=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN12/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER13=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN13/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER14=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN14/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER15=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN15/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER16=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN16/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER17=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN17/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER18=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN18/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER19=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN19/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER20=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN20/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER21=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN21/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER22=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN22/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER23=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN23/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER24=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN24/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER25=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN25/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER26=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN26/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER27=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN27/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER28=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN28/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER29=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN29/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER30=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN30/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER31=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN31/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER32=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN32/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER33=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN33/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER34=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN34/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER35=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN35/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER36=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN36/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER37=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN37/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER38=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN38/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
+VER39=`grep 'Available' /root/githubrepo/C2R/$URL/$FFN39/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}' | sed ':a;N;$!ba;s/\n\nDefault\nOS//g' | sed ':a;N;$!ba;s/\n\nDefault//g'`
 
 TIME01=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN01/$DIR/v64.cab | awk -F "\." '{print $1}'`
 TIME02=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN02/$DIR/v64.cab | awk -F "\." '{print $1}'`
@@ -194,6 +210,10 @@ TIME32=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN32/$DIR/v64.cab | awk -F 
 TIME33=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN33/$DIR/v64.cab | awk -F "\." '{print $1}'`
 TIME34=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN34/$DIR/v64.cab | awk -F "\." '{print $1}'`
 TIME35=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN35/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME36=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN36/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME37=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN37/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME38=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN38/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME39=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN39/$DIR/v64.cab | awk -F "\." '{print $1}'`
 
 cd /root/githubrepo/C2R
 echo "
@@ -250,7 +270,10 @@ echo "
 |$FFN33|$VER33|$TIME33|Monthly|Current|ProductionCC|
 |$FFN34|$VER34|$TIME34|SemiAnnual|Deferred/Business|ProductionDC|
 |$FFN35|$VER35|$TIME35|LTSC2019/Perpetual2019||ProductionLTSC|
-
+|$FFN36|$VER36|$TIME36||||
+|$FFN37|$VER37|$TIME37||||
+|$FFN38|$VER38|$TIME38||||
+|$FFN39|$VER39|$TIME39||||
 
 x86 32-Bit and x64 64-Bit Download Example:
 \`\`\`
