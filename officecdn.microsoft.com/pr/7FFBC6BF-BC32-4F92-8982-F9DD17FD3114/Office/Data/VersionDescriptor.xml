@@ -180,12 +180,12 @@
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="7ffbc6bf-bc32-4f92-8982-f9dd17fd3114" />
   <AvailableBuilds>
-    <AvailableBuild RestrictionType="Default" Version="16.0.13127.21624" />
+    <AvailableBuild RestrictionType="Default" Version="16.0.13127.21506" />
     <AvailableBuild RestrictionType="OS" Value="7" Version="16.0.12527.21912" />
   </AvailableBuilds>
-  <Throttle Value="10" />
+  <Throttle Value="1000" />
   <LKG Value="16.0.12527.21814" />
-  <CreatedTimeUtc Value="05/13/2021 19:18" />
+  <CreatedTimeUtc Value="05/14/2021 17:48" />
   <ExpiredBuilds>
     <Build Value="16.0.12624.20320" />
     <Build Value="16.0.12624.20442" />
