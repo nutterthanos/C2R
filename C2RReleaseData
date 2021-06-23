@@ -339,8 +339,8 @@
     "Order": 100,
     "FFN": "5440fd1f-7ecb-4221-8110-145efaa6372f",
     "AvailableBuild": "16.0.14217.20002",
-    "ThrottleLevel": 250,
-    "LkgBuild": "16.0.14210.20004",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.14217.20002",
     "ExpiredBuilds": [
       "16.0.12312.20002",
       "16.0.12725.20006",
@@ -354,7 +354,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-06-22T13:15:09.163",
+    "UpdatedTimeUtc": "2021-06-23T17:30:20.847",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -559,7 +559,7 @@
     "IsDefault": true
   },
   {
-    "Id": 267763,
+    "Id": 268915,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -601,7 +601,7 @@
     "IsDefault": true
   },
   {
-    "Id": 267764,
+    "Id": 268916,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1141,8 +1141,8 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
-    "AvailableBuild": "16.0.14217.20002",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.14219.20000",
+    "ThrottleLevel": 200,
     "LkgBuild": "16.0.14217.20002",
     "ExpiredBuilds": [
       "16.0.12312.20002",
@@ -1151,7 +1151,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-06-22T13:15:09.163",
+    "UpdatedTimeUtc": "2021-06-23T17:15:15.333",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -1617,9 +1617,9 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
-    "AvailableBuild": "16.0.14221.20000",
+    "AvailableBuild": "16.0.14222.20002",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.14221.20000",
+    "LkgBuild": "16.0.14219.20000",
     "ExpiredBuilds": [
       "16.0.12217.20004",
       "16.0.12219.20002",
@@ -1639,7 +1639,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-06-22T17:25:12.253",
+    "UpdatedTimeUtc": "2021-06-23T18:45:12.83",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
