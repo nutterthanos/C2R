@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="06/30/2021 18:36">
+<ReleaseHistory PublishedDate="07/01/2021 19:40">
   <UpdateChannel Name="InsiderSlow" ID="CurrentPreview" DisplayName="Current Channel (Preview)">
     <Update Latest="True" Version="2106" LegacyVersion="16.0.14131.20278" Build="14131.20278" PubTime="2021-06-29T19:00:40.463Z" />
     <Update Latest="False" Version="2106" LegacyVersion="16.0.14131.20250" Build="14131.20250" PubTime="2021-06-25T20:43:33.323Z" />
@@ -31,6 +31,20 @@
     <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.21104" Build="12527.21104" PubTime="2020-09-08T09:29:06.32Z" />
     <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.20988" Build="12527.20988" PubTime="2020-08-11T08:19:45.53Z" />
     <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.20880" Build="12527.20880" PubTime="2020-07-14T08:44:09.843Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.21008" Build="11929.21008" PubTime="2021-02-09T19:46:54.04Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20994" Build="11929.20994" PubTime="2021-01-12T12:52:29.927Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20984" Build="11929.20984" PubTime="2020-12-08T12:19:19.32Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20974" Build="11929.20974" PubTime="2020-11-10T15:42:44.24Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20966" Build="11929.20966" PubTime="2020-10-13T14:32:04.46Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20946" Build="11929.20946" PubTime="2020-09-08T15:41:52.203Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20934" Build="11929.20934" PubTime="2020-08-11T08:48:16.35Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20904" Build="11929.20904" PubTime="2020-07-14T09:07:28.237Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20838" Build="11929.20838" PubTime="2020-06-09T07:25:31.227Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20776" Build="11929.20776" PubTime="2020-05-12T11:31:21.217Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20708" Build="11929.20708" PubTime="2020-04-14T13:54:08.517Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20648" Build="11929.20648" PubTime="2020-03-10T12:37:10.22Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20606" Build="11929.20606" PubTime="2020-02-11T18:51:10.443Z" />
+    <Update Latest="False" Version="1908" LegacyVersion="16.0.11929.20562" Build="11929.20562" PubTime="2020-01-14T13:20:53.867Z" />
   </UpdateChannel>
   <UpdateChannel Name="Perpetual2019" ID="PerpetualVL2019" DisplayName="Office 2019 Perpetual Enterprise">
     <Update Latest="True" Version="LTSB2018" LegacyVersion="16.0.10375.20036" Build="10375.20036" PubTime="2021-06-08T12:48:30.98Z" />
@@ -59,9 +73,7 @@
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10348.20020" Build="10348.20020" PubTime="2019-07-09T15:06:24.16Z" />
   </UpdateChannel>
   <UpdateChannel Name="Perpetual2021" ID="PerpetualVL2021" DisplayName="Office 2021 Perpetual Enterprise">
-    <Update Latest="True" Version="2105" LegacyVersion="16.0.14026.20308" Build="14026.20308" PubTime="2021-06-21T23:02:33.073Z" />
-    <Update Latest="False" Version="2105" LegacyVersion="16.0.14026.20270" Build="14026.20270" PubTime="2021-06-08T17:32:50.157Z" />
-    <Update Latest="False" Version="2105" LegacyVersion="16.0.14026.20246" Build="14026.20246" PubTime="2021-05-26T16:33:39.14Z" />
+    <Update Latest="True" Version="2106" LegacyVersion="16.0.14131.20278" Build="14131.20278" PubTime="2021-06-30T22:49:59.643Z" />
   </UpdateChannel>
   <UpdateChannel Name="MonthlyEnterprise" ID="MonthlyEnterprise" DisplayName="Monthly Enterprise Channel">
     <Update Latest="True" Version="2104" LegacyVersion="16.0.13929.20408" Build="13929.20408" PubTime="2021-06-08T10:35:26.857Z" />
