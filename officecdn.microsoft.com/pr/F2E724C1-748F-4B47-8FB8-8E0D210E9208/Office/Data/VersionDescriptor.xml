@@ -179,8 +179,8 @@
     </ProductReleaseId>
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="f2e724c1-748f-4b47-8fb8-8e0d210e9208" />
-  <Throttle Value="1" />
+  <Throttle Value="10" />
   <LKG Value="16.0.10375.20036" />
-  <CreatedTimeUtc Value="07/13/2021 13:03" />
+  <CreatedTimeUtc Value="07/14/2021 17:33" />
   <ExpiredBuilds />
 </Version>
