@@ -183,9 +183,9 @@
     <AvailableBuild RestrictionType="Default" Version="16.0.13801.20808" />
     <AvailableBuild RestrictionType="OS" Value="7" Version="16.0.12527.21986" />
   </AvailableBuilds>
-  <Throttle Value="700" />
+  <Throttle Value="800" />
   <LKG Value="16.0.12527.21986" />
-  <CreatedTimeUtc Value="07/23/2021 14:47" />
+  <CreatedTimeUtc Value="07/24/2021 15:17" />
   <ExpiredBuilds>
     <Build Value="16.0.12624.20320" />
     <Build Value="16.0.12624.20442" />
