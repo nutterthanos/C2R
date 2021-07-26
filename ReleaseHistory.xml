@@ -1,12 +1,12 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="07/25/2021 14:50">
+<ReleaseHistory PublishedDate="07/26/2021 20:05">
   <UpdateChannel Name="InsiderSlow" ID="CurrentPreview" DisplayName="Current Channel (Preview)">
     <Update Latest="True" Version="2107" LegacyVersion="16.0.14228.20186" Build="14228.20186" PubTime="2021-07-23T00:19:42.43Z" />
     <Update Latest="False" Version="2107" LegacyVersion="16.0.14228.20154" Build="14228.20154" PubTime="2021-07-16T14:53:27.783Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Current" DisplayName="Current Channel">
-    <Update Latest="True" Version="2106" LegacyVersion="16.0.14131.20332" Build="14131.20332" PubTime="2021-07-21T03:29:11.407Z" />
-    <Update Latest="False" Version="2106" LegacyVersion="16.0.14131.20320" Build="14131.20320" PubTime="2021-07-13T07:26:25.537Z" />
+    <Update Latest="True" Version="2107" LegacyVersion="16.0.14228.20204" Build="14228.20204" PubTime="2021-07-26T18:23:48.883Z" />
+    <Update Latest="False" Version="2106" LegacyVersion="16.0.14131.20332" Build="14131.20332" PubTime="2021-07-21T03:29:11.407Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="SemiAnnualPreview" DisplayName="Semi-Annual Enterprise Channel (Preview)">
     <Update Latest="True" Version="2102" LegacyVersion="16.0.13801.20808" Build="13801.20808" PubTime="2021-07-13T07:20:49.51Z" />
@@ -62,7 +62,8 @@
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10349.20017" Build="10349.20017" PubTime="2019-08-13T14:50:11.89Z" />
   </UpdateChannel>
   <UpdateChannel Name="Perpetual2021" ID="PerpetualVL2021" DisplayName="Office 2021 Perpetual Enterprise">
-    <Update Latest="True" Version="2106" LegacyVersion="16.0.14131.20320" Build="14131.20320" PubTime="2021-07-13T19:48:05.297Z" />
+    <Update Latest="True" Version="2106" LegacyVersion="16.0.14131.20332" Build="14131.20332" PubTime="2021-07-26T17:49:50.167Z" />
+    <Update Latest="False" Version="2106" LegacyVersion="16.0.14131.20320" Build="14131.20320" PubTime="2021-07-13T19:48:05.297Z" />
     <Update Latest="False" Version="2106" LegacyVersion="16.0.14131.20278" Build="14131.20278" PubTime="2021-06-30T22:49:59.643Z" />
   </UpdateChannel>
   <UpdateChannel Name="MonthlyEnterprise" ID="MonthlyEnterprise" DisplayName="Monthly Enterprise Channel">
