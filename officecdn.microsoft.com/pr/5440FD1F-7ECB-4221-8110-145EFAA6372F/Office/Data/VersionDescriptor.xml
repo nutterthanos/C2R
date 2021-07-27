@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Version>
-  <Available Build="16.0.12527.21986" I320Hash="0C0821CE2290428D49C434E334D4A1D0" I640Hash="3E3C8AC979B5A79F18FCA9B0893372F7" I320Version="16.0.14315.20008" I640Version="16.0.14315.20008" />
+  <Available Build="16.0.12527.21986" I320Hash="816DBA6BD5B7EE1C2D62679EF1FA1CC3" I640Hash="3E3743C0360317F91DA981A0EC52021E" I320Version="16.0.14322.20000" I640Version="16.0.14322.20000" />
   <SecurityFixes LastBuild="" />
   <RequiredClientVersion Build="15.0.4446.1000" />
   <MinUpgradeBuild Build="16.0.0.0" />
@@ -207,6 +207,11 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
+    <ProductReleaseId Name="ProPlusSPLA2021Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
     <ProductReleaseId Name="Publisher2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
@@ -277,6 +282,11 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
+    <ProductReleaseId Name="StandardSPLA2021Volume">
+      <PreReq>
+        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
+      </PreReq>
+    </ProductReleaseId>
     <ProductReleaseId Name="VisioPro2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
@@ -340,12 +350,12 @@
   </ProductReleaseIds>
   <DeliveryMechanism FFNRoot="5440fd1f-7ecb-4221-8110-145efaa6372f" />
   <AvailableBuilds>
-    <AvailableBuild RestrictionType="Default" Version="16.0.14315.20008" />
+    <AvailableBuild RestrictionType="Default" Version="16.0.14322.20000" />
     <AvailableBuild RestrictionType="OS" Value="7" Version="16.0.12527.21986" />
   </AvailableBuilds>
-  <Throttle Value="1000" />
+  <Throttle Value="250" />
   <LKG Value="16.0.12527.21986" />
-  <CreatedTimeUtc Value="07/21/2021 18:19" />
+  <CreatedTimeUtc Value="07/27/2021 18:38" />
   <ExpiredBuilds>
     <Build Value="16.0.12312.20002" />
     <Build Value="16.0.12725.20006" />
