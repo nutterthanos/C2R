@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="07/29/2021 18:37">
+<ReleaseHistory PublishedDate="07/30/2021 19:05">
   <UpdateChannel Name="InsiderSlow" ID="CurrentPreview" DisplayName="Current Channel (Preview)">
     <Update Latest="True" Version="2107" LegacyVersion="16.0.14228.20186" Build="14228.20186" PubTime="2021-07-23T00:19:42.43Z" />
     <Update Latest="False" Version="2107" LegacyVersion="16.0.14228.20154" Build="14228.20154" PubTime="2021-07-16T14:53:27.783Z" />
@@ -62,9 +62,7 @@
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10349.20017" Build="10349.20017" PubTime="2019-08-13T14:50:11.89Z" />
   </UpdateChannel>
   <UpdateChannel Name="Perpetual2021" ID="PerpetualVL2021" DisplayName="Office 2021 Perpetual Enterprise">
-    <Update Latest="True" Version="2106" LegacyVersion="16.0.14131.20332" Build="14131.20332" PubTime="2021-07-26T17:49:50.167Z" />
-    <Update Latest="False" Version="2106" LegacyVersion="16.0.14131.20320" Build="14131.20320" PubTime="2021-07-13T19:48:05.297Z" />
-    <Update Latest="False" Version="2106" LegacyVersion="16.0.14131.20278" Build="14131.20278" PubTime="2021-06-30T22:49:59.643Z" />
+    <Update Latest="True" Version="2107" LegacyVersion="16.0.14228.20204" Build="14228.20204" PubTime="2021-07-29T18:48:47.897Z" />
   </UpdateChannel>
   <UpdateChannel Name="MonthlyEnterprise" ID="MonthlyEnterprise" DisplayName="Monthly Enterprise Channel">
     <Update Latest="True" Version="2105" LegacyVersion="16.0.14026.20334" Build="14026.20334" PubTime="2021-07-13T07:16:08.557Z" />
