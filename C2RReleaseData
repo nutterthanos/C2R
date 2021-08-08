@@ -113,6 +113,36 @@
     "IsDefault": false
   },
   {
+    "Id": 126,
+    "Name": "SIP",
+    "Order": 98,
+    "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
+    "AvailableBuild": "16.0.14326.20074",
+    "ThrottleLevel": 10,
+    "LkgBuild": "16.0.14228.20226",
+    "ExpiredBuilds": [
+      "16.0.14228.20044"
+    ],
+    "ForkName": "2107-Jul",
+    "BuildRank": 1,
+    "Type": "Custom SIP",
+    "UpdatedTimeUtc": "2021-08-08T19:00:08.78",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [
+      "O365HomePremRetail.16"
+    ],
+    "OfficeCultures": [
+      "ja-jp",
+      "ko-kr",
+      "zh-cn",
+      "zh-tw"
+    ],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "OfficePlatforms": [],
+    "IsDefault": false
+  },
+  {
     "Id": 32,
     "Name": "Win7",
     "Order": 99,
@@ -159,13 +189,13 @@
     "Order": 100,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
     "AvailableBuild": "16.0.14228.20226",
-    "ThrottleLevel": 550,
-    "LkgBuild": "16.0.14228.20204",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.14228.20226",
     "ExpiredBuilds": [],
     "ForkName": "2106-Jun",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-08-06T14:20:07.727",
+    "UpdatedTimeUtc": "2021-08-08T17:55:08.773",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -532,7 +562,7 @@
     "IsDefault": true
   },
   {
-    "Id": 320661,
+    "Id": 321809,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -574,7 +604,7 @@
     "IsDefault": true
   },
   {
-    "Id": 320662,
+    "Id": 321810,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1688,7 +1718,7 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
-    "AvailableBuild": "16.0.14326.20086",
+    "AvailableBuild": "16.0.14326.20090",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.14326.20074",
     "ExpiredBuilds": [
@@ -1698,7 +1728,7 @@
     "ForkName": "2107-Jul",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-08-07T19:15:08.427",
+    "UpdatedTimeUtc": "2021-08-08T09:20:14.527",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
