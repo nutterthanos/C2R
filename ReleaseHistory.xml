@@ -1,19 +1,21 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="08/09/2021 19:51">
+<ReleaseHistory PublishedDate="08/10/2021 11:44">
   <UpdateChannel Name="InsiderSlow" ID="CurrentPreview" DisplayName="Current Channel (Preview)">
     <Update Latest="True" Version="2108" LegacyVersion="16.0.14326.20074" Build="14326.20074" PubTime="2021-08-06T22:17:31.68Z" />
     <Update Latest="False" Version="2108" LegacyVersion="16.0.14326.20046" Build="14326.20046" PubTime="2021-08-04T23:24:07.08Z" />
   </UpdateChannel>
   <UpdateChannel Name="Current" ID="Current" DisplayName="Current Channel">
-    <Update Latest="True" Version="2107" LegacyVersion="16.0.14228.20226" Build="14228.20226" PubTime="2021-08-03T23:15:12.08Z" />
-    <Update Latest="False" Version="2107" LegacyVersion="16.0.14228.20204" Build="14228.20204" PubTime="2021-07-26T18:23:48.883Z" />
+    <Update Latest="True" Version="2107" LegacyVersion="16.0.14228.20250" Build="14228.20250" PubTime="2021-08-10T07:28:07.31Z" />
+    <Update Latest="False" Version="2107" LegacyVersion="16.0.14228.20226" Build="14228.20226" PubTime="2021-08-03T23:15:12.08Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="SemiAnnualPreview" DisplayName="Semi-Annual Enterprise Channel (Preview)">
-    <Update Latest="True" Version="2102" LegacyVersion="16.0.13801.20808" Build="13801.20808" PubTime="2021-07-13T07:20:49.51Z" />
-    <Update Latest="False" Version="2102" LegacyVersion="16.0.13801.20738" Build="13801.20738" PubTime="2021-06-08T07:14:45.997Z" />
+    <Update Latest="True" Version="2102" LegacyVersion="16.0.13801.20864" Build="13801.20864" PubTime="2021-08-10T07:27:56.187Z" />
+    <Update Latest="False" Version="2102" LegacyVersion="16.0.13801.20808" Build="13801.20808" PubTime="2021-07-13T07:20:49.51Z" />
   </UpdateChannel>
   <UpdateChannel Name="Deferred" ID="SemiAnnual" DisplayName="Semi-Annual Enterprise Channel">
-    <Update Latest="True" Version="2102" LegacyVersion="16.0.13801.20808" Build="13801.20808" PubTime="2021-07-13T07:25:30.66Z" />
+    <Update Latest="True" Version="2102" LegacyVersion="16.0.13801.20864" Build="13801.20864" PubTime="2021-08-10T07:29:05.727Z" />
+    <Update Latest="False" Version="2102" LegacyVersion="16.0.13801.20808" Build="13801.20808" PubTime="2021-07-13T07:25:30.66Z" />
+    <Update Latest="False" Version="2008" LegacyVersion="16.0.13127.21736" Build="13127.21736" PubTime="2021-08-10T07:44:45.327Z" />
     <Update Latest="False" Version="2008" LegacyVersion="16.0.13127.21704" Build="13127.21704" PubTime="2021-07-13T08:22:38.377Z" />
     <Update Latest="False" Version="2008" LegacyVersion="16.0.13127.21668" Build="13127.21668" PubTime="2021-06-08T07:17:04.55Z" />
     <Update Latest="False" Version="2008" LegacyVersion="16.0.13127.21624" Build="13127.21624" PubTime="2021-05-11T07:18:07.173Z" />
@@ -21,6 +23,7 @@
     <Update Latest="False" Version="2008" LegacyVersion="16.0.13127.21348" Build="13127.21348" PubTime="2021-03-09T08:30:33.757Z" />
     <Update Latest="False" Version="2008" LegacyVersion="16.0.13127.21216" Build="13127.21216" PubTime="2021-02-09T12:21:16.127Z" />
     <Update Latest="False" Version="2008" LegacyVersion="16.0.13127.21064" Build="13127.21064" PubTime="2021-01-12T13:13:37.953Z" />
+    <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.22017" Build="12527.22017" PubTime="2021-08-10T07:48:27.09Z" />
     <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.21986" Build="12527.21986" PubTime="2021-07-13T08:21:34.273Z" />
     <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.21952" Build="12527.21952" PubTime="2021-06-08T11:55:07.63Z" />
     <Update Latest="False" Version="2002" LegacyVersion="16.0.12527.21912" Build="12527.21912" PubTime="2021-05-11T07:54:56.4Z" />
@@ -65,7 +68,7 @@
     <Update Latest="True" Version="LTSB2021" LegacyVersion="16.0.14332.20003" Build="14332.20003" PubTime="2021-08-04T17:27:53.7Z" />
   </UpdateChannel>
   <UpdateChannel Name="MonthlyEnterprise" ID="MonthlyEnterprise" DisplayName="Monthly Enterprise Channel">
-    <Update Latest="True" Version="2105" LegacyVersion="16.0.14026.20334" Build="14026.20334" PubTime="2021-07-13T07:16:08.557Z" />
-    <Update Latest="False" Version="2104" LegacyVersion="16.0.13929.20434" Build="13929.20434" PubTime="2021-07-13T08:49:44.34Z" />
+    <Update Latest="True" Version="2106" LegacyVersion="16.0.14131.20360" Build="14131.20360" PubTime="2021-08-10T07:28:03.703Z" />
+    <Update Latest="False" Version="2105" LegacyVersion="16.0.14026.20352" Build="14026.20352" PubTime="2021-08-10T07:27:45.737Z" />
   </UpdateChannel>
 </ReleaseHistory>
