@@ -113,6 +113,36 @@
     "IsDefault": false
   },
   {
+    "Id": 126,
+    "Name": "SIP",
+    "Order": 98,
+    "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
+    "AvailableBuild": "16.0.14527.20072",
+    "ThrottleLevel": 10,
+    "LkgBuild": "16.0.14326.20404",
+    "ExpiredBuilds": [
+      "16.0.14228.20044"
+    ],
+    "ForkName": "2109-Sep",
+    "BuildRank": 1,
+    "Type": "Custom SIP",
+    "UpdatedTimeUtc": "2021-10-06T22:10:12.483",
+    "OfficeTenantIds": [],
+    "OfficeProductNames": [
+      "O365HomePremRetail.16"
+    ],
+    "OfficeCultures": [
+      "ja-jp",
+      "ko-kr",
+      "zh-cn",
+      "zh-tw"
+    ],
+    "OfficeBitness": [],
+    "OsVersions": [],
+    "OfficePlatforms": [],
+    "IsDefault": false
+  },
+  {
     "Id": 32,
     "Name": "Win7",
     "Order": 99,
@@ -159,7 +189,7 @@
     "Order": 100,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
     "AvailableBuild": "16.0.14430.20270",
-    "ThrottleLevel": 1,
+    "ThrottleLevel": 250,
     "LkgBuild": "16.0.14326.20404",
     "ExpiredBuilds": [
       "16.0.14430.20276"
@@ -167,7 +197,7 @@
     "ForkName": "2108-Aug",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-10-06T20:34:01.437",
+    "UpdatedTimeUtc": "2021-10-07T16:15:09.31",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -384,8 +414,8 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
-    "AvailableBuild": "16.0.14527.20072",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.14527.20110",
+    "ThrottleLevel": 200,
     "LkgBuild": "16.0.14527.20072",
     "ExpiredBuilds": [
       "16.0.13929.20000"
@@ -393,7 +423,7 @@
     "ForkName": "2109-Sep",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-10-05T06:25:05.863",
+    "UpdatedTimeUtc": "2021-10-07T21:00:02.98",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -534,7 +564,7 @@
     "IsDefault": true
   },
   {
-    "Id": 389788,
+    "Id": 390912,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -576,7 +606,7 @@
     "IsDefault": true
   },
   {
-    "Id": 389789,
+    "Id": 390913,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1117,7 +1147,7 @@
     "Order": 100,
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
     "AvailableBuild": "16.0.14605.20000",
-    "ThrottleLevel": 200,
+    "ThrottleLevel": 1000,
     "LkgBuild": "16.0.14530.20000",
     "ExpiredBuilds": [
       "16.0.12312.20002",
@@ -1126,7 +1156,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-10-06T16:25:06.89",
+    "UpdatedTimeUtc": "2021-10-07T04:40:07.137",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -1592,7 +1622,7 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
-    "AvailableBuild": "16.0.14605.20000",
+    "AvailableBuild": "16.0.14606.20000",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.14605.20000",
     "ExpiredBuilds": [
@@ -1614,7 +1644,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-10-06T16:25:06.89",
+    "UpdatedTimeUtc": "2021-10-06T23:20:09.103",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -1690,9 +1720,9 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
-    "AvailableBuild": "16.0.14527.20096",
+    "AvailableBuild": "16.0.14527.20112",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.14527.20072",
+    "LkgBuild": "16.0.14527.20110",
     "ExpiredBuilds": [
       "16.0.13929.20000",
       "16.0.13929.20010"
@@ -1700,7 +1730,7 @@
     "ForkName": "2109-Sep",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2021-10-06T17:35:04.58",
+    "UpdatedTimeUtc": "2021-10-07T21:40:04.39",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
