@@ -347,8 +347,8 @@
   <AvailableBuilds>
     <AvailableBuild RestrictionType="Default" Version="16.0.14332.20145" />
   </AvailableBuilds>
-  <Throttle Value="250" />
+  <Throttle Value="550" />
   <LKG Value="16.0.14332.20110" />
-  <CreatedTimeUtc Value="10/14/2021 17:32" />
+  <CreatedTimeUtc Value="10/18/2021 17:20" />
   <ExpiredBuilds />
 </Version>
