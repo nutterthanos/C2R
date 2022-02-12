@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="02/11/2022 03:00">
+<ReleaseHistory PublishedDate="02/11/2022 20:08">
   <UpdateChannel Name="InsiderSlow" ID="CurrentPreview" DisplayName="Current Channel (Preview)">
     <Update Latest="True" Version="2202" LegacyVersion="16.0.14931.20010" Build="14931.20010" PubTime="2022-02-07T21:25:09.05Z" />
     <Update Latest="False" Version="2201" LegacyVersion="16.0.14827.20186" Build="14827.20186" PubTime="2022-02-04T18:46:18.507Z" />
@@ -64,7 +64,6 @@
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10359.20023" Build="10359.20023" PubTime="2020-05-12T14:41:12.863Z" />
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10358.20061" Build="10358.20061" PubTime="2020-04-14T16:17:02.657Z" />
     <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10357.20081" Build="10357.20081" PubTime="2020-03-10T14:38:59.337Z" />
-    <Update Latest="False" Version="LTSB2018" LegacyVersion="16.0.10356.20006" Build="10356.20006" PubTime="2020-02-11T15:53:25.67Z" />
   </UpdateChannel>
   <UpdateChannel Name="Perpetual2021" ID="PerpetualVL2021" DisplayName="Office 2021 Perpetual Enterprise">
     <Update Latest="True" Version="LTSB2021" LegacyVersion="16.0.14332.20238" Build="14332.20238" PubTime="2022-02-08T14:13:02.427Z" />
