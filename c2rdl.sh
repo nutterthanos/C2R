@@ -492,6 +492,8 @@ https://$URL/$FFN07/Office/Data/setupwordretail.x86.$LANG.exe
 \`\`\`
 " >/root/githubrepo/C2R/README.MD
 
+grep FFN C2RReleaseData | sort | uniq | tr '[:lower:]' '[:upper:]' >ffn
+
 git add .
 git commit -m "`date`"
 git push -f origin master
