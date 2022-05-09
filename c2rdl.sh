@@ -11,6 +11,23 @@ wget -N -q https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v2/C2RRe
 wget -N -q https://$URL/wsus/ofl.cab
 wget -N -q https://$URL/wsus/releasehistory.cab
 wget -N -q https://$URL/wsus/setup.exe
+curl 'https://config.office.com/api/filelist?Channel=Current&Version=&Arch=x64&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >Current64
+curl 'https://config.office.com/api/filelist?Channel=Current&Version=&Arch=x86&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >Current86
+curl 'https://config.office.com/api/filelist?Channel=CurrentPreview&Version=&Arch=x64&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >CurrentPreview64
+curl 'https://config.office.com/api/filelist?Channel=CurrentPreview&Version=&Arch=x86&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >CurrentPreview86
+curl 'https://config.office.com/api/filelist?Channel=MonthlyEnterprise&Version=&Arch=x64&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >MonthlyEnterprise64
+curl 'https://config.office.com/api/filelist?Channel=MonthlyEnterprise&Version=&Arch=x86&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >MonthlyEnterprise86
+curl 'https://config.office.com/api/filelist?Channel=PerpetualVL2019&Version=&Arch=x64&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >PerpetualVL201964
+curl 'https://config.office.com/api/filelist?Channel=PerpetualVL2019&Version=&Arch=x86&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >PerpetualVL201986
+curl 'https://config.office.com/api/filelist?Channel=PerpetualVL2021&Version=&Arch=x64&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >PerpetualVL202164
+curl 'https://config.office.com/api/filelist?Channel=PerpetualVL2021&Version=&Arch=x86&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >PerpetualVL202186
+curl 'https://config.office.com/api/filelist?Channel=SemiAnnual&Version=&Arch=x64&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >SemiAnnual64
+curl 'https://config.office.com/api/filelist?Channel=SemiAnnual&Version=&Arch=x86&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >SemiAnnual86
+curl 'https://config.office.com/api/filelist?Channel=SemiAnnualPreview&Version=&Arch=x64&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >SemiAnnualPreview64
+curl 'https://config.office.com/api/filelist?Channel=SemiAnnualPreview&Version=&Arch=x86&AllLanguages=True' | sed 's/"/\n/g' | sort | uniq >SemiAnnualPreview86
+curl https://config.office.com/api/filelist | sed 's/"/\n/g' | sort | uniq >filelist
+curl https://config.office.com/api/filelist/skus | sed 's/"/\n/g' | sort | uniq >skus
+curl https://config.office.com/api/filelist/channels | sed 's/"/\n/g' | sort | uniq >channels
 
 cabextract -q ofl.cab
 cabextract -q releasehistory.cab
@@ -221,15 +238,17 @@ echo "
 
 * [Office 2010 Administrative Template files (ADM, ADMX/ADML) and Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=18968)
 * [Office 2013 Administrative Template files (ADMX/ADML) and Office Customization Tool](https://www.microsoft.com/en-us/download/details.aspx?id=35554)
-* [Administrative Template files (ADMX/ADML) and Office Customization Tool for Office 365 ProPlus, Office 2019, and Office 2016](https://www.microsoft.com/en-us/download/details.aspx?id=49030)
+* [Administrative Template files (ADMX/ADML) for Microsoft 365 Apps for enterprise/Office LTSC 2021/Office 2019/Office 2016 and the Office Customization Tool for Office 2016](https://www.microsoft.com/en-us/download/details.aspx?id=49030)
 * [Office 2013 Deployment Tool for Click-to-Run](https://www.microsoft.com/en-us/download/details.aspx?id=36778)
 * [Office Deployment Tool](https://www.microsoft.com/en-us/download/details.aspx?id=49117)
-* [Configuration XML Editor](http://officedev.github.io/Office-IT-Pro-Deployment-Scripts/XmlEditor.html)
-* [Office 365 client update channel releases](https://technet.microsoft.com/en-us/office/mt465751)
-* [Version and build numbers of update channel releases](https://support.office.com/en-us/article/version-and-build-numbers-of-update-channel-releases-ae942449-1fca-4484-898b-a933ea23def7)
-* [Update history for Office 2013](https://support.office.com/en-us/article/update-history-for-office-2013-19214f38-85b7-4734-b2f8-a6a598bb0117)
-* [Update history for Office 2010 Click-to-Run products](https://support.office.com/en-us/article/update-history-for-office-2010-click-to-run-products-ac74f68c-58f9-49b4-b7a7-75d899e4824d)
-* [Update history for Office 2016 for Mac](https://support.office.com/en-us/article/update-history-for-office-2016-for-mac-700cab62-0d67-4f23-947b-3686cb1a8eb7)
+* [Office Customization Tool for Click-To-Run](http://officedev.github.io/Office-IT-Pro-Deployment-Scripts/XmlEditor.html)
+* [Release information for updates to Microsoft 365 Apps](https://docs.microsoft.com/en-us/officeupdates/release-notes-microsoft365-apps)
+* [Update history for Microsoft 365 Apps](https://docs.microsoft.com/en-us/officeupdates/update-history-microsoft365-apps-by-date)
+* [Update history for Office LTSC 2021 and Office 2021](https://docs.microsoft.com/en-us/officeupdates/update-history-office-2021)
+* [Update history for Office 2016 C2R and Office 2019](https://docs.microsoft.com/en-us/officeupdates/update-history-office-2019)
+* [Update history for Office 2013](https://docs.microsoft.com/en-us/officeupdates/update-history-office-2013)
+* [Update history for Office 2010 Click-to-Run products](https://docs.microsoft.com/en-us/officeupdates/update-history-office-2010-click-to-run)
+* [Update history for Office for Mac](https://docs.microsoft.com/en-us/officeupdates/update-history-office-for-mac)
 * [Update history for Office Insider for Mac](https://support.office.com/en-us/article/update-history-for-office-insider-for-mac-83d11f86-ef3c-48df-889e-9fda3cc66f5c)
 * [Changes to Slow/Fast level names for Office Insider for Windows desktop](https://support.office.com/en-us/article/changes-to-slow-fast-level-names-for-office-insider-for-windows-desktop-055ee4f9-9ce3-4fb8-8a9a-ca6745867d52)
 
@@ -256,19 +275,19 @@ echo "
 |$FFN19|$VER19|$TIME19||||
 |$FFN20|$VER20|$TIME20||||
 |$FFN21|$VER21|$TIME21|||Insiders_LTSC|
-|$FFN22|$VER22|$TIME22|||Production_LTSC|
+|$FFN22|$VER22|$TIME22|PerpetualVL2019||Production_LTSC|
 |$FFN23|$VER23|$TIME23|||Microsoft_LTSC|
 |$FFN24|$VER24|$TIME24|||Dogfood_FRDC|
 |$FFN25|$VER25|$TIME25|||Dogfood_DCEXT|
 |$FFN26|$VER26|$TIME26|||Microsoft_DC|
-|$FFN27|$VER27|$TIME27|||Production_DC|
-|$FFN28|$VER28|$TIME28|||Production_LTSC2021|
+|$FFN27|$VER27|$TIME27|SemiAnnual||Production_DC|
+|$FFN28|$VER28|$TIME28|PerpetualVL2021||Production_LTSC2021|
 |$FFN29|$VER29|$TIME29|||Microsoft_LTSC2021|
-|$FFN30|$VER30|$TIME30|||Insiders_FRDC|
-|$FFN31|$VER31|$TIME31|||Production_MEC|
+|$FFN30|$VER30|$TIME30|SemiAnnualPreview||Insiders_FRDC|
+|$FFN31|$VER31|$TIME31|MonthlyEnterprise||Production_MEC|
 |$FFN32|$VER32|$TIME32|||Microsoft_FRDC|
-|$FFN33|$VER33|$TIME33|||Production_CC|
-|$FFN34|$VER34|$TIME34|||Insiders_CC|
+|$FFN33|$VER33|$TIME33|Current||Production_CC|
+|$FFN34|$VER34|$TIME34|CurrentPreview||Insiders_CC|
 |$FFN35|$VER35|$TIME35|||Microsoft_CC|
 |$FFN36|$VER36|$TIME36|||Dogfood_CC|
 |$FFN37|$VER37|$TIME37|||Insiders_DevMain|
@@ -338,55 +357,11 @@ https://$URL/$FFN33/Office/Data/vu32.cab
 https://$URL/$FFN33/Office/Data/vu64.cab
 \`\`\`
 
-41 Available Languages:
-
-|Language|Language ID|Locale|
-|-------|-------|-------|
-|ar-sa|1025|Arabic - Saudi Arabia|
-|bg-bg|1026|Bulgarian - Bulgaria|
-|cs-cz|1029|Czech - Czech Republic|
-|da-dk|1030|Danish - Denmark|
-|de-de|1031|German - Germany|
-|el-gr|1032|Greek - Greece|
-|en-us|1033|English - United States|
-|es-es|3082|Spanish - Spain|
-|et-ee|1061|Estonian - Estonia|
-|fi-fi|1035|Finnish - Finland|
-|fr-fr|1036|French - France|
-|he-il|1037|Hebrew - Israel|
-|hi-in|1081|Hindi - India|
-|hr-hr|1050|Croatian - Croatia|
-|hu-hu|1038|Hungarian - Hungary|
-|id-id|1057|Indonesian - Indonesia|
-|it-it|1040|Italian - Italy|
-|ja-jp|1041|Japanese - Japan|
-|kk-kz|1087|Kazakh - Kazakhstan|
-|ko-kr|1042|Korean - Korea|
-|lt-lt|1063|Lithuanian - Lithuanian|
-|lv-lv|1062|Latvian - Latvia|
-|ms-my|1086|Malay - Malaysia|
-|nb-no|1044|Norwegian (Bokmål) - Norway|
-|nl-nl|1043|Dutch - Netherlands|
-|pl-pl|1045|Polish - Poland|
-|pt-br|1046|Portuguese - Brazil|
-|pt-pt|2070|Portuguese - Portugal|
-|ro-ro|1048|Romanian - Romania|
-|ru-ru|1049|Russian - Russia|
-|sk-sk|1051|Slovak - Slovakia|
-|sl-si|1060|Slovenian - Slovenia|
-|sr-latn-cs|2074|Serbian (Latin) - Serbia and Montenegro|
-|sr-latn-rs|9242|Serbian (Latin) - Serbia|
-|sv-se|1053|Swedish - Sweden|
-|th-th|1054|Thai - Thailand|
-|tr-tr|1055|Turkish - Turkey|
-|uk-ua|1058|Ukrainian - Ukraine|
-|vi-vn|1066|Vietnamese - Vietnam|
-|zh-cn|2052|Chinese (Simplified) - China|
-|zh-tw|1028|Chinese (Traditional) - Taiwan|
+Available Languages:https://docs.microsoft.com/en-us/openspecs/office_standards/ms-oe376/6c085406-a698-4e12-9d4d-c3b0ee3dbc4a
 
 IMG Download Example(only Retail/RTM Channel):
 \`\`\`
-Office 2016(16.0.9029.2167):
+Office 2021(16.0.14326.20454):
 https://$URL/$FFN33/media/$LANG/Access2021Retail.img
 https://$URL/$FFN33/media/$LANG/Excel2021Retail.img
 https://$URL/$FFN33/media/$LANG/HomeBusiness2021Retail.img
@@ -404,6 +379,24 @@ https://$URL/$FFN33/media/$LANG/Publisher2021Retail.img
 https://$URL/$FFN33/media/$LANG/VisioPro2021Retail.img
 https://$URL/$FFN33/media/$LANG/VisioStd2021Retail.img
 https://$URL/$FFN33/media/$LANG/Word2021Retail.img
+Office 2016(16.0.9029.2167):
+https://$URL/$FFN33/media/$LANG/AccessRetail.img
+https://$URL/$FFN33/media/$LANG/ExcelRetail.img
+https://$URL/$FFN33/media/$LANG/HomeBusinessRetail.img
+https://$URL/$FFN33/media/$LANG/HomeStudentRetail.img
+https://$URL/$FFN33/media/$LANG/O365BusinessRetail.img
+https://$URL/$FFN33/media/$LANG/O365HomePremRetail.img
+https://$URL/$FFN33/media/$LANG/O365ProPlusRetail.img
+https://$URL/$FFN33/media/$LANG/OutlookRetail.img
+https://$URL/$FFN33/media/$LANG/PowerPointRetail.img
+https://$URL/$FFN33/media/$LANG/ProfessionalRetail.img
+https://$URL/$FFN33/media/$LANG/ProjectProRetail.img
+https://$URL/$FFN33/media/$LANG/ProjectStdRetail.img
+https://$URL/$FFN33/media/$LANG/ProPlusRetail.img
+https://$URL/$FFN33/media/$LANG/PublisherRetail.img
+https://$URL/$FFN33/media/$LANG/VisioProRetail.img
+https://$URL/$FFN33/media/$LANG/VisioStdRetail.img
+https://$URL/$FFN33/media/$LANG/WordRetail.img
 Office 2013(15.0.4433.1508):
 https://$URL/$FFN09/media/$LANG/AccessRetail.img
 https://$URL/$FFN09/media/$LANG/ExcelRetail.img
@@ -423,76 +416,146 @@ https://$URL/$FFN09/media/$LANG/WordRetail.img
 
 C2R installer Download Example(only Retail/RTM Channel):
 \`\`\`
-Office 2016(16.0.9226.3000):
+Office 2016/2019/2021(16.0.14131.20332):
+https://$URL/$FFN33/Office/Data/setupaccess2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupaccess2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupaccessretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupaccessretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupaccessruntime2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupaccessruntime2019retail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupaccessruntimeretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupaccessruntimeretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupexcel2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupexcel2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupexcelretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupexcelretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomebusiness2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomebusiness2019retail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomebusinesspipcretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomebusinesspipcretail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuphomebusinessretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuphomebusinessretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomestudent2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuphomestudent2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuphomestudentretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuphomestudentretail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuplanguagepack.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuplanguagepack.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365businessretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365businessretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365educloudretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupo365educloudretail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupo365homepremretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupo365homepremretail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupo365proplusretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupo365proplusretail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupo365smallbuspremretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupo365smallbuspremretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuponenotefreeretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuponenotefreeretail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuponenoteretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuponenoteretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupoutlook2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupoutlook2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupoutlookretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupoutlookretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppersonal2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppersonal2019retail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppersonalpipcretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppersonalpipcretail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuppersonalretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuppersonalretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppowerpoint2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppowerpoint2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuppowerpointretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuppowerpointretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprofessional2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprofessional2019retail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprofessionalpipcretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprofessionalpipcretail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupprofessionalretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupprofessionalretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprojectpro2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprojectpro2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupprojectproretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupprojectproretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprojectstd2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupprojectstd2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupprojectstdretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupprojectstdretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupproplus2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupproplus2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupproplusretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupproplusretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppublisher2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setuppublisher2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuppublisherretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setuppublisherretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeforbusiness2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeforbusiness2019retail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeforbusinessentry2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeforbusinessentry2019retail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeforbusinessentryretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeforbusinessentryretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeforbusinessretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeforbusinessretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeservicebypassretail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupskypeservicebypassretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupvisiopro2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupvisiopro2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupvisioproretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupvisioproretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupvisiostd2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupvisiostd2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupvisiostdretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupvisiostdretail.x86.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupword2019retail.x64.$LANG.exe
+https://$URL/$FFN33/Office/Data/setupword2019retail.x86.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupwordretail.x64.$LANG.exe
 https://$URL/$FFN33/Office/Data/setupwordretail.x86.$LANG.exe
-Office 2013(15.0.4997.1000):
+Office 2013(15.0.5435.1000):
 https://$URL/$FFN09/Office/Data/setupaccessretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupaccessretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupexcelretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupexcelretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupgrooveretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupgrooveretail.x86.$LANG.exe
+https://$URL/$FFN09/Office/Data/setuphomebusinesspipcretail.x64.$LANG.exe
+https://$URL/$FFN09/Office/Data/setuphomebusinesspipcretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuphomebusinessretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuphomebusinessretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuphomestudentretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuphomestudentretail.x86.$LANG.exe
+https://$URL/$FFN09/Office/Data/setupinfopathretail.x64.$LANG.exe
+https://$URL/$FFN09/Office/Data/setupinfopathretail.x86.$LANG.exe
+https://$URL/$FFN09/Office/Data/setuplyncacademicretail.x64.$LANG.exe
+https://$URL/$FFN09/Office/Data/setuplyncacademicretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuplyncentryretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuplyncentryretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuplyncretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuplyncretail.x86.$LANG.exe
+https://$URL/$FFN09/Office/Data/setupo365businessretail.x64.$LANG.exe
+https://$URL/$FFN09/Office/Data/setupo365businessretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupo365homepremretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupo365homepremretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupo365proplusretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupo365proplusretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupo365smallbuspremretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupo365smallbuspremretail.x86.$LANG.exe
+https://$URL/$FFN09/Office/Data/setuponenotefreeretail.x64.$LANG.exe
+https://$URL/$FFN09/Office/Data/setuponenotefreeretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuponenoteretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuponenoteretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupoutlookretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupoutlookretail.x86.$LANG.exe
+https://$URL/$FFN09/Office/Data/setuppersonalpipcretail.x64.$LANG.exe
+https://$URL/$FFN09/Office/Data/setuppersonalpipcretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuppersonalretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuppersonalretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuppowerpointretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setuppowerpointretail.x86.$LANG.exe
+https://$URL/$FFN09/Office/Data/setupprofessionalpipcretail.x64.$LANG.exe
+https://$URL/$FFN09/Office/Data/setupprofessionalpipcretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupprofessionalretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupprofessionalretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupprojectproretail.x64.$LANG.exe
