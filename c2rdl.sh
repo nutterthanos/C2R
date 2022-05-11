@@ -366,9 +366,6 @@ https://$URL/$FFN33/media/$LANG/Access2021Retail.img
 https://$URL/$FFN33/media/$LANG/Excel2021Retail.img
 https://$URL/$FFN33/media/$LANG/HomeBusiness2021Retail.img
 https://$URL/$FFN33/media/$LANG/HomeStudent2021Retail.img
-https://$URL/$FFN33/media/$LANG/O365Business2021Retail.img
-https://$URL/$FFN33/media/$LANG/O365HomePrem2021Retail.img
-https://$URL/$FFN33/media/$LANG/O365ProPlus2021Retail.img
 https://$URL/$FFN33/media/$LANG/Outlook2021Retail.img
 https://$URL/$FFN33/media/$LANG/PowerPoint2021Retail.img
 https://$URL/$FFN33/media/$LANG/Professional2021Retail.img
@@ -379,6 +376,21 @@ https://$URL/$FFN33/media/$LANG/Publisher2021Retail.img
 https://$URL/$FFN33/media/$LANG/VisioPro2021Retail.img
 https://$URL/$FFN33/media/$LANG/VisioStd2021Retail.img
 https://$URL/$FFN33/media/$LANG/Word2021Retail.img
+Office 2019(16.0.14026.20302):
+https://$URL/$FFN33/media/$LANG/Access2019Retail.img
+https://$URL/$FFN33/media/$LANG/Excel2019Retail.img
+https://$URL/$FFN33/media/$LANG/HomeBusiness2019Retail.img
+https://$URL/$FFN33/media/$LANG/HomeStudent2019Retail.img
+https://$URL/$FFN33/media/$LANG/Outlook2019Retail.img
+https://$URL/$FFN33/media/$LANG/PowerPoint2019Retail.img
+https://$URL/$FFN33/media/$LANG/Professional2019Retail.img
+https://$URL/$FFN33/media/$LANG/ProjectPro2019Retail.img
+https://$URL/$FFN33/media/$LANG/ProjectStd2019Retail.img
+https://$URL/$FFN33/media/$LANG/ProPlus2019Retail.img
+https://$URL/$FFN33/media/$LANG/Publisher2019Retail.img
+https://$URL/$FFN33/media/$LANG/VisioPro2019Retail.img
+https://$URL/$FFN33/media/$LANG/VisioStd2019Retail.img
+https://$URL/$FFN33/media/$LANG/Word2019Retail.img
 Office 2016(16.0.9029.2167):
 https://$URL/$FFN33/media/$LANG/AccessRetail.img
 https://$URL/$FFN33/media/$LANG/ExcelRetail.img
