@@ -159,15 +159,15 @@
     "Order": 100,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
     "AvailableBuild": "16.0.15225.20204",
-    "ThrottleLevel": 550,
-    "LkgBuild": "16.0.15128.20248",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.15225.20204",
     "ExpiredBuilds": [
       "16.0.14430.20276"
     ],
     "ForkName": "2204-Apr",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-05-27T15:15:27.52",
+    "UpdatedTimeUtc": "2022-05-28T14:45:07.34",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -466,7 +466,7 @@
     "IsDefault": true
   },
   {
-    "Id": 675072,
+    "Id": 676228,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -512,7 +512,7 @@
     "IsDefault": true
   },
   {
-    "Id": 675073,
+    "Id": 676229,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1057,7 +1057,7 @@
     "Order": 100,
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
     "AvailableBuild": "16.0.15324.20000",
-    "ThrottleLevel": 200,
+    "ThrottleLevel": 1000,
     "LkgBuild": "16.0.15321.20000",
     "ExpiredBuilds": [
       "16.0.15112.20000"
@@ -1065,7 +1065,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-05-27T17:10:26.66",
+    "UpdatedTimeUtc": "2022-05-28T05:25:18.917",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -1624,7 +1624,7 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
-    "AvailableBuild": "16.0.15225.20232",
+    "AvailableBuild": "16.0.15225.20236",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.15225.20218",
     "ExpiredBuilds": [
@@ -1639,7 +1639,7 @@
     "ForkName": "2204-Apr",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-05-28T02:15:21.327",
+    "UpdatedTimeUtc": "2022-05-28T12:20:17.807",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
