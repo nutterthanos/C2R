@@ -371,12 +371,13 @@
       "16.0.14127.20000",
       "16.0.14129.20000",
       "16.0.14226.20004",
-      "16.0.14725.20000"
+      "16.0.14725.20000",
+      "16.0.15519.20000"
     ],
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-07-20T13:35:20.933",
+    "UpdatedTimeUtc": "2022-07-21T17:52:30.127",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -431,8 +432,8 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
-    "AvailableBuild": "16.0.15427.20130",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.15427.20144",
+    "ThrottleLevel": 200,
     "LkgBuild": "16.0.15427.20130",
     "ExpiredBuilds": [
       "16.0.13929.20000",
@@ -443,7 +444,7 @@
     "ForkName": "2206-Jun",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-07-19T23:50:10.49",
+    "UpdatedTimeUtc": "2022-07-21T16:55:14.127",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -517,7 +518,7 @@
     "IsDefault": true
   },
   {
-    "Id": 712634,
+    "Id": 713214,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -563,7 +564,7 @@
     "IsDefault": true
   },
   {
-    "Id": 712635,
+    "Id": 713215,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1119,7 +1120,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-07-21T04:50:29.63",
+    "UpdatedTimeUtc": "2022-07-21T17:52:30.127",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -1679,9 +1680,9 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
-    "AvailableBuild": "16.0.15427.20142",
+    "AvailableBuild": "16.0.15427.20144",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.15427.20130",
+    "LkgBuild": "16.0.15427.20144",
     "ExpiredBuilds": [
       "16.0.13929.20000",
       "16.0.13929.20010",
@@ -1694,7 +1695,7 @@
     "ForkName": "2206-Jun",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-07-20T07:25:17.127",
+    "UpdatedTimeUtc": "2022-07-21T16:55:14.127",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
