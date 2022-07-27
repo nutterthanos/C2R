@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ReleaseHistory PublishedDate="07/25/2022 23:21">
+<ReleaseHistory PublishedDate="07/26/2022 20:39">
   <UpdateChannel Name="InsiderSlow" ID="CurrentPreview" DisplayName="Current Channel (Preview)">
     <Update Latest="True" Version="2207" LegacyVersion="16.0.15427.20156" Build="15427.20156" PubTime="2022-07-25T23:09:59.273Z" />
     <Update Latest="False" Version="2207" LegacyVersion="16.0.15427.20148" Build="15427.20148" PubTime="2022-07-22T21:26:20.543Z" />
@@ -9,11 +9,11 @@
     <Update Latest="False" Version="2206" LegacyVersion="16.0.15330.20264" Build="15330.20264" PubTime="2022-07-18T22:07:52.89Z" />
   </UpdateChannel>
   <UpdateChannel Name="FirstReleaseDeferred" ID="SemiAnnualPreview" DisplayName="Semi-Annual Enterprise Channel (Preview)">
-    <Update Latest="True" Version="2202" LegacyVersion="16.0.14931.20604" Build="14931.20604" PubTime="2022-07-12T08:13:07.887Z" />
-    <Update Latest="False" Version="2202" LegacyVersion="16.0.14931.20494" Build="14931.20494" PubTime="2022-06-14T09:08:21.007Z" />
+    <Update Latest="True" Version="2202" LegacyVersion="16.0.14931.20646" Build="14931.20646" PubTime="2022-07-26T18:32:05.563Z" />
+    <Update Latest="False" Version="2202" LegacyVersion="16.0.14931.20604" Build="14931.20604" PubTime="2022-07-12T08:13:07.887Z" />
   </UpdateChannel>
   <UpdateChannel Name="Deferred" ID="SemiAnnual" DisplayName="Semi-Annual Enterprise Channel">
-    <Update Latest="True" Version="2202" LegacyVersion="16.0.14931.20604" Build="14931.20604" PubTime="2022-07-12T07:59:37.417Z" />
+    <Update Latest="True" Version="2202" LegacyVersion="16.0.14931.20646" Build="14931.20646" PubTime="2022-07-26T18:15:27.097Z" />
     <Update Latest="False" Version="2108" LegacyVersion="16.0.14326.21062" Build="14326.21062" PubTime="2022-07-12T08:47:55.76Z" />
     <Update Latest="False" Version="2108" LegacyVersion="16.0.14326.21018" Build="14326.21018" PubTime="2022-06-14T07:38:09.923Z" />
     <Update Latest="False" Version="2108" LegacyVersion="16.0.14326.20962" Build="14326.20962" PubTime="2022-05-10T07:33:01.94Z" />
@@ -80,7 +80,7 @@
     <Update Latest="False" Version="LTSB2021" LegacyVersion="16.0.14332.20003" Build="14332.20003" PubTime="2021-08-04T17:27:53.7Z" />
   </UpdateChannel>
   <UpdateChannel Name="MonthlyEnterprise" ID="MonthlyEnterprise" DisplayName="Monthly Enterprise Channel">
-    <Update Latest="True" Version="2205" LegacyVersion="16.0.15225.20356" Build="15225.20356" PubTime="2022-07-12T08:21:59.463Z" />
-    <Update Latest="False" Version="2204" LegacyVersion="16.0.15128.20312" Build="15128.20312" PubTime="2022-07-12T09:59:09.697Z" />
+    <Update Latest="True" Version="2205" LegacyVersion="16.0.15225.20370" Build="15225.20370" PubTime="2022-07-26T18:43:21.07Z" />
+    <Update Latest="False" Version="2205" LegacyVersion="16.0.15225.20356" Build="15225.20356" PubTime="2022-07-12T08:21:59.463Z" />
   </UpdateChannel>
 </ReleaseHistory>
