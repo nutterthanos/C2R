@@ -4,14 +4,14 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "1d2d2ea6-1680-4c56-ac58-a441c8c24ff9",
-    "AvailableBuild": "16.0.10389.20033",
+    "AvailableBuild": "16.0.10390.20002",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.10389.20033",
+    "LkgBuild": "16.0.10390.20002",
     "ExpiredBuilds": [],
     "ForkName": "LTSB2018",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-08-08T16:50:16.073",
+    "UpdatedTimeUtc": "2022-08-22T01:00:13.127",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -501,7 +501,7 @@
     "IsDefault": true
   },
   {
-    "Id": 736774,
+    "Id": 737348,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -551,7 +551,7 @@
     "IsDefault": true
   },
   {
-    "Id": 736775,
+    "Id": 737349,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -858,7 +858,7 @@
     "Order": 100,
     "FFN": "7ffbc6bf-bc32-4f92-8982-f9dd17fd3114",
     "AvailableBuild": "16.0.14931.20660",
-    "ThrottleLevel": 800,
+    "ThrottleLevel": 900,
     "LkgBuild": "16.0.14931.20646",
     "ExpiredBuilds": [
       "16.0.12624.20320",
@@ -870,7 +870,7 @@
     "ForkName": "2201-Jan",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2022-08-20T14:30:19.117",
+    "UpdatedTimeUtc": "2022-08-21T14:55:22.177",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
