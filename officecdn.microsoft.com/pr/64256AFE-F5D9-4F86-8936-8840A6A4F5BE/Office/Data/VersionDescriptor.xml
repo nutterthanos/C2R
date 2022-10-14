@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Version>
-  <Available Build="16.0.12527.22239" I320Hash="CD1EB14AA051249F256B23A76C521620" I640Hash="6D47D313227F1E29E46B700F6D8B7A18" I320Version="16.0.15726.20096" I640Version="16.0.15726.20096" />
+  <Available Build="16.0.12527.22239" I320Hash="769B61DBE5F74246EBCCD976F3601C4F" I640Hash="11429B40FA87F5EAFBAB04FD9037CD80" I320Version="16.0.12527.22239" I640Version="16.0.12527.22239" />
   <SecurityFixes LastBuild="" />
   <RequiredClientVersion Build="15.0.4446.1000" />
   <MinUpgradeBuild Build="16.0.0.0" />
@@ -27,16 +27,6 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="Access2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Access2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="AccessRuntime2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
@@ -52,37 +42,12 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="Excel2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Excel2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="HomeBusiness2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="HomeBusiness2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="HomeStudent2019Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="HomeStudent2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="OneNote2021Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
@@ -97,22 +62,7 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="Outlook2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Outlook2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="Personal2019Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Personal2021Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
@@ -127,22 +77,7 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="PowerPoint2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="PowerPoint2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="Professional2019Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Professional2021Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
@@ -157,32 +92,12 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="ProjectPro2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="ProjectPro2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="ProjectStd2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
     <ProductReleaseId Name="ProjectStd2019Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="ProjectStd2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="ProjectStd2021Volume">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
@@ -197,21 +112,6 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="ProPlus2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="ProPlus2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="ProPlusSPLA2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="Publisher2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
@@ -222,32 +122,12 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="Publisher2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Publisher2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="SkypeforBusiness2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
     <ProductReleaseId Name="SkypeforBusiness2019Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="SkypeforBusiness2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="SkypeforBusiness2021Volume">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
@@ -267,37 +147,12 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="Standard2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Standard2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="StandardSPLA2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="VisioPro2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
     <ProductReleaseId Name="VisioPro2019Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="VisioPro2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="VisioPro2021Volume">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
@@ -312,32 +167,12 @@
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
-    <ProductReleaseId Name="VisioStd2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="VisioStd2021Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
     <ProductReleaseId Name="Word2019Retail">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
     </ProductReleaseId>
     <ProductReleaseId Name="Word2019Volume">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Word2021Retail">
-      <PreReq>
-        <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
-      </PreReq>
-    </ProductReleaseId>
-    <ProductReleaseId Name="Word2021Volume">
       <PreReq>
         <MinOSVersion Build="10.0" FailMessage="NoMinOS" />
       </PreReq>
@@ -350,7 +185,7 @@
   </AvailableBuilds>
   <Throttle Value="1000" />
   <LKG Value="16.0.12527.22215" />
-  <CreatedTimeUtc Value="10/12/2022 15:18" />
+  <CreatedTimeUtc Value="10/13/2022 09:34" />
   <ExpiredBuilds>
     <Build Value="16.0.15330.20158" />
   </ExpiredBuilds>
