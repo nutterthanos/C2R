@@ -600,13 +600,8 @@
   </AvailableBuilds>
   <Throttle Value="500" />
   <LKG Value="16.0.12527.22286" />
-  <CreatedTimeUtc Value="05/31/2023 18:03" />
+  <CreatedTimeUtc Value="06/01/2023 22:18" />
   <ExpiredBuilds>
-    <Build Value="16.0.14124.20002" />
-    <Build Value="16.0.14125.20002" />
-    <Build Value="16.0.14126.20006" />
-    <Build Value="16.0.14127.20000" />
-    <Build Value="16.0.14129.20000" />
     <Build Value="16.0.14226.20004" />
     <Build Value="16.0.14725.20000" />
     <Build Value="16.0.16327.20000" />
