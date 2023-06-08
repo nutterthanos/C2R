@@ -454,8 +454,8 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
-    "AvailableBuild": "16.0.16501.20196",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.16529.20064",
+    "ThrottleLevel": 200,
     "LkgBuild": "16.0.16501.20196",
     "ExpiredBuilds": [
       "16.0.15028.20082",
@@ -465,10 +465,10 @@
       "16.0.16529.20010",
       "16.0.16529.20046"
     ],
-    "ForkName": "2304-Apr",
+    "ForkName": "2305-May",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-06-06T19:20:54.893",
+    "UpdatedTimeUtc": "2023-06-07T19:10:24.683",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -585,7 +585,7 @@
     "IsDefault": true
   },
   {
-    "Id": 905951,
+    "Id": 906527,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -635,7 +635,7 @@
     "IsDefault": true
   },
   {
-    "Id": 905952,
+    "Id": 906528,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1822,7 +1822,7 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
-    "AvailableBuild": "16.0.16605.20000",
+    "AvailableBuild": "16.0.16607.20000",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.16602.20000",
     "ExpiredBuilds": [
@@ -1857,7 +1857,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-06-06T16:20:17.22",
+    "UpdatedTimeUtc": "2023-06-07T21:05:13.71",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -1933,9 +1933,9 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
-    "AvailableBuild": "16.0.16529.20054",
+    "AvailableBuild": "16.0.16529.20066",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.16529.20054",
+    "LkgBuild": "16.0.16529.20064",
     "ExpiredBuilds": [
       "16.0.14701.20004",
       "16.0.14931.20000",
@@ -1947,7 +1947,7 @@
     "ForkName": "2305-May",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-06-06T19:20:54.893",
+    "UpdatedTimeUtc": "2023-06-08T04:20:12.98",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
