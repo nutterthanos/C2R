@@ -356,7 +356,7 @@
     "Order": 100,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
     "AvailableBuild": "16.0.16529.20154",
-    "ThrottleLevel": 1,
+    "ThrottleLevel": 550,
     "LkgBuild": "16.0.16501.20210",
     "ExpiredBuilds": [
       "16.0.14430.20276",
@@ -365,7 +365,7 @@
     "ForkName": "2305-May",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-06-27T01:10:05.467",
+    "UpdatedTimeUtc": "2023-06-29T15:45:10.647",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -708,7 +708,7 @@
     "IsDefault": true
   },
   {
-    "Id": 918623,
+    "Id": 919199,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -758,7 +758,7 @@
     "IsDefault": true
   },
   {
-    "Id": 918624,
+    "Id": 919200,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1385,7 +1385,7 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
-    "AvailableBuild": "16.0.16626.20000",
+    "AvailableBuild": "16.0.16628.20000",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.16626.20000",
     "ExpiredBuilds": [
@@ -1397,7 +1397,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-06-28T06:15:16.95",
+    "UpdatedTimeUtc": "2023-06-30T05:25:13.537",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -1947,7 +1947,7 @@
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
     "AvailableBuild": "16.0.16628.20000",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.16626.20000",
+    "LkgBuild": "16.0.16628.20000",
     "ExpiredBuilds": [
       "16.0.8201.2129",
       "16.0.9226.2063",
@@ -1981,7 +1981,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-06-28T19:20:20.45",
+    "UpdatedTimeUtc": "2023-06-29T17:05:13.17",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
