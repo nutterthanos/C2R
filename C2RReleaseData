@@ -4,14 +4,14 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "1d2d2ea6-1680-4c56-ac58-a441c8c24ff9",
-    "AvailableBuild": "16.0.10400.20001",
+    "AvailableBuild": "16.0.10400.20007",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.10400.20001",
+    "LkgBuild": "16.0.10400.20007",
     "ExpiredBuilds": [],
     "ForkName": "LTSB2018",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-06-15T23:10:07.95",
+    "UpdatedTimeUtc": "2023-06-30T19:25:09.837",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -40,126 +40,6 @@
     "OsVersions": [],
     "OfficePlatforms": [],
     "IsDefault": true
-  },
-  {
-    "Id": 915628,
-    "Name": "PPTWinServer",
-    "Order": 93,
-    "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.16501.20228",
-    "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.16501.20228",
-    "ExpiredBuilds": [
-      "16.0.14430.20276",
-      "16.0.15330.20196"
-    ],
-    "ForkName": "2304-Apr",
-    "BuildRank": 1,
-    "Type": "Custom",
-    "UpdatedTimeUtc": "2023-06-24T01:11:29.037",
-    "OfficeTenantIds": [],
-    "OfficeProductNames": [],
-    "OfficeCultures": [],
-    "OfficeBitness": [],
-    "OsVersions": [
-      {
-        "Name": null,
-        "SkuType": "Server",
-        "MinBuild": 0,
-        "MaxBuild": 2147483647,
-        "MajorMinorVersion": "10.0",
-        "MinResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 0,
-          "_Revision": 0
-        },
-        "MaxResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 2147483647,
-          "_Revision": 0
-        }
-      },
-      {
-        "Name": null,
-        "SkuType": "Client",
-        "MinBuild": 0,
-        "MaxBuild": 2147483647,
-        "MajorMinorVersion": "10.0",
-        "MinResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 0,
-          "_Revision": 0
-        },
-        "MaxResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 2147483647,
-          "_Revision": 0
-        }
-      },
-      {
-        "Name": null,
-        "SkuType": "Client",
-        "MinBuild": 0,
-        "MaxBuild": 10240,
-        "MajorMinorVersion": "10.0",
-        "MinResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 0,
-          "_Revision": 0
-        },
-        "MaxResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 10240,
-          "_Revision": 0
-        }
-      },
-      {
-        "Name": null,
-        "SkuType": "Client",
-        "MinBuild": 10241,
-        "MaxBuild": 10586,
-        "MajorMinorVersion": "10.0",
-        "MinResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 10241,
-          "_Revision": 0
-        },
-        "MaxResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 10586,
-          "_Revision": 0
-        }
-      },
-      {
-        "Name": null,
-        "SkuType": "Client",
-        "MinBuild": 10587,
-        "MaxBuild": 14393,
-        "MajorMinorVersion": "10.0",
-        "MinResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 10587,
-          "_Revision": 0
-        },
-        "MaxResolvedVersion": {
-          "_Major": 10,
-          "_Minor": 0,
-          "_Build": 14393,
-          "_Revision": 0
-        }
-      }
-    ],
-    "OfficePlatforms": [],
-    "IsDefault": false
   },
   {
     "Id": 864699,
@@ -708,7 +588,7 @@
     "IsDefault": true
   },
   {
-    "Id": 919199,
+    "Id": 919775,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -758,7 +638,7 @@
     "IsDefault": true
   },
   {
-    "Id": 919200,
+    "Id": 919776,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1945,7 +1825,7 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
-    "AvailableBuild": "16.0.16628.20000",
+    "AvailableBuild": "16.0.16630.20000",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.16628.20000",
     "ExpiredBuilds": [
@@ -1981,7 +1861,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-06-29T17:05:13.17",
+    "UpdatedTimeUtc": "2023-06-30T19:50:11.18",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
