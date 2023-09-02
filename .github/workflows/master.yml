@@ -1,0 +1,30 @@
+name: Run Custom Script Every Hour
+
+on:
+  schedule:
+    - cron: '0 * * * *'  # Run the script every hour
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest  # You can choose a different runner if needed
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install cabextract
+        run: sudo apt-get update && sudo apt-get install -y cabextract
+
+      - name: chmod
+        run: | 
+          chmod 777 ./
+          chmod 777 ./* 
+
+      - name: Run custom shell script
+        run: |
+          chmod +x c2rdl.sh  # Make the script executable if needed
+          ./c2rdl.sh  # Replace with the name of your script
+
+      - name: Complete workflow
+        run: echo "Script execution complete!"
