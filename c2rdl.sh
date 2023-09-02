@@ -593,6 +593,8 @@ https://$URL/$FFN09/Office/Data/setupwordretail.x86.$LANG.exe
 
 grep FFN C2RReleaseData | sort | uniq | tr '[:lower:]' '[:upper:]' >ffn
 
+git config --local user.email "action@github.com"
+git config --local user.name "GitHub Action"
 git add .
 git commit -m "`date`"
 git push -f origin master
