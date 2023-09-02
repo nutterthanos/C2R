@@ -1,10 +1,10 @@
 #! /usr/bin/env bash
 
-URL=officecdn.microsoft.com/pr
+URL=officecdn.microsoft.com/sg
 DIR=Office/Data
 
-LANG='zh-cn'
-LANGID='2052'
+LANG='en-us'
+LANGID='1033'
 
 #wget -N -q https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v1/C2RReleaseData
 wget -N -q https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v2/C2RReleaseData
@@ -112,127 +112,127 @@ wget -N -q -x https://$URL/$FFN37/$DIR/v64.cab
 wget -N -q -x https://$URL/$FFN38/$DIR/v64.cab
 wget -N -q -x https://$URL/$FFN39/$DIR/v64.cab
 
-cd /root/githubrepo/C2R/$URL/$FFN01/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN02/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN03/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN04/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN05/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN06/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN07/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN08/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN09/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN10/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN11/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN12/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN13/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN14/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN15/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN16/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN17/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN18/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN19/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN20/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN21/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN22/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN23/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN24/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN25/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN26/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN27/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN28/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN29/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN30/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN31/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN32/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN33/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN34/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN35/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN36/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN37/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN38/$DIR/ && cabextract -q v64.cab
-cd /root/githubrepo/C2R/$URL/$FFN39/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN01/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN02/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN03/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN04/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN05/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN06/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN07/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN08/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN09/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN10/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN11/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN12/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN13/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN14/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN15/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN16/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN17/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN18/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN19/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN20/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN21/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN22/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN23/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN24/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN25/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN26/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN27/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN28/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN29/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN30/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN31/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN32/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN33/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN34/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN35/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN36/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN37/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN38/$DIR/ && cabextract -q v64.cab
+cd /home/runner/work/C2R/C2R/$URL/$FFN39/$DIR/ && cabextract -q v64.cab
 
-VER01=`grep Available /root/githubrepo/C2R/$URL/$FFN01/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER02=`grep Available /root/githubrepo/C2R/$URL/$FFN02/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER03=`grep Available /root/githubrepo/C2R/$URL/$FFN03/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER04=`grep Available /root/githubrepo/C2R/$URL/$FFN04/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER05=`grep Available /root/githubrepo/C2R/$URL/$FFN05/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER06=`grep Available /root/githubrepo/C2R/$URL/$FFN06/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER07=`grep Available /root/githubrepo/C2R/$URL/$FFN07/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER08=`grep Available /root/githubrepo/C2R/$URL/$FFN08/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER09=`grep Available /root/githubrepo/C2R/$URL/$FFN09/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER10=`grep Available /root/githubrepo/C2R/$URL/$FFN10/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER11=`grep Available /root/githubrepo/C2R/$URL/$FFN11/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER12=`grep Available /root/githubrepo/C2R/$URL/$FFN12/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER13=`grep Available /root/githubrepo/C2R/$URL/$FFN13/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER14=`grep Available /root/githubrepo/C2R/$URL/$FFN14/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER15=`grep Available /root/githubrepo/C2R/$URL/$FFN15/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER16=`grep Available /root/githubrepo/C2R/$URL/$FFN16/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER17=`grep Available /root/githubrepo/C2R/$URL/$FFN17/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER18=`grep Available /root/githubrepo/C2R/$URL/$FFN18/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER19=`grep Available /root/githubrepo/C2R/$URL/$FFN19/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER20=`grep Available /root/githubrepo/C2R/$URL/$FFN20/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER21=`grep Available /root/githubrepo/C2R/$URL/$FFN21/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER22=`grep Available /root/githubrepo/C2R/$URL/$FFN22/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER23=`grep Available /root/githubrepo/C2R/$URL/$FFN23/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER24=`grep Available /root/githubrepo/C2R/$URL/$FFN24/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
-VER25=`grep Available /root/githubrepo/C2R/$URL/$FFN25/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER26=`grep Available /root/githubrepo/C2R/$URL/$FFN26/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER27=`grep Available /root/githubrepo/C2R/$URL/$FFN27/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER28=`grep Available /root/githubrepo/C2R/$URL/$FFN28/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER29=`grep Available /root/githubrepo/C2R/$URL/$FFN29/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER30=`grep Available /root/githubrepo/C2R/$URL/$FFN30/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER31=`grep Available /root/githubrepo/C2R/$URL/$FFN31/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER32=`grep Available /root/githubrepo/C2R/$URL/$FFN32/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER33=`grep Available /root/githubrepo/C2R/$URL/$FFN33/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER34=`grep Available /root/githubrepo/C2R/$URL/$FFN34/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER35=`grep Available /root/githubrepo/C2R/$URL/$FFN35/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER36=`grep Available /root/githubrepo/C2R/$URL/$FFN36/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER37=`grep Available /root/githubrepo/C2R/$URL/$FFN37/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER38=`grep Available /root/githubrepo/C2R/$URL/$FFN38/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
-VER39=`grep Available /root/githubrepo/C2R/$URL/$FFN39/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER01=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN01/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER02=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN02/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER03=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN03/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER04=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN04/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER05=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN05/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER06=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN06/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER07=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN07/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER08=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN08/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER09=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN09/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER10=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN10/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER11=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN11/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER12=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN12/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER13=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN13/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER14=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN14/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER15=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN15/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER16=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN16/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER17=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN17/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER18=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN18/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER19=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN19/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER20=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN20/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER21=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN21/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER22=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN22/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER23=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN23/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER24=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN24/$DIR/VersionDescriptor.xml | awk -F "\"" '{print $2}'`
+VER25=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN25/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER26=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN26/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER27=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN27/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER28=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN28/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER29=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN29/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER30=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN30/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER31=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN31/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER32=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN32/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER33=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN33/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER34=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN34/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER35=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN35/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER36=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN36/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER37=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN37/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER38=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN38/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
+VER39=`grep Available /home/runner/work/C2R/C2R/$URL/$FFN39/$DIR/VersionDescriptor.xml | grep Default | awk -F "\"" '{print $4}'`
 
-TIME01=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN01/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME02=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN02/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME03=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN03/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME04=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN04/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME05=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN05/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME06=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN06/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME07=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN07/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME08=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN08/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME09=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN09/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME10=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN10/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME11=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN11/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME12=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN12/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME13=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN13/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME14=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN14/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME15=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN15/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME16=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN16/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME17=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN17/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME18=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN18/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME19=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN19/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME20=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN20/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME21=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN21/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME22=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN22/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME23=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN23/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME24=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN24/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME25=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN25/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME26=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN26/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME27=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN27/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME28=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN28/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME29=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN29/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME30=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN30/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME31=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN31/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME32=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN32/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME33=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN33/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME34=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN34/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME35=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN35/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME36=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN36/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME37=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN37/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME38=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN38/$DIR/v64.cab | awk -F "\." '{print $1}'`
-TIME39=`stat --printf=%y /root/githubrepo/C2R/$URL/$FFN39/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME01=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN01/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME02=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN02/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME03=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN03/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME04=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN04/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME05=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN05/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME06=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN06/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME07=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN07/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME08=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN08/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME09=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN09/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME10=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN10/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME11=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN11/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME12=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN12/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME13=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN13/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME14=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN14/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME15=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN15/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME16=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN16/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME17=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN17/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME18=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN18/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME19=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN19/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME20=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN20/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME21=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN21/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME22=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN22/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME23=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN23/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME24=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN24/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME25=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN25/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME26=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN26/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME27=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN27/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME28=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN28/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME29=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN29/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME30=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN30/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME31=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN31/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME32=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN32/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME33=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN33/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME34=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN34/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME35=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN35/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME36=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN36/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME37=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN37/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME38=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN38/$DIR/v64.cab | awk -F "\." '{print $1}'`
+TIME39=`stat --printf=%y /home/runner/work/C2R/C2R/$URL/$FFN39/$DIR/v64.cab | awk -F "\." '{print $1}'`
 
-cd /root/githubrepo/C2R
+cd /home/runner/work/C2R/C2R
 echo "
 # C2R
 
@@ -589,7 +589,7 @@ https://$URL/$FFN09/Office/Data/setupvisiostdretail.x86.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupwordretail.x64.$LANG.exe
 https://$URL/$FFN09/Office/Data/setupwordretail.x86.$LANG.exe
 \`\`\`
-" >/root/githubrepo/C2R/README.MD
+" >/home/runner/work/C2R/C2R/README.MD
 
 grep FFN C2RReleaseData | sort | uniq | tr '[:lower:]' '[:upper:]' >ffn
 
