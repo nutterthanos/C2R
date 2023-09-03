@@ -1,8 +1,8 @@
-name: Run Custom Script Every 10 Minutes
+name: Run Custom Script Every 1 Hour
 
 on:
   schedule:
-    - cron: '*/60 * * * *'  # Run the script every 10 minutes
+    - cron: '*/60 * * * *'  # Run the script every 1 Hour
   workflow_dispatch:
 
 jobs:
