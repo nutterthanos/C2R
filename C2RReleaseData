@@ -153,7 +153,7 @@
     "Name": "SIP",
     "Order": 97,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.16827.20056",
+    "AvailableBuild": "16.0.16827.20080",
     "ThrottleLevel": 10,
     "LkgBuild": "16.0.16731.20234",
     "ExpiredBuilds": [
@@ -162,7 +162,7 @@
     "ForkName": "2308-Aug",
     "BuildRank": 1,
     "Type": "Custom SIP",
-    "UpdatedTimeUtc": "2023-09-14T15:30:10.43",
+    "UpdatedTimeUtc": "2023-09-21T21:10:20.553",
     "OfficeTenantIds": [],
     "OfficeProductNames": [
       "O365HomePremRetail.16"
@@ -624,7 +624,7 @@
     "IsDefault": true
   },
   {
-    "Id": 996741,
+    "Id": 996774,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -674,7 +674,7 @@
     "IsDefault": true
   },
   {
-    "Id": 996742,
+    "Id": 996775,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -699,7 +699,7 @@
     "IsDefault": true
   },
   {
-    "Id": 996743,
+    "Id": 996776,
     "Name": "Default",
     "Order": 121,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1887,7 +1887,7 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
-    "AvailableBuild": "16.0.16919.20000",
+    "AvailableBuild": "16.0.16919.20002",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.16918.20000",
     "ExpiredBuilds": [
@@ -1927,7 +1927,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-09-20T20:00:17.463",
+    "UpdatedTimeUtc": "2023-09-21T21:10:20.553",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
