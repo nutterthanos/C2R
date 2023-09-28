@@ -149,42 +149,6 @@
     "IsDefault": false
   },
   {
-    "Id": 126,
-    "Name": "SIP",
-    "Order": 97,
-    "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.16827.20080",
-    "ThrottleLevel": 10,
-    "LkgBuild": "16.0.16731.20234",
-    "ExpiredBuilds": [
-      "16.0.16327.20186"
-    ],
-    "ForkName": "2308-Aug",
-    "BuildRank": 1,
-    "Type": "Custom SIP",
-    "UpdatedTimeUtc": "2023-09-21T21:10:20.553",
-    "OfficeTenantIds": [],
-    "OfficeProductNames": [
-      "O365HomePremRetail.16"
-    ],
-    "OfficeCultures": [
-      "ar-sa",
-      "de-de",
-      "el-gr",
-      "en-us",
-      "hi-in",
-      "ja-jp",
-      "ko-kr",
-      "tr-tr",
-      "zh-cn",
-      "zh-tw"
-    ],
-    "OfficeBitness": [],
-    "OsVersions": [],
-    "OfficePlatforms": [],
-    "IsDefault": false
-  },
-  {
     "Id": 841169,
     "Name": "Win8.1",
     "Order": 98,
@@ -271,17 +235,17 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.16731.20234",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.16827.20130",
+    "ThrottleLevel": 1,
     "LkgBuild": "16.0.16731.20234",
     "ExpiredBuilds": [
       "16.0.14430.20276",
       "16.0.15330.20196"
     ],
-    "ForkName": "2307-Jul",
+    "ForkName": "2308-Aug",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-09-16T14:50:13.42",
+    "UpdatedTimeUtc": "2023-09-28T17:05:13.437",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -624,7 +588,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1002612,
+    "Id": 1002645,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -674,7 +638,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1002613,
+    "Id": 1002646,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -699,7 +663,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1002614,
+    "Id": 1002647,
     "Name": "Default",
     "Order": 121,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
