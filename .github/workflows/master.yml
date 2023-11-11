@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-script:
-    runs-on: self-hosted  # You can choose a different runner if needed
+    runs-on: ubuntu-20.04  # You can choose a different runner if needed
 
     steps:
       - name: Checkout code
