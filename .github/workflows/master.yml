@@ -7,7 +7,7 @@ on:
 
 jobs:
   run-script:
-    runs-on: ubuntu-18.04  # You can choose a different runner if needed
+    runs-on: ubuntu-latest  # You can choose a different runner if needed
 
     steps:
       - name: Checkout code
