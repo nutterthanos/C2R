@@ -73,8 +73,8 @@ FFN37=5440FD1F-7ECB-4221-8110-145EFAA6372F
 FFN38=B61285DD-D9F7-41F2-9757-8F61CBA4E9C8
 FFN39=EA4A4090-DE26-49D7-93C1-91BFF9E53FC3
 
-# Generate a timestamp for January 1, 2013
-timestamp=$(date -d "2013-01-01 00:00:00" +%Y%m%d%H%M.%S)
+# Generate a timestamp for January 1, 2010
+timestamp=$(date -d "2010-01-01 00:00:00" +%Y%m%d%H%M.%S)
 
 # Use the timestamp to set the modification time
 touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN01/$DIR/v64.cab
