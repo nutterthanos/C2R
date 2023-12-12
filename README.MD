@@ -48,76 +48,76 @@
 |86752282-5841-4120-AC80-DB03AE6B5FDB|16.0.14332.20615|2023-12-01 19:46:12|||Microsoft_LTSC2021|
 |F4F024C8-D611-4748-A7E0-02B6E754C0FE|16.0.16130.20868|2023-12-12 00:59:31|||Microsoft_DC|
 |7FFBC6BF-BC32-4F92-8982-F9DD17FD3114|16.0.16130.20846|2023-11-28 16:59:00|SemiAnnual||Production_DC|
-|B8F9B850-328D-4355-9145-C59439A0C4CF|16.0.16731.20398|2023-12-11 19:29:32|SemiAnnualPreview||Insiders_FRDC|
+|B8F9B850-328D-4355-9145-C59439A0C4CF|16.0.16731.20460|2023-12-12 08:58:14|SemiAnnualPreview||Insiders_FRDC|
 |9A3B7FF2-58ED-40FD-ADD5-1E5158059D1C|16.0.16731.20460|2023-12-12 00:45:52|||Microsoft_FRDC|
 |55336B82-A18D-4DD6-B5F6-9E5095C314A6|16.0.16827.20278|2023-11-18 16:13:21|MonthlyEnterprise||Production_MEC|
-|492350F6-3A01-4F97-B9C0-C7C6DDF67D60|16.0.17029.20068|2023-12-06 16:58:03|Current||Production_CC|
+|492350F6-3A01-4F97-B9C0-C7C6DDF67D60|16.0.17029.20108|2023-12-12 08:44:19|Current||Production_CC|
 |64256AFE-F5D9-4F86-8936-8840A6A4F5BE|16.0.17126.20048|2023-12-11 21:16:42|CurrentPreview||Insiders_CC|
 |5462EEE5-1E97-495B-9370-853CD873BB07|16.0.17126.20064|2023-12-11 23:39:09|||Microsoft_CC|
-|F3260CF1-A92C-4C75-B02E-D64C0A86A968|16.0.17126.20066|2023-12-12 03:12:11|||Dogfood_CC|
+|F3260CF1-A92C-4C75-B02E-D64C0A86A968|16.0.17126.20068|2023-12-12 09:11:42|||Dogfood_CC|
 |5440FD1F-7ECB-4221-8110-145EFAA6372F|16.0.17130.20000|2023-12-06 15:13:08|||Insiders_DevMain|
 |B61285DD-D9F7-41F2-9757-8F61CBA4E9C8|16.0.17204.20000|2023-12-07 06:15:03|||Microsoft_DevMain|
 |EA4A4090-DE26-49D7-93C1-91BFF9E53FC3|16.0.17210.20000|2023-12-11 22:27:34|||Dogfood_DevMain|
 
 x86 32-Bit and x64 64-Bit Download Example:
 ```
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/a320_exp.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/a320_exp.cab.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/a640_exp.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/a640_exp.cab.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/d320.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/d640.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/d321033.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/d641033.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/i320.c2rx
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/i320.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/i320.cab.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/i640.c2rx
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/i640.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/i640.cab.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/i321033.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/i641033.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/s320.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/s640.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/s321033.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/s641033.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/sa640.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/sc320.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/sd320.delta00.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/sd640.delta00.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/sd321033.delta00.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/sd641033.delta00.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/sp321033.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/sp641033.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.x-none.arm64x.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.x-none.arm64x.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.x-none.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.x-none.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.x-none.delta00.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.x-none.delta00.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.en-us.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.en-us.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.en-us.delta00.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.en-us.delta00.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.en-us.proof.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x64.en-us.proof.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.x-none.chpe.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.x-none.chpe.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.x-none.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.x-none.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.x-none.delta00.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.x-none.delta00.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.en-us.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.en-us.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.en-us.delta00.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.en-us.delta00.dat.cat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.en-us.proof.dat
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20068/stream.x86.en-us.proof.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/a320_exp.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/a320_exp.cab.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/a640_exp.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/a640_exp.cab.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/d320.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/d640.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/d321033.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/d641033.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/i320.c2rx
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/i320.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/i320.cab.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/i640.c2rx
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/i640.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/i640.cab.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/i321033.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/i641033.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/s320.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/s640.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/s321033.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/s641033.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/sa640.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/sc320.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/sd320.delta00.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/sd640.delta00.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/sd321033.delta00.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/sd641033.delta00.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/sp321033.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/sp641033.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.x-none.arm64x.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.x-none.arm64x.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.x-none.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.x-none.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.x-none.delta00.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.x-none.delta00.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.en-us.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.en-us.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.en-us.delta00.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.en-us.delta00.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.en-us.proof.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x64.en-us.proof.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.x-none.chpe.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.x-none.chpe.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.x-none.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.x-none.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.x-none.delta00.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.x-none.delta00.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.en-us.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.en-us.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.en-us.delta00.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.en-us.delta00.dat.cat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.en-us.proof.dat
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/16.0.17029.20108/stream.x86.en-us.proof.dat.cat
 https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/C2RFireFlyData.xml
 https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/v32.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/v32_16.0.17029.20068.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/v32_16.0.17029.20108.cab
 https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/v64.cab
-https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/v64_16.0.17029.20068.cab
+https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/v64_16.0.17029.20108.cab
 https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/vu32.cab
 https://officecdn.microsoft.com/sg/492350F6-3A01-4F97-B9C0-C7C6DDF67D60/Office/Data/vu64.cab
 ```
