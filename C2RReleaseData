@@ -694,7 +694,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1081517,
+    "Id": 1081573,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -744,7 +744,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1081518,
+    "Id": 1081574,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1885,9 +1885,9 @@
     "Name": "CHPE",
     "Order": 97,
     "FFN": "ea4a4090-de26-49d7-93c1-91bff9e53fc3",
-    "AvailableBuild": "16.0.17103.20000",
+    "AvailableBuild": "16.0.17206.20000",
     "ThrottleLevel": 1000,
-    "LkgBuild": "16.0.17103.20000",
+    "LkgBuild": "16.0.17206.20000",
     "ExpiredBuilds": [
       "16.0.8201.2129",
       "16.0.9226.2063",
@@ -1930,12 +1930,17 @@
       "16.0.17111.20000",
       "16.0.17109.20000",
       "16.0.17110.20000",
-      "16.0.17108.20000"
+      "16.0.17108.20000",
+      "16.0.17212.20004",
+      "16.0.17210.20000",
+      "16.0.17209.20000",
+      "16.0.17208.20002",
+      "16.0.17207.20004"
     ],
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Custom",
-    "UpdatedTimeUtc": "2023-12-01T02:14:51.067",
+    "UpdatedTimeUtc": "2023-12-13T20:07:50.8",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
