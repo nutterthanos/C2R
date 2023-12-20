@@ -470,12 +470,13 @@
     "ExpiredBuilds": [
       "16.0.16327.20000",
       "16.0.16327.20038",
-      "16.0.17108.20000"
+      "16.0.17108.20000",
+      "16.0.17217.20000"
     ],
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-12-13T14:15:08.277",
+    "UpdatedTimeUtc": "2023-12-20T19:58:04.063",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -694,7 +695,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1089542,
+    "Id": 1089602,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -744,7 +745,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1089543,
+    "Id": 1089603,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1419,7 +1420,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2023-12-20T06:40:09.557",
+    "UpdatedTimeUtc": "2023-12-20T19:58:04.063",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
