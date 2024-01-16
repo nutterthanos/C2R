@@ -73,49 +73,46 @@ FFN37=5440FD1F-7ECB-4221-8110-145EFAA6372F
 FFN38=B61285DD-D9F7-41F2-9757-8F61CBA4E9C8
 FFN39=EA4A4090-DE26-49D7-93C1-91BFF9E53FC3
 
-# Generate a timestamp for January 1, 2010
-timestamp=$(date -d "2010-01-01 00:00:00" +%Y%m%d%H%M.%S)
-
 # Use the timestamp to set the modification time
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN01/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN02/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN03/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN04/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN05/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN06/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN07/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN08/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN09/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN10/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN11/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN12/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN13/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN14/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN15/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN16/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN17/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN18/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN19/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN20/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN21/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN22/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN23/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN24/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN25/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN26/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN27/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN28/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN29/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN30/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN31/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN32/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN33/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN34/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN35/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN36/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN37/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN38/$DIR/v64.cab
-touch -t "$timestamp" /home/runner/work/C2R/C2R/$URL/$FFN39/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN01/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN02/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN03/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN04/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN05/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN06/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN07/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN08/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN09/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN10/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN11/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN12/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN13/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN14/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN15/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN16/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN17/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN18/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN19/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN20/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN21/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN22/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN23/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN24/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN25/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN26/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN27/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN28/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN29/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN30/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN31/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN32/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN33/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN34/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN35/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN36/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN37/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN38/$DIR/v64.cab
+rm -rf /home/runner/work/C2R/C2R/$URL/$FFN39/$DIR/v64.cab
 
 wget -N -q -x https://$URL/$FFN01/$DIR/v64.cab
 wget -N -q -x https://$URL/$FFN02/$DIR/v64.cab
