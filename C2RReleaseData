@@ -530,7 +530,7 @@
     "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
     "AvailableBuild": "16.0.17628.20062",
     "ThrottleLevel": 200,
-    "LkgBuild": "16.0.17628.20006",
+    "LkgBuild": "16.0.17628.20044",
     "ExpiredBuilds": [
       "16.0.15330.20158",
       "16.0.15330.20186",
@@ -542,7 +542,7 @@
     "ForkName": "2404-Apr",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-05-13T21:20:29.18",
+    "UpdatedTimeUtc": "2024-05-13T22:20:22.463",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -658,7 +658,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1216000,
+    "Id": 1216024,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -706,7 +706,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1216001,
+    "Id": 1216025,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -912,8 +912,8 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "64256afe-f5d9-4f86-8936-8840a6a4f5be",
-    "AvailableBuild": "16.0.17628.20006",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.17628.20044",
+    "ThrottleLevel": 250,
     "LkgBuild": "16.0.17628.20006",
     "ExpiredBuilds": [
       "16.0.15330.20158",
@@ -923,7 +923,7 @@
     "ForkName": "2404-Apr",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-05-08T17:10:20.877",
+    "UpdatedTimeUtc": "2024-05-13T22:20:22.463",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -2172,7 +2172,7 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "f3260cf1-a92c-4c75-b02e-d64c0a86a968",
-    "AvailableBuild": "16.0.17628.20062",
+    "AvailableBuild": "16.0.17628.20064",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.17628.20062",
     "ExpiredBuilds": [
@@ -2181,7 +2181,7 @@
     "ForkName": "2404-Apr",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-05-13T21:20:29.18",
+    "UpdatedTimeUtc": "2024-05-13T22:20:22.463",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
