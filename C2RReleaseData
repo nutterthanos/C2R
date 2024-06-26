@@ -150,42 +150,6 @@
     "IsDefault": false
   },
   {
-    "Id": 126,
-    "Name": "SIP",
-    "Order": 97,
-    "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.17726.20078",
-    "ThrottleLevel": 10,
-    "LkgBuild": "16.0.17628.20144",
-    "ExpiredBuilds": [
-      "16.0.16327.20186"
-    ],
-    "ForkName": "2405-May",
-    "BuildRank": 1,
-    "Type": "Custom SIP",
-    "UpdatedTimeUtc": "2024-06-14T16:35:12.83",
-    "OfficeTenantIds": [],
-    "OfficeProductNames": [
-      "O365HomePremRetail.16"
-    ],
-    "OfficeCultures": [
-      "ar-sa",
-      "de-de",
-      "el-gr",
-      "en-us",
-      "hi-in",
-      "ja-jp",
-      "ko-kr",
-      "tr-tr",
-      "zh-cn",
-      "zh-tw"
-    ],
-    "OfficeBitness": [],
-    "OsVersions": [],
-    "OfficePlatforms": [],
-    "IsDefault": false
-  },
-  {
     "Id": 841169,
     "Name": "Win8.1",
     "Order": 98,
@@ -272,16 +236,16 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.17628.20164",
-    "ThrottleLevel": 1,
+    "AvailableBuild": "16.0.17726.20126",
+    "ThrottleLevel": 0,
     "LkgBuild": "16.0.17628.20144",
     "ExpiredBuilds": [
       "16.0.15330.20196"
     ],
-    "ForkName": "2404-Apr",
+    "ForkName": "2405-May",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-06-19T21:55:11.903",
+    "UpdatedTimeUtc": "2024-06-26T16:55:20.023",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -692,7 +656,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1241129,
+    "Id": 1241151,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -740,7 +704,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1241130,
+    "Id": 1241152,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
