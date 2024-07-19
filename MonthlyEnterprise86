@@ -115,7 +115,6 @@
 MonthlyEnterprise
 Sha256
 a320_exp.cab
-a640_exp.cab
 architecture
 baseUrl
 channel
@@ -125,7 +124,6 @@ hashAlgorithm
 hashLocation
 http://officecdn.microsoft.com/pr/55336b82-a18d-4dd6-b5f6-9e5095c314a6
 http://officecdn.microsoft.com/pr/55336b82-a18d-4dd6-b5f6-9e5095c314a6/office/data/16.0.17628.20188/a320_exp.cab
-http://officecdn.microsoft.com/pr/55336b82-a18d-4dd6-b5f6-9e5095c314a6/office/data/16.0.17628.20188/a640_exp.cab
 http://officecdn.microsoft.com/pr/55336b82-a18d-4dd6-b5f6-9e5095c314a6/office/data/16.0.17628.20188/i320.cab
 http://officecdn.microsoft.com/pr/55336b82-a18d-4dd6-b5f6-9e5095c314a6/office/data/16.0.17628.20188/i320.cab.cat
 http://officecdn.microsoft.com/pr/55336b82-a18d-4dd6-b5f6-9e5095c314a6/office/data/16.0.17628.20188/i321025.cab
