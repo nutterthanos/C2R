@@ -11,6 +11,7 @@ LANGID='1033'
 
 #wget -N -q https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v1/C2RReleaseData
 wget -N -q https://mrodevicemgr.officeapps.live.com/mrodevicemgrsvc/api/v2/C2RReleaseData
+wget -N -q https://clients.config.office.net/releases/v1.0/OfficeReleases
 wget -N -q https://$URL/wsus/ofl.cab
 wget -N -q https://$URL/wsus/releasehistory.cab
 wget -N -q https://$URL/wsus/setup.exe
