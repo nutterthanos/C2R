@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-find . -mindepth 1 ! -name 'c2rdl.sh' ! -name '.github' ! -name '.git' -print0 | xargs -0 echo
+find . -mindepth 1 | grep -v -f keep.txt
 
 URL=officecdn.microsoft.com/sg
 DIR=Office/Data
