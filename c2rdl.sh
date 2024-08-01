@@ -1,6 +1,6 @@
 #! /usr/bin/env bash
 
-rm -rf officecdn.microsoft.com/
+find . -mindepth 1 ! -name 'c2rdl.sh' ! -name '.github' ! -name '.git' -print0 | xargs -0 rm -rf
 
 URL=officecdn.microsoft.com/sg
 DIR=Office/Data
