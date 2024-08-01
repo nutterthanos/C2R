@@ -1,6 +1,7 @@
 #! /usr/bin/env bash
 
-find . -mindepth 1 | grep -v -f keep.txt
+shopt -s extglob
+rm -rf !(keep.txt|c2rdl.sh|.git|.github)
 
 URL=officecdn.microsoft.com/sg
 DIR=Office/Data
