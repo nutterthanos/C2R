@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 shopt -s extglob
-rm -rf !(c2rdl.sh|.git|.github)
+rm -rf !(c2rdl.sh|configuration-Office365-x86.xml|configuration-Office365-x64.xml|configuration-Office2019Enterprise.xml|.git|.github)
 
 URL=officecdn.microsoft.com/sg
 DIR=Office/Data
