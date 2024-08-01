@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
 shopt -s extglob
-rm -rf !(keep.txt|c2rdl.sh|.git|.github)
+rm -rf !(c2rdl.sh|.git|.github)
 
 URL=officecdn.microsoft.com/sg
 DIR=Office/Data
