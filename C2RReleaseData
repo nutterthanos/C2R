@@ -654,7 +654,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1262113,
+    "Id": 1262135,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -702,7 +702,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1262114,
+    "Id": 1262136,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1152,14 +1152,14 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "86752282-5841-4120-ac80-db03ae6b5fdb",
-    "AvailableBuild": "16.0.14332.20753",
+    "AvailableBuild": "16.0.14332.20763",
     "ThrottleLevel": 1000,
     "LkgBuild": "16.0.14332.20736",
     "ExpiredBuilds": [],
     "ForkName": "LTSB2021",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-07-22T18:25:10.737",
+    "UpdatedTimeUtc": "2024-08-02T18:20:09.427",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
