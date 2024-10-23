@@ -154,7 +154,7 @@
     "Name": "SIP",
     "Order": 97,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.18129.20054",
+    "AvailableBuild": "16.0.18129.20100",
     "ThrottleLevel": 10,
     "LkgBuild": "16.0.18025.20160",
     "ExpiredBuilds": [
@@ -163,7 +163,7 @@
     "ForkName": "2409-Sep",
     "BuildRank": 1,
     "Type": "Custom SIP",
-    "UpdatedTimeUtc": "2024-10-15T20:25:11.517",
+    "UpdatedTimeUtc": "2024-10-23T23:05:14.877",
     "OfficeTenantIds": [],
     "OfficeProductNames": [
       "O365HomePremRetail.16"
@@ -564,8 +564,8 @@
     "Order": 100,
     "FFN": "5462eee5-1e97-495b-9370-853cd873bb07",
     "AvailableBuild": "16.0.18129.20100",
-    "ThrottleLevel": 200,
-    "LkgBuild": "16.0.18129.20070",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.18129.20100",
     "ExpiredBuilds": [
       "16.0.16327.20186",
       "16.0.16529.20010",
@@ -575,7 +575,7 @@
     "ForkName": "2409-Sep",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-10-23T22:00:14.763",
+    "UpdatedTimeUtc": "2024-10-23T23:05:14.877",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -688,7 +688,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1309484,
+    "Id": 1309506,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -730,7 +730,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1309485,
+    "Id": 1309507,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -930,8 +930,8 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "64256afe-f5d9-4f86-8936-8840a6a4f5be",
-    "AvailableBuild": "16.0.18129.20070",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.18129.20100",
+    "ThrottleLevel": 250,
     "LkgBuild": "16.0.18129.20070",
     "ExpiredBuilds": [
       "16.0.16327.20186",
@@ -940,7 +940,7 @@
     "ForkName": "2409-Sep",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-10-22T14:40:14.857",
+    "UpdatedTimeUtc": "2024-10-23T23:05:14.877",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
