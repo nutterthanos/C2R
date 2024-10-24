@@ -688,7 +688,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1309678,
+    "Id": 1309700,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -730,7 +730,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1309679,
+    "Id": 1309701,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -1406,7 +1406,7 @@
     "Order": 100,
     "FFN": "b61285dd-d9f7-41f2-9757-8f61cba4e9c8",
     "AvailableBuild": "16.0.18221.20000",
-    "ThrottleLevel": 200,
+    "ThrottleLevel": 1000,
     "LkgBuild": "16.0.18217.20000",
     "ExpiredBuilds": [
       "16.0.16324.20000",
@@ -1418,7 +1418,7 @@
     "ForkName": "Main",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-10-23T18:45:09.38",
+    "UpdatedTimeUtc": "2024-10-24T07:00:42.267",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
