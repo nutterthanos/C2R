@@ -150,42 +150,6 @@
     "IsDefault": false
   },
   {
-    "Id": 126,
-    "Name": "SIP",
-    "Order": 97,
-    "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.18227.20046",
-    "ThrottleLevel": 10,
-    "LkgBuild": "16.0.18129.20158",
-    "ExpiredBuilds": [
-      "16.0.16327.20186"
-    ],
-    "ForkName": "2410-Oct",
-    "BuildRank": 1,
-    "Type": "Custom SIP",
-    "UpdatedTimeUtc": "2024-11-12T19:25:12.79",
-    "OfficeTenantIds": [],
-    "OfficeProductNames": [
-      "O365HomePremRetail.16"
-    ],
-    "OfficeCultures": [
-      "ar-sa",
-      "de-de",
-      "el-gr",
-      "en-us",
-      "hi-in",
-      "ja-jp",
-      "ko-kr",
-      "tr-tr",
-      "zh-cn",
-      "zh-tw"
-    ],
-    "OfficeBitness": [],
-    "OsVersions": [],
-    "OfficePlatforms": [],
-    "IsDefault": false
-  },
-  {
     "Id": 841169,
     "Name": "Win8.1",
     "Order": 98,
@@ -272,14 +236,14 @@
     "Name": "Default",
     "Order": 100,
     "FFN": "492350f6-3a01-4f97-b9c0-c7c6ddf67d60",
-    "AvailableBuild": "16.0.18129.20158",
-    "ThrottleLevel": 1000,
+    "AvailableBuild": "16.0.18227.20152",
+    "ThrottleLevel": 0,
     "LkgBuild": "16.0.18129.20158",
     "ExpiredBuilds": [],
-    "ForkName": "2409-Sep",
+    "ForkName": "2410-Oct",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-11-16T15:50:07.187",
+    "UpdatedTimeUtc": "2024-12-05T16:05:08.47",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
@@ -688,7 +652,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1334069,
+    "Id": 1334095,
     "Name": "Default",
     "Order": 110,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -730,7 +694,7 @@
     "IsDefault": true
   },
   {
-    "Id": 1334070,
+    "Id": 1334096,
     "Name": "Default",
     "Order": 120,
     "FFN": "55336b82-a18d-4dd6-b5f6-9e5095c314a6",
@@ -931,8 +895,8 @@
     "Order": 100,
     "FFN": "64256afe-f5d9-4f86-8936-8840a6a4f5be",
     "AvailableBuild": "16.0.18324.20032",
-    "ThrottleLevel": 250,
-    "LkgBuild": "16.0.18227.20138",
+    "ThrottleLevel": 1000,
+    "LkgBuild": "16.0.18324.20032",
     "ExpiredBuilds": [
       "16.0.16327.20186",
       "16.0.17531.20000"
@@ -940,7 +904,7 @@
     "ForkName": "2411-Nov",
     "BuildRank": 1,
     "Type": "Default",
-    "UpdatedTimeUtc": "2024-12-04T15:30:42.81",
+    "UpdatedTimeUtc": "2024-12-05T16:05:08.47",
     "OfficeTenantIds": [],
     "OfficeProductNames": [],
     "OfficeCultures": [],
